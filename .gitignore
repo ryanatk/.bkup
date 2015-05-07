@@ -1,4 +1,4 @@
 *.swp
 .DS_Store
 private*
-tmp/*
+downloads/tmp/*
