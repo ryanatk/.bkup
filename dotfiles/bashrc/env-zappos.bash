@@ -1,3 +1,5 @@
+export profile_name='mbp'
+
 export ANT_HOME="/opt/ant"
 export M2="/usr/local/apache-maven-3.x.y/bin"
 export PATH=$M2:$PATH
@@ -36,6 +38,7 @@ alias java7='source ~/.exports/java7'
 alias java8='source ~/.exports/java8'
 
 # zeta file locations
+export ZETA_DIR='/Users/ryaatkin/zeta'
 export WORKSPACE_DIR='${ZETA_DIR}'
 alias cz='cd ${ZETA_DIR}'
 alias cfront='cd ${ZETA_DIR}/frontends'
