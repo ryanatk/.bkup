@@ -31,6 +31,7 @@ alias gchange='git whatchanged -p --'
 alias gdiff='git diff -w origin/master...HEAD'
 alias gcom='git commit -m'
 alias gcob='git checkout -b'
+alias gpush='git push origin HEAD'
 
 # file locations
 alias ehosts='sudo vi /etc/hosts'
@@ -48,3 +49,7 @@ alias cweb='cd ~/web'
 export AWS_CONFIG_FILE=~/.aws/aws_config_file
 export EC2_HOME=~/.aws/ec2-api-tools-1.6.7.1
 export PATH=$PATH:$EC2_HOME/bin:~/.aws/AWS-ElasticBeanstalk-CLI-2.3.1/eb/macosx/python2.7
+
+# environmental overrides
+source ~/.bkup/dotfiles/bash-envs/osx.bash
+#source ~/.bkup/dotfiles/bash-envs/ubuntu.bash

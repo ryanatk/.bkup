@@ -16,6 +16,7 @@ au BufRead,BufNewFile *.zml setfiletype xhtml
 au BufRead,BufNewFile *.txt setfiletype xhtml
 au BufRead,BufNewFile *.json setfiletype javascript
 au BufRead,BufNewFile *.har setfiletype javascript
+au BufRead,BufNewFile *.scss setfiletype css
 
 " ========== DISPLAY ==========
 " enable 256 colors
@@ -72,8 +73,10 @@ set vb
 nmap <CR> :w<CR>
 imap <Tab> <Esc>
 nmap <Space> o<Esc>
+nmap <S-Space> O<Esc>
 map <tab> >>
 map <S-tab> <<
+
 " Moving Around
 map <C-j> }
 map <C-k> {
@@ -81,17 +84,21 @@ nmap <Left> <C-u>
 nmap <Right> <C-d>
 nmap <Up> <C-y>
 nmap <Down> <C-e>
+
 " Tabs
 nmap <C-p> :tabprevious<CR>
 nmap <C-n> :tabnext<CR>
 nmap <C-t> :tabnew<CR>:e ./<CR>
+
 " Vertical Split
 nmap <C-s> :rightb vsp .<CR>
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
+
 " Nerd Tree
 map <C-t> :tabnew<CR>:NERDTreeToggle<CR>
 map <C-f> :NERDTreeToggle<CR>
+
 " js comment
 "vmap <C-\/> :'<,'>s/^/\/\//g<CR>
 
@@ -102,3 +109,4 @@ abbr if() if () {<CR>}<Esc>?()<CR>a
 abbr while() while () {<CR>}<Esc>?()<CR>a
 abbr for() for (var i = 0, len = items.length; i < len; i++) {<CR>}<Esc>?items<CR>
 abbr <form> <form action="" method="" id=""><CR></form>
+abbr --- ---<CR>notes: <CR>---<CR>

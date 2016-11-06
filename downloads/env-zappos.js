@@ -7,7 +7,9 @@ var exec = require('child_process').exec;
 
 // setup zeta dir & git repos
 
-var zeta = '/Users/$USER/test';
+var home = '/Users/$USER';
+var zeta = path.join(home, 'zeta');
+fs.symlink(zeta, path.join(home, 'workspace'));
 var frontends = path.join(zeta, 'frontends');
 var clone = function (name, url, isFrontend) {
   exec('git clone ' + url + ' ' + path.join(zeta, name), function (error){
