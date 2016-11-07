@@ -1,5 +1,12 @@
 #!/bin/bash
 
-if [ -f ~/.bashrc ]; then
-   source ~/.bashrc
-fi
+function load {
+  if [ -f $1 ]; then
+     source $1
+  fi
+}
+
+load ~/.bashrc
+load ~/.bkup/dotfiles/bashrc/main.bash
+load ~/.bkup/dotfiles/bashrc/$profile_name.bash
+load ~/.bkup/dotfiles/bashrc/$os.bash
