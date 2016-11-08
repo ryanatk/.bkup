@@ -93,10 +93,6 @@ nmap <C-s> :rightb vsp .<CR>
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 
-" Nerd Tree
-map <C-t> :tabnew<CR>:NERDTreeToggle<CR>
-map <C-f> :NERDTreeToggle<CR>
-
 " js comment
 "vmap <C-\/> :'<,'>s/^/\/\//g<CR>
 

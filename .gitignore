@@ -1,7 +1,7 @@
 *.swp
 .DS_Store
-private*
-downloads/tmp/*
+
+# atom
 storage
 compile-cache
 dev
