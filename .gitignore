@@ -2,8 +2,8 @@
 .DS_Store
 
 # atom
-storage
-compile-cache
-dev
-.npm
-.node-gyp
+**/atom/blob-store
+**/atom/compile-cache
+**/atom/storage
+**/atom/.apm
+**/atom/packages
