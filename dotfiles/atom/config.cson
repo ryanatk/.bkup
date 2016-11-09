@@ -5,6 +5,11 @@
       "atom-dark-ui"
       "one-dark-syntax"
     ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
   "exception-reporting":
     userId: "fc887c1b-63da-5f22-2161-10f4d9d2903e"
   welcome:
