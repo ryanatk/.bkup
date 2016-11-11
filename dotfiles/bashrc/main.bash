@@ -32,7 +32,8 @@ PS1='\[\033[1;33m\]\u\[\033[0m\]@\[\033[1;33m\]$profile_name \[\033[0m\]\w\[\033
 alias gst='git status'
 alias gchange='git whatchanged -p --'
 alias gdiff='git diff -w origin/master...HEAD'
-alias gcom='git commit -m'
+alias gcom='git commit'
+alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gpush='git push origin HEAD'
 
