@@ -33,9 +33,12 @@ alias gst='git status'
 alias gchange='git whatchanged -p --'
 alias gdiff='git diff -w origin/master...HEAD'
 alias gcom='git commit'
+alias gcoma='git commit -a'
 alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gpush='git push origin HEAD'
+alias gpull='git pull'
+alias go='git open'
 
 # file location shortcuts
 alias ehosts='sudo vi /etc/hosts'
@@ -44,6 +47,7 @@ alias ebashes='vim ~/.bkup/dotfiles/bashrc/'
 alias rbash='. ~/.bash_profile'
 alias evimrc='vim ~/.vimrc'
 alias cweb='cd ~/web'
+alias cdot='cd ~/.bkup/dotfiles'
 
 # ssh
 alias sshryanatk='ssh root@198.199.114.117'

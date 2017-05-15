@@ -26,3 +26,40 @@
       ---
 
     """
+
+'.source.js':
+  'console.log':
+    'prefix': 'cl'
+    'body': 'console.log(\'* ${1:msg}\');$2'
+  'console.log variable':
+    'prefix': 'clv'
+    'body': 'console.log(\'@ ${1:v}\', `{${typeof ${1:v}}}`, ${1:v});$2'
+  'test':
+    'prefix': 'test'
+    'body': """
+      import $ from 'jquery';
+      import chai, { expect } from 'chai';
+      import chaiJquery from 'chai-jquery';
+
+      import FuncName, {
+      } from './file-name';
+
+
+      describe.only('coolbeans', () => {
+        let $fixture;
+
+        beforeEach( () => {
+          fixture.set(`
+            <div class="${WRAP_CLASS}">
+              <div class="${EL_CLASS}"></div>
+            </div>
+          `);
+          $el = $(fixture.el).find(`.{EL_CLASS}`);
+        });
+
+        afterEach(() => fixture.cleanup());
+
+        it('should $1', () => {
+        });
+      });
+    """
