@@ -25,7 +25,7 @@
 # https://github.com/bevry/cson#what-is-cson
 
 # Normal mode keymaps
-'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
   # save
   'enter': 'core:save'
   # add blank line
@@ -38,19 +38,19 @@
   'tab': 'editor:indent-selected-rows'
   'shift-tab': 'editor:outdent-selected-rows'
   # moving around
-  'ctrl-j': 'vim-mode:move-to-next-paragraph'
-  'ctrl-k': 'vim-mode:move-to-previous-paragraph'
+  'ctrl-j': 'vim-mode-plus:move-to-next-paragraph'
+  'ctrl-k': 'vim-mode-plus:move-to-previous-paragraph'
 
 # Visual mode keymaps
-'atom-text-editor.vim-mode.visual-mode':
+'atom-text-editor.vim-mode-plus.visual-mode':
   # indent
   'tab': 'editor:indent-selected-rows'
   'shift-tab': 'editor:outdent-selected-rows'
   # moving around
-  'ctrl-j': 'vim-mode:move-to-next-paragraph'
-  'ctrl-k': 'vim-mode:move-to-previous-paragraph'
+  'ctrl-j': 'vim-mode-plus:move-to-next-paragraph'
+  'ctrl-k': 'vim-mode-plus:move-to-previous-paragraph'
 
 # Insert mode keymaps
-'atom-text-editor.vim-mode.insert-mode':
+'atom-text-editor.vim-mode-plus.insert-mode':
   # tab for escape to normal mode
-  'tab': 'vim-mode:activate-normal-mode'
+  'tab': 'vim-mode-plus:activate-normal-mode'

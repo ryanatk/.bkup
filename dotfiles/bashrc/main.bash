@@ -48,6 +48,8 @@ alias rbash='. ~/.bash_profile'
 alias evimrc='vim ~/.vimrc'
 alias cweb='cd ~/web'
 alias cdot='cd ~/.bkup/dotfiles'
+alias ..='cd ..'
+alias ...='cd ../..'
 
 # ssh
 alias sshryanatk='ssh root@198.199.114.117'

@@ -26,6 +26,17 @@
       ---
 
     """
+  'html template':
+    'prefix': 'html'
+    'body': """
+    <html>
+      <head>
+        <title></title>
+      </head>
+      <body>
+      </body>
+    </html>
+    """
 
 '.source.js':
   'console.log':
