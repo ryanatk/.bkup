@@ -11,7 +11,7 @@ alias fuckjava='killall -9 java'
 # grep stuff
 export GREP_OPTIONS='--color=auto'
 export GREP_COLORS='fn=16'
-alias gr='fgrep -R -I -n --exclude-dir=node_modules --exclude-dir=logs --exclude=*.log'
+alias gr='fgrep -R -I -n --exclude-dir=etc --exclude-dir=node_modules --exclude-dir=logs --exclude=*.log'
 
 # vim stuff
 export EDITOR=vim

@@ -46,6 +46,10 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" hard tabs
+set noexpandtab
+set tabstop=2
+
 " show trailing spaces
 set list listchars=tab:\ \ ,trail:·
 
@@ -71,7 +75,6 @@ set vb
 nmap <CR> :w<CR>
 imap <Tab> <Esc>
 nmap <Space> o<Esc>
-nmap <S-Space> O<Esc>
 map <tab> >>
 map <S-tab> <<
 

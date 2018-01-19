@@ -47,5 +47,6 @@ alias heb='cd ~/git/heb'
 # Ryan's little helpers
 alias cheb='cd ~/git/heb'
 alias startheb='. ~/.bkup/scripts/startheb.sh'
+alias starthebcas='. ~/.bkup/scripts/starthebcas.sh'
 alias initheb='. ~/.bkup/scripts/initheb.sh'
 alias inithebcas='. ~/.bkup/scripts/inithebcas.sh'
