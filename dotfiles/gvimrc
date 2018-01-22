@@ -1,6 +1,16 @@
 " set default size of new windows
 set lines=80
-set columns=127
+set columns=160
 
 " turn off gvim toolbar
 set guioptions=egmrt
+
+" hard tabs for heb
+set noexpandtab
+set tabstop=2
+
+" color scheme
+colorscheme evening
+
+" paste
+imap <C-v> <Esc>"+gPa

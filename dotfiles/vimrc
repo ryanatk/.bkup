@@ -46,10 +46,6 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
-" hard tabs
-set noexpandtab
-set tabstop=2
-
 " show trailing spaces
 set list listchars=tab:\ \ ,trail:·
 
