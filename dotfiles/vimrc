@@ -69,6 +69,7 @@ set vb
 " ========== MAPPINGS ==========
 " Sweet Shortcuts
 nmap <CR> :w<CR>
+nmap <C-l> :e!<CR>
 imap <Tab> <Esc>
 nmap <Space> o<Esc>
 map <tab> >>

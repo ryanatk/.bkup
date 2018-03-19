@@ -1,5 +1,8 @@
 # echo main.bash
 
+alias gr='fgrep -R -I -n  --exclude-dir=etc --exclude-dir=min --exclude-dir=selenium'
+alias atglogs='tail -n 2000 -f ~/tomcat/logs/*catalina.out | grep "\[ERROR\]" -A 8 '
+
 ENDECA_USER=atg
 # Java Settings
 JAVA_HOME=/usr/java/latest; export JAVA_HOME
@@ -46,6 +49,7 @@ alias heb='cd ~/git/heb'
 
 # Ryan's little helpers
 alias cheb='cd ~/git/heb'
+alias chwar='cd ~/git/heb/modules/b2cStore/j2ee/heb/heb.war'
 alias startheb='. ~/.bkup/scripts/startheb.sh'
 alias starthebcas='. ~/.bkup/scripts/starthebcas.sh'
 alias initheb='. ~/.bkup/scripts/initheb.sh'
