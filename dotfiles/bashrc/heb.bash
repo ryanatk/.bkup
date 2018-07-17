@@ -1,8 +1,5 @@
 # echo main.bash
 
-alias gr='fgrep -R -I -n  --exclude-dir=etc --exclude-dir=min --exclude-dir=selenium'
-alias atglogs='tail -n 2000 -f ~/tomcat/logs/*catalina.out | grep "\[ERROR\]" -A 8 '
-
 ENDECA_USER=atg
 # Java Settings
 JAVA_HOME=/usr/java/latest; export JAVA_HOME
@@ -50,7 +47,9 @@ alias heb='cd ~/git/heb'
 # Ryan's little helpers
 alias cheb='cd ~/git/heb'
 alias chwar='cd ~/git/heb/modules/b2cStore/j2ee/heb/heb.war'
-alias startheb='. ~/.bkup/scripts/startheb.sh'
-alias starthebcas='. ~/.bkup/scripts/starthebcas.sh'
-alias initheb='. ~/.bkup/scripts/initheb.sh'
-alias inithebcas='. ~/.bkup/scripts/inithebcas.sh'
+alias startheb='. ~/.bkup/scripts/inithebcas.sh'
+alias bounceheb='. ~/.bkup/scripts/bounceheb.sh'
+alias gr='fgrep -R -I -n  --exclude-dir=etc --exclude-dir=min --exclude-dir=selenium --exclude-dir=jquer\* --exclude=foundation\*'
+#alias grh='cheb; fgrep -R -I -n --exclude-dir=apache-resources --exclude-dir=build --exclude-dir=db --exclude-dir=endeca-resources --exclude-dir=etc --exclude-dir=jboss-resources --exclude-dir=selenium --exclude-dir=tests --exclude-dir=\.git --exclude=\*.java --exclude=\*.xml --exclude=\*.bat --exclude=\*.sh --exclude=\*.sql --exclude=\*.swp'
+alias atglogs='tail -n 2000 -f ~/tomcat/logs/*catalina.out | grep "\[ERROR\]" -A 8 '
+alias ejsconfig='vim ~/git/heb/modules/b2cStore/config/heb/javascript/ScriptConfig.properties'

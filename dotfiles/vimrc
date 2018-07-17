@@ -9,6 +9,7 @@ set nocompatible
 filetype on
 
 " Set fhtml to xhtml highlighting
+au BufRead,BufNewFile *.tag setfiletype jsp
 au BufRead,BufNewFile *.ftl setfiletype xhtml
 au BufRead,BufNewFile *.zml setfiletype xhtml
 au BufRead,BufNewFile *.txt setfiletype xhtml
