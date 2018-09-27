@@ -1,7 +1,5 @@
 source ~/.vimrc
 
-imap <Tab> <Tab>
-
 " set tabs hard
 set noexpandtab
 set shiftwidth=4

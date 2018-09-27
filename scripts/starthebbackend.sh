@@ -1,22 +1,20 @@
 #!/bin/bash
 
-printf '\033]2;heb build\a'
+printf '\033]2;heb backend (cas)\a'
 
 echo cd ~/git/heb
 cd ~/git/heb
 
 echo startoracle
 startoracle
-sleep 2s
+sleep 5s
 
-echo ant start-endeca
-ant start-endeca
-# Or for running baseline indexing
-#ant start-endeca-with-cas
-sleep 3s
+echo ant start-endeca-with-cas
+ant start-endeca-with-cas
+sleep 10s
 
-echo ant all
-ant all
+echo ant -Dfrontend=false all
+ant -Dfrontend=false all
 sleep 3s
 
 echo ant update-env-schemas
@@ -30,10 +28,6 @@ sleep 3s
 echo ant update-test-data
 ant update-test-data
 sleep 3s
-
-#echo ant import-application
-#ant import-application
-#sleep 3s
 
 echo startatg
 startatg

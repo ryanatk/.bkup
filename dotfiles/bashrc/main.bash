@@ -39,6 +39,9 @@ alias gcob='git checkout -b'
 alias gpush='git push origin HEAD'
 alias gpull='git pull'
 alias go='git open'
+alias gcp='git cherry-pick'
+alias gl='git log'
+alias glp='git log -p'
 
 # file location shortcuts
 alias ehosts='sudo vi /etc/hosts'

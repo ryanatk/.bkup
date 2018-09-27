@@ -1,5 +1,7 @@
 #!/bin/bash
 
+printf '\033]2;heb build (cas)\a'
+
 echo cd ~/git/heb
 cd ~/git/heb
 
