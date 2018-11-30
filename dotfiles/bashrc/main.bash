@@ -62,3 +62,9 @@ alias sshryanatk='ssh root@198.199.114.117'
 export AWS_CONFIG_FILE=~/.aws/aws_config_file
 export EC2_HOME=~/.aws/ec2-api-tools-1.6.7.1
 export PATH=$PATH:$EC2_HOME/bin:~/.aws/AWS-ElasticBeanstalk-CLI-2.3.1/eb/macosx/python2.7
+
+# function to set terminal tab title
+term() {
+  echo "set terminal title: $@"
+  printf "\033]2;$@\a"
+}
