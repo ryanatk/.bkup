@@ -3,7 +3,7 @@
 # osx specific settings
 export NODE_PATH='usr/local/lib/node'
 export firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
-export PATH="$HOME/local/node/bin:/usr/local/mysql/bin:/usr/local/sbin:$PATH:/Applications/Firefox.app/Contents/MacOS/"
+export PATH="$HOME/local/node/bin:$HOME/.yarn/bin:/usr/local/mysql/bin:/usr/local/sbin:$PATH:/Applications/Firefox.app/Contents/MacOS/"
 
 # nginx
 alias cnginx='cd /usr/local/etc/nginx'

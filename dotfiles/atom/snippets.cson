@@ -74,3 +74,12 @@
         });
       });
     """
+
+'.liquid':
+  'comment block':
+    'prefix': 'comment'
+    'body': """
+      {%- comment -%}
+        $1
+      {%- endcomment -%}
+    """
