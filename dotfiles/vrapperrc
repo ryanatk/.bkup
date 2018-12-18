@@ -1,0 +1,6 @@
+source ~/.vimrc
+
+" set tabs hard
+set noexpandtab
+set shiftwidth=4
+set softtabstop=0

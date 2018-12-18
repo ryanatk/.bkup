@@ -9,6 +9,7 @@ set nocompatible
 filetype on
 
 " Set fhtml to xhtml highlighting
+au BufRead,BufNewFile *.tag setfiletype jsp
 au BufRead,BufNewFile *.ftl setfiletype xhtml
 au BufRead,BufNewFile *.zml setfiletype xhtml
 au BufRead,BufNewFile *.txt setfiletype xhtml
@@ -69,9 +70,9 @@ set vb
 " ========== MAPPINGS ==========
 " Sweet Shortcuts
 nmap <CR> :w<CR>
+nmap <C-l> :e!<CR>
 imap <Tab> <Esc>
 nmap <Space> o<Esc>
-nmap <S-Space> O<Esc>
 map <tab> >>
 map <S-tab> <<
 

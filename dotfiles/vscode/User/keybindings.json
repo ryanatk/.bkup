@@ -1,0 +1,37 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{ // move to previous tab
+		"key": "ctrl+p",
+		"command": "workbench.action.previousEditor",
+		"when": "textInputFocus"
+	},
+	{ // escape from Insert mode
+		"key": "tab",
+		"command": "extension.vim_escape",
+		"when": "editorFocus && vim.active && vim.mode == 'Insert'"
+	},
+	{ // add blank line below cursor (in vim normal mode)
+		"key": "space",
+		"command": "editor.action.insertLineAfter",
+		"when": "editorFocus && vim.active && vim.mode == 'Normal'"
+	},
+	{ // add blank line above cursor (in vim normal mode)
+		"key": "shift+space",
+		"command": "editor.action.insertLineBefore",
+		"when": "editorFocus && vim.active && vim.mode == 'Normal'"
+	},
+	{ // focus on text editor
+		"key": "alt+space",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{ // focus on terminal
+		"key": "alt+space",
+		"command": "workbench.action.terminal.focus",
+		"when": "!terminalFocus"
+	},
+	{
+		"key": "shift+alt+space",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+]

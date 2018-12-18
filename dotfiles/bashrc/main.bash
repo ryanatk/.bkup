@@ -11,7 +11,7 @@ alias fuckjava='killall -9 java'
 # grep stuff
 export GREP_OPTIONS='--color=auto'
 export GREP_COLORS='fn=16'
-alias gr='fgrep -R -I -n --exclude-dir=node_modules --exclude-dir=logs --exclude=*.log --exclude=*assets/app.*s*'
+alias gr='fgrep -R -I -n --exclude-dir=build --exclude-dir=logs --exclude-dir=node_modules --exclude=*.log'
 
 # vim stuff
 export EDITOR=vim
@@ -39,6 +39,9 @@ alias gcob='git checkout -b'
 alias gpush='git push origin HEAD'
 alias gpull='git pull'
 alias go='git open'
+alias gcp='git cherry-pick'
+alias gl='git log'
+alias glp='git log -p'
 
 # file location shortcuts
 alias ehosts='sudo vi /etc/hosts'
@@ -59,3 +62,9 @@ alias sshryanatk='ssh root@198.199.114.117'
 export AWS_CONFIG_FILE=~/.aws/aws_config_file
 export EC2_HOME=~/.aws/ec2-api-tools-1.6.7.1
 export PATH=$PATH:$EC2_HOME/bin:~/.aws/AWS-ElasticBeanstalk-CLI-2.3.1/eb/macosx/python2.7
+
+# function to set terminal tab title
+term() {
+  echo "set terminal title: $@"
+  printf "\033]2;$@\a"
+}
