@@ -21,8 +21,8 @@ alias vgr='vim -p `fgrep -R -l --exclude-dir=node_modules --exclude=*.log --excl
 #this doesnt work. make it work.
 
 # Git tab completion
-source ~/.git-completion.sh
-source ~/.git-prompt.sh
+source ~/.bkup/dotfiles/git-completion.sh
+source ~/.bkup/dotfiles/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
