@@ -8,3 +8,9 @@
 **/atom/compile-cache
 **/atom/storage
 **/atom/packages
+
+# Visual Studio Code
+**/vscode/User/globalStorage
+**/vscode/User/workspaceStorage
+**/vscode/code-settings-sync.txt
+**/vscode/extensions

@@ -11,7 +11,7 @@ alias fuckjava='killall -9 java'
 # grep stuff
 export GREP_OPTIONS='--color=auto'
 export GREP_COLORS='fn=16'
-alias gr='fgrep -R -I -n --exclude-dir=build --exclude-dir=logs --exclude-dir=node_modules --exclude=*.log'
+alias gr='fgrep -R -I -n --exclude-dir=dist --exclude-dir=build --exclude-dir=logs --exclude-dir=node_modules --exclude=*.log --exclude-dir=docs --exclude=package-lock.json'
 
 # vim stuff
 export EDITOR=vim
@@ -29,19 +29,21 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 PS1='\[\033[1;33m\]\u\[\033[0m\]@\[\033[1;33m\]$profile_name \[\033[0m\]\w\[\033[1;33m\]$(__git_ps1 " %s")\[\033[0m\] \$ '
 
 # git command aliases
-alias gst='git status'
+alias gdb='git branch -D'
+alias gbd='git branch -D'
 alias gchange='git whatchanged -p --'
-alias gdiff='git diff -w origin/master...HEAD'
+alias gcb='git checkout -b'
+alias gco='git checkout'
 alias gcom='git commit'
 alias gcoma='git commit -a'
-alias gco='git checkout'
-alias gcob='git checkout -b'
-alias gpush='git push origin HEAD'
-alias gpull='git pull'
-alias go='git open'
-alias gcp='git cherry-pick'
-alias gl='git log'
+alias gf='git fetch'
+alias gfetch='git fetch'
+alias glog='git log'
 alias glp='git log -p'
+alias go='git open'
+alias gpull='git pull'
+alias gpush='git push origin HEAD'
+alias gst='git status'
 
 # file location shortcuts
 alias ehosts='sudo vi /etc/hosts'

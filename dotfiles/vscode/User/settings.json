@@ -135,5 +135,8 @@
     ],
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "editor.detectIndentation": false,
 }
