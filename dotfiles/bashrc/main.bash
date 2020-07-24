@@ -11,7 +11,7 @@ alias fuckjava='killall -9 java'
 # grep stuff
 export GREP_OPTIONS='--color=auto'
 export GREP_COLORS='fn=16'
-alias gr='fgrep -R -I -n --exclude-dir=dist --exclude-dir=build --exclude-dir=logs --exclude-dir=node_modules --exclude=*.log --exclude-dir=docs --exclude=package-lock.json'
+alias gr='fgrep -R -I -n --exclude-dir=public --exclude-dir=dist --exclude-dir=build --exclude-dir=logs --exclude-dir=reports --exclude-dir=node_modules --exclude=*.log --exclude-dir=docs --exclude=package-lock.json'
 
 # vim stuff
 export EDITOR=vim
@@ -41,9 +41,12 @@ alias gfetch='git fetch'
 alias glog='git log'
 alias glp='git log -p'
 alias go='git open'
+alias gpo='git push origin HEAD && go'
+alias gpr='git push origin HEAD && go'
 alias gpull='git pull'
 alias gpush='git push origin HEAD'
 alias gst='git status'
+alias guncom='git reset --soft HEAD~1'
 
 # file location shortcuts
 alias ehosts='sudo vi /etc/hosts'

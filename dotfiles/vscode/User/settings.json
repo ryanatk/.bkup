@@ -1,142 +1,108 @@
 {
-    "editor.fontSize": 14,
-    "terminal.integrated.fontSize": 14,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+
+  // vim settings
+  "vim.debug.loggingLevel": "debug",
+  "vim.hlsearch": true,
+
+  // vim keybindings
+  "vim.insertModeKeyBindings": [
+    {
+      // insert: tab to escape
+      // this does not work, so i've repeated it in keybindings.json
+      "before": ["Tab"],
+      "after": ["<C-[>"]
+    }
+  ],
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      // normal: Enter to save
+      "before": ["<CR>"],
+      "commands": [":w"]
     },
+    {
+      // normal: Z,Z to save+close
+      "before": ["Z", "Z"],
+      "commands": [":wq"]
+    },
+    {
+      // normal: Spacebar to add blank line
+      // this does not work, so i've repeated it in keybindings.json
+      "before": ["<Space>"],
+      "commands": ["o", "<Esc>"]
+    },
+    {
+      // normal: tab to indent
+      "before": ["tab"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      // normal: shift+tab to outdent
+      "before": ["S-tab"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      // normal: ctrl+j to skip down to blank line
+      "before": ["<C-j>"],
+      "after": ["}"]
+    },
+    {
+      // normal: ctrl+k to skip up to blank line
+      "before": ["<C-k>"],
+      "after": ["{"]
+    },
+    {
+      // normal: ctrl+n for next tab
+      "before": ["<C-n>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      // normal: ctrl+p for previous tab
+      // this does not work, so i've repeated it in keybindings.json
+      "before": ["C+p"],
+      "commands": ["workbench.action.previousEditor"]
+    }
+  ],
 
-    // vim settings
-    "vim.debug.loggingLevel": "debug",
-    "vim.hlsearch": true,
-
-    // vim keybindings
-    "vim.insertModeKeyBindings": [
-        { // insert: tab to escape
-          // this does not work, so i've repeated it in keybindings.json
-            "before": [
-                "Tab"
-            ],
-            "after": [
-                "<C-[>"
-            ],
-        }
-    ],
-
-    "vim.normalModeKeyBindingsNonRecursive": [
-        { // normal: Enter to save
-            "before": [
-                "<CR>"
-            ],
-            "commands": [
-                ":w"
-            ]
-        },
-        { // normal: Z,Z to save+close
-            "before": [
-                "Z", "Z"
-            ],
-            "commands": [
-                ":wq"
-            ]
-        },
-        { // normal: Spacebar to add blank line
-          // this does not work, so i've repeated it in keybindings.json
-            "before": [
-                "<Space>"
-            ],
-            "commands": [
-                "o", "<Esc>"
-            ]
-        },
-        { // normal: tab to indent
-            "before": [
-                "tab"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ],
-        },
-        { // normal: shift+tab to outdent
-            "before": [
-                "S-tab"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ],
-        },
-        { // normal: ctrl+j to skip down to blank line
-            "before": [
-                "<C-j>"
-            ],
-            "after": [
-                "}"
-            ],
-        },
-        { // normal: ctrl+k to skip up to blank line
-            "before": [
-                "<C-k>"
-            ],
-            "after": [
-                "{"
-            ],
-        },
-        { // normal: ctrl+n for next tab
-            "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                "workbench.action.nextEditor"
-            ],
-        },
-        { // normal: ctrl+p for previous tab
-          // this does not work, so i've repeated it in keybindings.json
-            "before": [
-                "C+p"
-            ],
-            "commands": [
-                "workbench.action.previousEditor"
-            ],
-        },
-    ],
-
-    "vim.visualModeKeyBindingsNonRecursive": [
-        { // visual: > to indent
-            "before": [
-                ">"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        { // visual: < to outdent
-            "before": [
-                "<"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ]
-        },
-        { // visual: > to indent
-            "before": [
-                "tab"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        { // visual: < to outdent
-            "before": [
-                "S-tab"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
-            ]
-        },
-    ],
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1,
-    "editor.tabSize": 2,
-    "files.trimTrailingWhitespace": true,
-    "editor.detectIndentation": false,
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      // visual: > to indent
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      // visual: < to outdent
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      // visual: > to indent
+      "before": ["tab"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      // visual: < to outdent
+      "before": ["S-tab"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "editor.detectIndentation": false,
+  "explorer.confirmDelete": false,
+  "debug.node.autoAttach": "on",
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.lineHeight": 2,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "editor.codeActionsOnSave": null,
+  "workbench.panel.defaultLocation": "right"
 }

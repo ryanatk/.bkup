@@ -1,0 +1,117 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "WebVTT",
+  "firstLineMatch": "^WEBVTT$",
+  "patterns": [
+    { "include": "#doctype" },
+    { "include": "#comment" },
+    { "include": "#region" },
+    { "include": "#style" },
+    { "include": "#timeline" }
+  ],
+  "repository": {
+    "numeric": {
+      "match": "\\d+(\\.\\d+)?(%)?",
+      "name": "constant.numeric"
+    },
+    "doctype": {
+      "patterns": [{ "name": "keyword.control", "match": "^WEBVTT$" }]
+    },
+    "comment": {
+      "patterns": [
+        { "name": "comment.line", "match": "^NOTE (.*)$" },
+        { "name": "comment.block", "begin": "^NOTE", "end": "^\\n" }
+      ]
+    },
+    "region": {
+      "patterns": [
+        {
+          "name": "keyword.control",
+          "begin": "^REGION$",
+          "end": "^\\n",
+          "patterns": [
+            {
+              "match": "^(id|regionanchor|viewportanchor|width|lines|scroll)(:)(.+)$",
+              "captures": {
+                "1": { "name": "entity.name.tag" },
+                "2": { "name": "keyword.operator" },
+                "3": {
+                  "name": "variable.parameter",
+                  "patterns": [
+                    {
+                      "include": "#numeric"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "style": {
+      "patterns": [
+        {
+          "begin": "^(STYLE)$",
+          "end": "^\\n",
+          "beginCaptures": {
+            "1": { "name": "keyword.control" }
+          },
+          "patterns": [
+            {
+              "include": "source.css"
+            }
+          ]
+        }
+      ]
+    },
+    "timeline": {
+      "patterns": [
+        {
+          "begin": "^(\\d{2}:\\d{2}:\\d{2}.\\d{3}) (-->) (\\d{2}:\\d{2}:\\d{2}.\\d{3})( region(:)(.*))?$",
+          "end": "^\\n",
+          "patterns": [{ "include": "#metadata" }, { "include": "#vtt-html" }],
+          "beginCaptures": {
+            "1": {
+              "name": "variable.parameter",
+              "patterns": [
+                {
+                  "include": "#numeric"
+                }
+              ]
+            },
+            "2": { "name": "keyword.operator" },
+            "3": {
+              "name": "variable.parameter",
+              "patterns": [
+                {
+                  "include": "#numeric"
+                }
+              ]
+            },
+            "4": { "name": "keyword.control" },
+            "5": { "name": "keyword.operator" },
+            "6": { "name": "variable" }
+          }
+        }
+      ]
+    },
+    "vtt-html": {
+      "patterns": [
+        {
+          "include": "text.xml"
+        }
+      ]
+    },
+    "metadata": {
+      "patterns": [
+        {
+          "begin": "^{$",
+          "end": "^\\n",
+          "include": "source.json"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.vtt"
+}

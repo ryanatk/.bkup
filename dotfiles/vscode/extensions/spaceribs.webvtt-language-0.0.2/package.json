@@ -1,0 +1,47 @@
+{
+	"name": "webvtt-language",
+	"displayName": "WebVTT Language",
+	"description": "Language Support for WebVTT",
+	"author": "Aaron Brewer (https://keybase.io/spaceribs)",
+	"publisher": "spaceribs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/spaceribs/vscode-webvtt-language.git"
+	},
+	"version": "0.0.2",
+	"license": "MIT",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "vtt",
+				"aliases": [
+					"WebVTT",
+					"vtt"
+				],
+				"extensions": [
+					".vtt"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "vtt",
+				"scopeName": "source.vtt",
+				"path": "./syntaxes/vtt.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "72bd2842-e626-4bcb-a801-374b4f62477e",
+		"publisherId": "7bc4712e-afe5-4f0e-99c7-dd8d1a0ee7b0",
+		"publisherDisplayName": "spaceribs"
+	}
+}

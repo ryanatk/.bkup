@@ -5,6 +5,9 @@ export NODE_PATH='usr/local/lib/node'
 export firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
 export PATH="$HOME/local/node/bin:$HOME/.yarn/bin:/usr/local/mysql/bin:/usr/local/sbin:$PATH:/Applications/Firefox.app/Contents/MacOS/:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# update keychain password
+alias keychain='sudo security set-keychain-password'
+
 # nginx
 alias cnginx='cd /usr/local/etc/nginx'
 alias ngrestart='sudo nginx -s stop; sudo nginx'
