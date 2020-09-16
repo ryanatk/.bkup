@@ -104,5 +104,8 @@
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "editor.codeActionsOnSave": null,
-  "workbench.panel.defaultLocation": "right"
+  "workbench.panel.defaultLocation": "right",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
