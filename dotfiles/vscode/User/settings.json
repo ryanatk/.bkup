@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "terminal.integrated.fontSize": 14,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
@@ -91,21 +91,21 @@
       "commands": ["editor.action.outdentLines"]
     }
   ],
+
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 1,
-  "editor.tabSize": 2,
-  "files.trimTrailingWhitespace": true,
-  "editor.detectIndentation": false,
   "explorer.confirmDelete": false,
   "debug.node.autoAttach": "on",
-  "markdown.preview.fontSize": 16,
-  "markdown.preview.lineHeight": 2,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "editor.codeActionsOnSave": null,
   "workbench.panel.defaultLocation": "right",
-  "[javascript]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+"typescript.updateImportsOnFileMove.enabled": "always",
+"editor.cursorStyle": "line",
+"editor.lineNumbers": "on",
+"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+"editor.wordWrap": "off",
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true,
+"window.zoomLevel": 1,
 }

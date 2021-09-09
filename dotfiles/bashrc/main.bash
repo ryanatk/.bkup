@@ -21,14 +21,18 @@ alias vgr='vim -p `fgrep -R -l --exclude-dir=node_modules --exclude=*.log --excl
 #this doesnt work. make it work.
 
 # Git tab completion
-source ~/.bkup/dotfiles/git-completion.zsh
+#source ~/.bkup/dotfiles/git-completion.zsh
 #source ~/.bkup/dotfiles/git-completion.sh
 #source ~/.bkup/dotfiles/git-prompt.sh
-export GIT_PS1_SHOWDIRTYSTATE=true
-export GIT_PS1_SHOWSTASHSTATE=true
-export GIT_PS1_SHOWUNTRACKEDFILES=true
+#export GIT_PS1_SHOWDIRTYSTATE=true
+#export GIT_PS1_SHOWSTASHSTATE=true
+#export GIT_PS1_SHOWUNTRACKEDFILES=true
 #PS1='\[\033[1;33m\]\u\[\033[0m\]@\[\033[1;33m\]$profile_name \[\033[0m\]\w\[\033[1;33m\]$(__git_ps1 " %s")\[\033[0m\] \$ '
-PROMPT='%F{yellow}%n%f %~ '
+#PROMPT='%F{yellow}%n%f %~ $ '
+
+#source ~/.bkup/dotfiles/git-prompt.sh
+#setopt prompt_subst
+#export RPROMPT=$'$(__git_ps1 "%s")'
 
 # git command aliases
 alias gdb='git branch -D'
@@ -38,6 +42,7 @@ alias gcb='git checkout -b'
 alias gco='git checkout'
 alias gcom='git commit'
 alias gcoma='git commit -a'
+alias gdev='git checkout develop && git pull'
 alias gf='git fetch'
 alias gfetch='git fetch'
 alias glog='git log'
