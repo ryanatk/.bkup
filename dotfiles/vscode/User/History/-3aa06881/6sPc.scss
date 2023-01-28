@@ -1,0 +1,35 @@
+.ScrollTeaser {
+  @apply hidden;
+  transition: opacity 0.25s;
+  will-change: opacity;
+
+  @screen md {
+    @apply block w-20 fixed bottom-4 left-4 opacity-100 text-center lg:bottom-14 lg:left-14 lg:w-28;
+  }
+}
+
+.ScrollTeaser--center {
+  @screen md {
+    @apply transform left-1/2 -translate-x-1/2;
+  }
+}
+
+.ScrollTeaser__icon {
+  @apply relative inline-block bg-white rounded-full h-20 w-20 bg-helsinkiBlue text-white lg:h-24 lg:w-24;
+
+  & > svg {
+    @apply transform rotate-90 absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-2/4;
+  }
+}
+
+.ScrollTeaser__icon--small {
+  @apply h-16 w-16;
+}
+
+.text {
+  @apply mb-6;
+}
+
+.invisible {
+  @apply opacity-0;
+}

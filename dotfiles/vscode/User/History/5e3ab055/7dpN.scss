@@ -1,0 +1,6 @@
+.subtext {
+  &:before {
+    content: '|';
+    @apply inline-block text-helsinkiBlue text-body mx-2;
+  }
+}

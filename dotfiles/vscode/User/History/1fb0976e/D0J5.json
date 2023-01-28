@@ -1,0 +1,109 @@
+{
+  "body_html": "",
+  "traits": {
+    "Color": "Stealth"
+  },
+  "document/sku/JZ90-1004-06": {},
+  "document/sku/JZ90-1004-07": {},
+  "document/sku/JZ90-1004-08": {},
+  "document/sku/JZ90-1004-09": {},
+  "description": "",
+  "title": "Oura Ring Generation 3",
+  "lineItemImage": {
+    "width": 503,
+    "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-01-heritage@2x.png",
+    "alt": "heritage stealth ring",
+    "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-01-heritage@2x.png",
+    "height": 503
+  },
+  "price": {
+    "@currency": {
+      "JPY": {
+        "currencyCode": "JPY",
+        "amount": 99999
+      },
+      "USD": {
+        "currencyCode": "USD",
+        "amount": 399
+      },
+      "EUR": {
+        "currencyCode": "EUR",
+        "amount": 419
+      },
+      "CAD": {
+        "currencyCode": "CAD",
+        "amount": 505
+      }
+    },
+    "@region": {
+      "US": {
+        "currencyCode": "USD",
+        "amount": 399
+      },
+      "JP": {
+        "currencyCode": "JPY",
+        "amount": 32000
+      },
+      "CA": {
+        "currencyCode": "CAD",
+        "amount": 505
+      }
+    }
+  },
+  "id": 40000003455,
+  "document/sku/JZ90-1004": {},
+  "productOptions": [
+    {
+      "name": "Size",
+      "value": "[\r\n  \"6\",\r\n  \"7\",\r\n  \"8\",\r\n  \"9\",\r\n  \"10\",\r\n  \"11\",\r\n  \"12\",\r\n  \"13\",\r\n  \"Size later\"\r\n]"
+    }
+  ],
+  "handle": "heritage-stealth",
+  "published": true,
+  "tags": "[\r\n  \"Heritage Black\"\r\n]",
+  "productImages": [
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-01-heritage@2x.png",
+      "alt": "heritage stealth ring slide 1",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-01-heritage@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-02-heritage@2x.png",
+      "alt": "heritage stealth ring slide 2",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-02-heritage@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-03-heritage@2x.png",
+      "alt": "heritage stealth ring slide 3",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-stealth-03-heritage@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-lifestyle-stealth-04-heritage@2x.jpg",
+      "alt": "heritage stealth ring lifestyle slide 4",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-lifestyle-stealth-04-heritage@2x.jpg",
+      "height": 503,
+      "fullBleedThumbnail": true
+    }
+  ],
+  "product_type": "Ring",
+  "document/sku/JZ90-1004-13": {},
+  "seoParams": {
+    "title": "pdp_seo_title_stealth",
+    "description": "pdp_seo_description_heritage"
+  },
+  "document/sku/JZ90-1004-10": {},
+  "document/sku/JZ90-1004-11": {},
+  "document/sku/JZ90-1004-12": {},
+  "requiresSubscription": true
+}

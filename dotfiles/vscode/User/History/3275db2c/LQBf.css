@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  padding: 0.5rem 1.5rem;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.title {
+  flex: 1;
+}
+
+.close {
+  flex: 0;
+}

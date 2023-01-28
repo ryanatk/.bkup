@@ -1,0 +1,35 @@
+.wrap {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.spread {
+  justify-content: space-between;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2rem;
+}
+
+.input {
+  width: 2rem;
+  text-align: center;
+}
+
+.plus,
+.minus {
+  padding: 0.25rem 0.625rem;
+  height: 100%;
+}
+
+.plus {
+  border-radius: 0 inherit inherit 0;
+}
+
+.minus {
+  border-radius: 50% 0 0 50%;
+}

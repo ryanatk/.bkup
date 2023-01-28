@@ -1,0 +1,12 @@
+// meant to be applied to lists
+.doubleSpaced > li {
+  @apply mb-4;
+}
+
+.singleIndent > li {
+  @apply ml-4;
+}
+
+.doubleIndent > li {
+  @apply ml-8;
+}

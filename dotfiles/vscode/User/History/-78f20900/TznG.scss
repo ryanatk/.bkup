@@ -1,0 +1,24 @@
+.container {
+  @apply overflow-x-scroll;
+  @apply absolute left-0 right-0;
+
+  top: calc(50% + 1.5rem);
+
+  // firefox
+  scrollbar-width: none;
+
+  // and all the rest
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.list {
+  @apply flex gap-8 w-max;
+
+  padding: 0 100vw;
+}
+
+.image {
+  user-select: none;
+}

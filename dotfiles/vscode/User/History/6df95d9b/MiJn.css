@@ -1,0 +1,25 @@
+/* only apply to "screen" (leave "print" alone) */
+@media screen {
+  html,
+  body {
+    /* remove scrollbar on mobile */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden; */
+    overflow-y: visible;
+  }
+
+  #root {
+    /* let the content handle its own scrollbar */
+    /* height: 100%;
+    overflow-y: hidden; */
+    overflow-y: visible;
+  }
+}
+
+*[hidden] {
+  display: none;
+}

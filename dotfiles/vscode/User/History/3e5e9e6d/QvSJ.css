@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.page {
+  flex: 1;
+}
+
+.event {
+  display: none;
+}
+
+.main {
+  flex: 1;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 44rem) {
+  .content,
+  .footer {
+    margin-left: 16rem;
+  }
+
+  .sidebar {
+    width: 16rem;
+    height: 100%;
+    overflow: hidden;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+
+  .event {
+    display: block;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+}

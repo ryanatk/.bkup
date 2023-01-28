@@ -1,0 +1,23 @@
+{
+  "description": "Flip to show post-holiday messaging, once Santa's work is done.",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": true
+    },
+    "eks-staging": {
+      "enabled": true
+    },
+    "eks-production": {
+      "enabled": true
+    },
+    "development": {
+      "enabled": true
+    },
+    "staging": {
+      "enabled": true
+    },
+    "production": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.page {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+
+  gap: 1rem;
+  padding: 1rem 1rem 2rem;
+  margin: 0 auto;
+
+  width: 73rem;
+  max-width: 100%;
+}
+
+@media (min-width: 44rem) {
+  .main {
+    grid-template-columns: auto 18rem;
+    padding-top: 2.5rem;
+  }
+}

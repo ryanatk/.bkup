@@ -1,0 +1,87 @@
+.content {
+  @apply col-main row-start-2;
+  @apply flex flex-col justify-center items-start;
+
+  @screen md {
+    @apply col-start-3;
+    @apply col-end-13;
+  }
+}
+
+.text {
+  @apply row-start-2;
+
+  @screen lg {
+    @apply row-start-1;
+
+    &:not(.reverse) {
+      @apply col-start-3;
+      @apply col-end-8;
+    }
+
+    &.reverse {
+      @apply col-start-8;
+      @apply col-end-13;
+    }
+  }
+}
+
+.image {
+  @apply row-start-1;
+  @apply max-w-2xl mx-auto;
+
+  @screen lg {
+    &:not(.reverse) {
+      @apply col-start-9;
+
+      &:not(.full) {
+        @apply col-end-13;
+      }
+
+      &.full {
+        // @apply col-end-13;
+      }
+    }
+
+    &.reverse {
+      @apply col-end-7;
+
+      &:not(.full) {
+        @apply col-start-3;
+      }
+
+      &.full {
+        // @apply col-start-1;
+      }
+    }
+  }
+
+  // pull the quote up to overlap
+  &.overlap {
+    margin-bottom: -20%;
+  }
+}
+
+.quote {
+  //   @apply ml-auto mr-0 max-w-sm;
+  @apply mx-4;
+  @apply max-w-lg mx-auto;
+
+  @screen lg {
+    @apply h-12;
+  }
+}
+
+.card {
+  //   @apply relative -top-1/2;
+  //   @apply w-full;
+  //   @apply absolute right-8 left-8 -bottom-24;
+
+  //   @screen md {
+  //     @apply -right-8 left-8 -bottom-12;
+  //   }
+
+  //   @screen lg {
+  //     @apply left-1/4;
+  //   }
+}

@@ -1,0 +1,21 @@
+.wrap {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.spread {
+  justify-content: space-between;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1.5rem;
+}
+
+.plus,
+.minus {
+  padding: 0.375rem 0.25rem;
+}

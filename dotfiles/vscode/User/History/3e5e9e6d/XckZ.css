@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content,
+.main {
+  flex: 1;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}

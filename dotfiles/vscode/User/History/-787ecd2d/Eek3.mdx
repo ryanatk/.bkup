@@ -1,0 +1,57 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import Banner from './index';
+import { Typography, DeprecatedButton } from '../index';
+
+<Meta title="Sormus/Elements/Banner" component={Banner} />
+
+# Banner
+
+The `Banner` component is available for creating immersive call to actions.
+
+## Banner height
+
+The height of the banner is controlled by the size of the image, which allows control over the focal point of the image and how it relates to the content. _Note:_ if the image is too shallow, content could overflow and not be visible.
+
+## Content placement
+
+On small screens, content is anchored from the center of the Y axis. On "medium" screens or larger, content is anchored from the center of the X axis.
+
+## Props
+
+### Required
+
+1. `imageSrc`: The source of the default image (displays on smallest screens)
+2. `imageSrcDesktop`: The source of the "desktop" image, which will be displayed once the screen size is "medium" or larger
+
+### Optional
+
+1. `imageLoading`: Applies to the `loading` attribute of the image. [See docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading)
+2. `backgroundColor`: Background color of the banner while the image is loading.
+
+<Canvas>
+  <Story
+    name="Banner"
+    args={{
+      media: {
+        type: 'image',
+        src: 'https://via.placeholder.com/600x1200/333/333',
+        srcDesktop: 'https://via.placeholder.com/1200x600/333/333',
+      },
+    }}
+  >
+    {(args) => (
+      <Banner {...args}>
+        <Typography Element="h2" variant="h3" color="white" className="mb-4">
+          Get yours before launch.
+        </Typography>
+        <Typography color="white" className="mb-6">
+          Upgrade to the new Ring within 14 days and claim your free lifetime
+          membership to everything Oura has to offer.
+        </Typography>
+        <DeprecatedButton text="Claim your offer" variant="filled-inverse" />
+      </Banner>
+    )}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Banner" />

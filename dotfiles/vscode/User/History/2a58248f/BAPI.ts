@@ -1,0 +1,20 @@
+import { src } from '../../../../utils/imageHelpers';
+import { QuoteCardProps } from '../../../sormus/QuoteCard';
+
+const getSrc = (image: string) => src(image, 'jpg', 80);
+
+const QUOTES: QuoteCardProps[] = [
+  {
+    text: 'business_quote_ariana_text',
+    name: 'business_quote_ariana_name',
+    title: 'business_quote_ariana_title',
+    avatarUrl: getSrc('product/simple/pdp-community-quote-avatar-walker@2x'), // TODO: update image
+  },
+  {
+    text: 'business_quote_shane_heath_text',
+    name: 'business_quote_shane_heath_name',
+    title: 'business_quote_shane_heath_title',
+  },
+];
+
+export default QUOTES;

@@ -1,0 +1,135 @@
+.button {
+  @apply border border-solid border-transparent rounded-full text-center text-helsinkiBlue inline-block transition;
+
+  &--size-normal {
+    @apply py-3 px-6 lg:py-4 lg:px-8;
+  }
+
+  &--size-small {
+    @apply py-3 px-6 lg:py-2 lg:px-4;
+  }
+
+  // Note: This is only being used on Horizon pages for now. This will
+  // probably replace the existing normal size style but for now it
+  // should be sandboxed to prevent unexpected style updates in production.
+  &--size-medium {
+    @apply py-3 px-6;
+  }
+
+  &--size-large {
+    @apply py-4 px-9;
+  }
+
+  &--basic {
+    @apply text-inherit p-0 lg:p-0;
+    // This removes excess whitespace caused by compounding line-heights.
+    // The font-size is reset to the base in .button__compartment for this variant.
+    font-size: 0;
+
+    &:hover {
+      @apply underline;
+    }
+
+    &:disabled {
+      @apply opacity-50 pointer-events-none cursor-default;
+    }
+  }
+
+  &--primary {
+    @extend .button;
+    @apply bg-helsinkiBlue-dark text-white;
+
+    &:hover {
+      @apply bg-ensoBlue text-helsinkiBlue;
+    }
+
+    &.button--color-helsinkiBlue-dark {
+      @apply border-helsinkiBlue-dark text-helsinkiBlue-dark;
+
+      &:hover {
+        @apply bg-helsinkiBlue-dark text-white;
+      }
+    }
+
+    &.button--color-helsinkiBlue {
+      @apply border-helsinkiBlue text-helsinkiBlue;
+
+      &:hover {
+        @apply bg-helsinkiBlue text-white;
+      }
+    }
+  }
+
+  &--secondary {
+    @extend .button;
+    @apply bg-white text-helsinkiBlue-dark;
+
+    &:hover {
+      @apply bg-ensoBlue;
+    }
+
+    &.button--color-helsinkiBlue {
+      @apply text-helsinkiBlue;
+    }
+
+    &.button--color-helsinkiBlue-dark {
+      @apply border-opacity-30 border-helsinkiBlue-dark;
+
+      &:hover {
+        @apply border-opacity-100;
+      }
+    }
+  }
+
+  &--tertiary {
+    @extend .button;
+    @apply border-helsinkiBlue-dark text-helsinkiBlue-dark;
+
+    &:hover {
+      @apply bg-helsinkiBlue-dark text-white;
+    }
+
+    &.button--color-helsinkiBlue-dark {
+      @apply border-opacity-30 border-helsinkiBlue-dark text-helsinkiBlue-dark;
+
+      &:hover {
+        @apply border-opacity-100 bg-helsinkiBlue-dark text-white;
+      }
+    }
+  }
+
+  &--ghost {
+    @extend .button;
+    @apply text-white border-white;
+
+    &:hover {
+      @apply bg-white text-helsinkiBlue-dark;
+    }
+
+    &.button--color-ensoBlue {
+      @apply text-ensoBlue border-opacity-30 border-ensoBlue;
+      &:hover {
+        @apply border-opacity-100 bg-ensoBlue text-helsinkiBlue-dark;
+      }
+    }
+
+    &.button--color-helsinkiBlue-dark {
+      &:hover {
+        @apply text-helsinkiBlue-dark;
+      }
+    }
+  }
+  &--body-link {
+    @apply text-helsinkiBlue underline p-0;
+  }
+  &:disabled {
+    @apply opacity-50 pointer-events-none cursor-default;
+  }
+}
+
+.button__compartment {
+  @apply items-center inline-flex gap-2 content-center justify-center;
+  .button--basic & {
+    @apply text-base;
+  }
+}

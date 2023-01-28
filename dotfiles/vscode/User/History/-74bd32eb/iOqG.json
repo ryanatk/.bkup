@@ -1,0 +1,11 @@
+{
+  "description": "Enables the quantity dropdown for chargers, in the cart (otherwise they show on separate rows)",
+  "@env": {
+    "staging": {
+      "enabled": false
+    },
+    "production": {
+      "enabled": false
+    }
+  }
+}

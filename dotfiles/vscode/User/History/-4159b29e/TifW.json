@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "types": ["@emotion/react/types/css-prop", "jest", "node"]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "hooks/__test__/usePartnerUtm.spec.jsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "infra",
+    "**/__tests__/**/*.ts",
+    "**/__tests__/**/*.tsx",
+    "tests/**"
+  ],
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    "compilerOptions": {
+      // https://github.com/TypeStrong/ts-node/issues/906#issuecomment-701287242
+      "target": "ES2019",
+      // https://github.com/TypeStrong/ts-node/issues/922#issuecomment-673155000
+      "module": "commonjs"
+    }
+  }
+}

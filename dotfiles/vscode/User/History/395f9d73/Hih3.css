@@ -1,0 +1,218 @@
+:root {
+  --helsinki: #2f4a73;
+  --enso: #a2d3e8;
+  --red: #ec3f27;
+  --family: 'AkkuratLL', Helvetica, Arial, sans-serif;
+  --body: 1rem;
+  --body2: 0.9rem;
+  --caption: 0.75rem;
+}
+
+/*  FORM  */
+
+form.hs-custom-style.hs-form {
+  margin: 0 auto;
+  max-width: 50rem;
+  width: 100%;
+  font-family: var(--family);
+  color: var(--helsinki);
+}
+
+/*  FIELDSETS & FIELDS  */
+
+form.hs-custom-style fieldset {
+  width: 100%;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  border: none;
+}
+
+/* 2-column layout wrapper */
+form.hs-custom-style .form-columns-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+form.hs-custom-style .field {
+  max-width: 100%;
+  margin: 0;
+}
+
+/* 2-column layout field */
+form.hs-custom-style .form-columns-2 .hs-form-field {
+  flex: 1 0 12rem;
+}
+
+/*  LABELS  */
+
+form.hs-custom-style .hs-form-field label:not(.hs-error-msg) {
+  font-size: var(--body);
+  color: inherit;
+}
+
+/* checkbox labels */
+form.hs-custom-style .hs-form-field label.hs-form-checkbox-display {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+/*  LEGEND  */
+
+form.hs-custom-style legend.hs-field-desc {
+  margin-bottom: 0.5rem;
+  font-size: var(--body2);
+  color: inherit;
+}
+
+/*  INPUTS  */
+
+/* remove hubspot colors */
+form.hs-custom-style .input input,
+form.hs-custom-style .input textarea,
+form.hs-custom-style .input select {
+  padding: 0.5rem;
+  background-color: transparent;
+  color: inherit;
+}
+
+form.hs-custom-style
+  .hs-dependent-field
+  > div
+  input.hs-input:not([type='checkbox']):not([type='radio']),
+.hs-input {
+  max-width: none;
+  width: 100%;
+  height: auto;
+  border: 1px solid currentColor;
+}
+
+.hs-input.hs-fieldtype-intl-phone {
+  border: none;
+  padding: 0;
+  background: none;
+
+  position: relative; /* for the custom arrow */
+
+  /* 2-column */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hs-input.hs-fieldtype-intl-phone > select,
+.hs-input.hs-fieldtype-intl-phone > input {
+  flex: 1 0 12rem;
+}
+
+form.hs-custom-style .hs-input.error {
+  border-color: var(--red);
+}
+
+form.hs-custom-style .hs-input:focus {
+  border-color: var(--enso);
+}
+
+/*  SUBMIT BUTTON  */
+
+/* wrapper around submit button */
+form.hs-custom-style .actions {
+  margin: 0;
+  padding: 0;
+}
+
+form.hs-custom-style .actions input[type='submit'].hs-button,
+form.hs-custom-style .actions input[type='submit'].hs-button:active,
+form.hs-custom-style .actions input[type='submit'].hs-button:hover {
+  display: inline-block;
+  margin-top: 1rem; /* for error message */
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 1.25rem;
+  text-align: center;
+  font-weight: normal;
+  font-family: var(--family);
+  color: white;
+  background-color: var(--helsinki);
+  cursor: pointer;
+  transition: all;
+}
+
+form.hs-custom-style input[type='submit'].hs-button:hover {
+  background-color: var(--enso);
+  color: var(--helsinki);
+}
+
+/*  SELECT  */
+
+form.hs-custom-style .hs-fieldtype-select .input {
+  position: relative; /* for the custom arrow */
+}
+
+form.hs-custom-style select {
+  appearance: none;
+  cursor: pointer;
+}
+
+/* custom select arrow */
+.hs-input.hs-fieldtype-intl-phone::before,
+form.hs-custom-style
+  .hs-fieldtype-select
+  .input:not(.select--multiple)::before {
+  position: absolute;
+  z-index: -1; /* so it lies beneath the transparent select */
+  content: '';
+  top: 1rem;
+  right: 0.5rem;
+  width: 0.8rem;
+  height: 0.5rem;
+  background-color: currentColor;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+/*  ERROR MESSAGES  */
+
+form.hs-custom-style .hs-form-required {
+  margin-left: 0.125rem;
+  color: var(--red);
+}
+
+form.hs-custom-style .hs_error_rollup,
+form.hs-custom-style ul[role='alert'] {
+  color: var(--red);
+  font-size: var(--body2);
+}
+
+form.hs-custom-style .hs-form-field label.hs-error-msg {
+  margin: 0.25rem 0 0;
+  font-size: var(--body2);
+}
+
+/*  GENERAL ELEMENTS  */
+
+form.hs-custom-style a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* there are inline styles (from hubspot) making this text white */
+form.hs-custom-style p,
+form.hs-custom-style a,
+form.hs-custom-style a:visited {
+  font-size: var(--caption);
+  color: var(--helsinki);
+  font-family: var(--family);
+}
+
+/* give some margin to grouped div's */
+form.hs-custom-style div div:not(:last-of-type) {
+  margin-bottom: 1.25rem;
+}
+
+/* give some margin to grouped p's */
+form.hs-custom-style p:not(:last-of-type) {
+  margin-bottom: 0.75rem;
+}

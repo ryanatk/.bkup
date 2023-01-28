@@ -1,0 +1,10 @@
+.border:not(last-of-type) {
+  @apply pb-8 mb-8 lg:pb-0 lg:mb-0;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 50px;
+    @apply border-b lg:border-b-0 lg:border-r lg:rounded-xl border-grayscale-text;
+  }
+}

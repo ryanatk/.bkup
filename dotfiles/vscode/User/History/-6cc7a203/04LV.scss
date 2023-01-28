@@ -1,0 +1,122 @@
+.Slideshow {
+  @apply text-helsinkiBlue;
+
+  .SlideshowThumbnail {
+    cursor: pointer;
+  }
+
+  .SlideshowNavButton {
+    @apply relative h-11 w-11 flex items-center justify-center border-none text-current;
+
+    &:before {
+      content: '';
+      @apply absolute block top-0 left-0 border border-solid border-current h-full w-full opacity-30 pointer-events-none rounded-full transition-opacity duration-200;
+    }
+
+    &:hover {
+      &:before {
+        @apply opacity-100;
+      }
+    }
+
+    svg {
+      @apply fill-current;
+    }
+  }
+
+  .SlideshowNavNumbers {
+    @apply text-left text-xs whitespace-nowrap lg:text-center;
+    letter-spacing: 0.33em; // 4px
+
+    @media screen and (min-width: 1024px) {
+      padding-left: 0.33em; // offset the letter-spacing, which extends to the right
+    }
+  }
+
+  .SlideshowImage {
+    position: relative;
+
+    .SlideshowCurrent {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .SlideshowWipeOut {
+      animation: wipeOut 1s;
+      animation-fill-mode: forwards;
+    }
+
+    .SlideshowReveal {
+      z-index: -1;
+      clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    }
+
+    .SlideshowRevealActive {
+      animation: wipeIn 1s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .SlideshowFadeIn {
+    animation: fadeIn 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .SlideshowFadeOut {
+    animation: fadeOut 0.5s;
+    animation-fill-mode: forwards;
+  }
+}
+
+.Slideshow--Horizon {
+  @apply text-helsinkiBlue-dark;
+
+  .SlideshowNavButton {
+    @apply border-helsinkiBlue-dark text-helsinkiBlue-dark;
+  }
+}
+
+.Slideshow--DarkMode {
+  @apply text-white;
+
+  .SlideshowNavButton {
+    @apply border-white text-white;
+  }
+}
+
+@keyframes wipeIn {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes wipeOut {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,6 @@
+.wrap {
+  &:before {
+    content: '|';
+    display: inline-block;
+  }
+}

@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity {
+  flex: 0;
+
+  height: 3rem;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.add {
+  flex: 1;
+}

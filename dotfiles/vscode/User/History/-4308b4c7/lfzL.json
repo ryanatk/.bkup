@@ -1,0 +1,38 @@
+[
+  {
+    "ring": "silver",
+    "model": "heritage-silver",
+    "modelUrl": "/product/heritage-silver",
+    "productPageIcon": "swatch-heritage-silver",
+    "product_id": 40000003454,
+    "sku": "JZ90-1003",
+    "price": 299
+  },
+  {
+    "ring": "gold",
+    "model": "heritage-gold",
+    "modelUrl": "/product/heritage-gold",
+    "productPageIcon": "swatch-heritage-gold",
+    "product_id": 40000003453,
+    "sku": "JZ90-1002",
+    "price": 399
+  },
+  {
+    "ring": "black",
+    "model": "heritage-black",
+    "modelUrl": "/product/heritage-black",
+    "productPageIcon": "swatch-heritage-black",
+    "product_id": 40000003445,
+    "sku": "JZ90-1001",
+    "price": 299
+  },
+  {
+    "ring": "stealth",
+    "model": "heritage-stealth",
+    "modelUrl": "/product/heritage-stealth",
+    "productPageIcon": "swatch-heritage-stealth",
+    "product_id": 40000003455,
+    "sku": "JZ90-1004",
+    "price": 399
+  }
+]

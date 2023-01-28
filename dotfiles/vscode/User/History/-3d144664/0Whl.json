@@ -1,0 +1,113 @@
+{
+  "document/sku/JZ90-51382-07": {},
+  "document/sku/JZ90-51382-06": {},
+  "body_html": "",
+  "traits": {
+    "Color": "Black"
+  },
+  "document/sku/JZ90-51382-09": {},
+  "document/sku/JZ90-51382-08": {},
+  "created_at": "2020-11-12T19:33:15",
+  "description": "",
+  "title": "Oura Ring Generation 3",
+  "lineItemImage": {
+    "width": 503,
+    "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01@2x.png",
+    "alt": "",
+    "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01@2x.png",
+    "height": 503
+  },
+  "updated_at": "2020-11-18T17:33:54",
+  "price": {
+    "@currency": {
+      "USD": {
+        "currencyCode": "USD",
+        "amount": 349
+      },
+      "EUR": {
+        "currencyCode": "EUR",
+        "amount": 367
+      }
+    },
+    "@region": {
+      "US": {
+        "currencyCode": "USD",
+        "amount": 349
+      }
+    }
+  },
+  "id": 40000003461,
+  "document/sku/JZ90-51382": {},
+  "productOptions": [
+    {
+      "name": "Size",
+      "value": "[\r\n  \"6\",\r\n  \"7\",\r\n  \"8\",\r\n  \"9\",\r\n  \"10\",\r\n  \"11\",\r\n  \"12\",\r\n  \"13\",\r\n  \"Size later\"\r\n]"
+    }
+  ],
+  "handle": "horizon-black",
+  "@env": {
+    "eks-sandbox": {
+      "published": true
+    },
+    "eks-staging": {
+      "published": true
+    },
+    "eks-production": {
+      "published": true
+    },
+    "development": {
+      "published": true
+    },
+    "staging": {
+      "published": true
+    },
+    "production": {
+      "published": false
+    }
+  },
+  "productImages": [
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01@2x.png",
+      "alt": "heritage black ring slide 1",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-02@2x.png",
+      "alt": "heritage black ring slide 2",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-02@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-02@2x.png",
+      "alt": "heritage black ring slide 3",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-02@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-lifestyle-black-04@2x.jpg",
+      "alt": "heritage black ring lifestyle slide 4",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-lifestyle-black-04@2x.jpg",
+      "height": 503,
+      "fullBleedThumbnail": true
+    }
+  ],
+  "product_type": "Ring",
+  "document/sku/JZ90-51382-10": {},
+  "seoParams": {
+    "title": "pdp_seo_title_horizon_black",
+    "description": "pdp_seo_description_horizon"
+  },
+  "document/sku/JZ90-51382-13": {},
+  "document/sku/JZ90-51382-12": {},
+  "document/sku/JZ90-51382-11": {},
+  "requiresSubscription": true
+}

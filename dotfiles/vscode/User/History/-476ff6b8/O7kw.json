@@ -1,0 +1,87 @@
+{
+  "countryCode": "PM",
+  "currency": "USD",
+  "merchant": {
+    "prod": "ouraringUSD",
+    "staging": "f52wn4f8czds8n29"
+  },
+  "eu": false,
+  "name": "Saint Pierre and Miquelon",
+  "regions": [],
+  "shipFrom": "NL",
+  "freight_taxable": true,
+  "status": false,
+  "membershipStatus": true,
+  "nexus": {
+    "shipFrom": {
+      "address": "Zwenkgras 21",
+      "address2": "c/o DHL Supply Chain",
+      "city": "Beringe",
+      "country": "NL",
+      "postal": "5986 PM"
+    },
+    "subsidiaryCode": "OURARINGINC",
+    "rate": 0,
+    "taxName": "Tax",
+    "taxIncluded": false,
+    "shipping": 1,
+    "freight_taxable": true,
+    "taxCodeDomains": [
+      {
+        "platform": "avalara",
+        "location": "*",
+        "level": "lineitem",
+        "itemType": "service",
+        "itemSku": "expedited-shipping",
+        "taxCode": "FR020100"
+      },
+      {
+        "platform": "avalara",
+        "location": "*",
+        "level": "lineitem",
+        "itemType": "hardware",
+        "itemSku": "*",
+        "taxCode": "PC040206"
+      },
+      {
+        "platform": "avalara",
+        "location": "*",
+        "level": "lineitem",
+        "itemType": "service",
+        "itemSku": "standard-shipping",
+        "taxCode": "FR020100"
+      },
+      {
+        "platform": "avalara",
+        "location": "*",
+        "level": "lineitem",
+        "itemType": "*",
+        "itemSku": "JZ98-0050",
+        "taxCode": "SW019478"
+      },
+      {
+        "platform": "avalara",
+        "location": "*",
+        "level": "lineitem",
+        "itemType": "*",
+        "itemSku": "JZ98-0051",
+        "taxCode": "SW019478"
+      }
+    ],
+    "middlewares": [],
+    "stateNexus": [],
+    "middlewares_v1": []
+  },
+  "shippingRate": {
+    "description": "Flat shipping rate",
+    "price": 15,
+    "sku": "standard-shipping"
+  },
+  "calling_code": "+508",
+  "fraudCheck": {
+    "active": true,
+    "reportOnly": false,
+    "logInfo": true
+  },
+  "disallowedProductSkus": ["expedited-shipping"]
+}

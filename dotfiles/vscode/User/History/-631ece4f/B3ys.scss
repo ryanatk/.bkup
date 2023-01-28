@@ -1,0 +1,28 @@
+.accordion {
+  &__header {
+    @apply relative block w-full p-0 text-left cursor-pointer;
+
+    > *:first-child {
+      padding-right: 4rem;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.75rem;
+    right: 0;
+    transition: transform 0.5s;
+
+    &--expanded {
+      @extend .accordion__icon;
+      transform: rotate(180deg);
+      transform-origin: center;
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    transition: max-height 5s ease;
+  }
+}

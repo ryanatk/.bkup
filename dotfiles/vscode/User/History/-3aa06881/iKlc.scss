@@ -1,0 +1,52 @@
+.wrap {
+  @apply hidden;
+
+  transition: opacity 0.25s;
+
+  @screen md {
+    @apply fixed block top-2/3 left-0;
+    @apply text-center w-2/12;
+    @apply opacity-100;
+  }
+
+  &:not(.horizon) {
+    @apply text-helsinkiBlue;
+  }
+
+  &.horizon {
+    @apply text-helsinkiBlue-dark;
+  }
+}
+
+.icon {
+  @apply rounded-full h-20 w-20 lg:h-24 lg:w-24;
+  @apply inline-flex items-center justify-center;
+
+  &.default {
+    @apply text-white;
+
+    &:not(.horizon) {
+      @apply bg-helsinkiBlue;
+    }
+
+    &.horizon {
+      @apply bg-helsinkiBlue-dark;
+    }
+  }
+
+  &.outline {
+    @apply text-grayMedium border border-grayscale-medium;
+  }
+}
+
+.small {
+  @apply h-16 w-16;
+}
+
+.text {
+  @apply pb-6 px-4;
+}
+
+.invisible {
+  @apply opacity-0;
+}

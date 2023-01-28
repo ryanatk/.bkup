@@ -1,0 +1,96 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import Typography, { TypographyProps } from './index';
+
+<Meta title="Sormus/Elements/Typography" component={Typography} />
+
+# Typography
+
+The `Typography` component is the primary way to render text in Sormus.
+
+## Concepts
+
+### Variants and Elements
+
+We've built in flexibility to style typography independently from the HTML elements used. This gives us the freedom to style text however is required, while maintaining the integrity of the document hierarchy. By default, `Typography` renders as a `<p>` unless you pass it another tag name in the `Element` prop.
+
+## Variant Examples
+
+<div className="tailwind">
+
+### h1
+
+<Typography variant="h1">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### h2
+
+<Typography variant="h2">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### h3
+
+<Typography variant="h3">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### h4
+
+<Typography variant="h4">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### h5
+
+<Typography variant="h5">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### h6
+
+<Typography variant="h6">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+<hr />
+
+### Body (Default)
+
+<Typography>Lorem Ipsum has been the industry's standard.</Typography>
+
+### Subhead
+
+<Typography variant="subhead">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### Eyebrow
+
+<Typography variant="eyebrow">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+### Caption
+
+<Typography variant="caption">
+  Lorem Ipsum has been the industry's standard.
+</Typography>
+
+</div>
+
+## Playground
+
+<Canvas>
+  <Story
+    name="Typography"
+    args={{
+      Element: 'p',
+      variant: 'body',
+      children: 'This is my text string.',
+    }}
+  >
+    {(args) => <Typography {...args} />}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Typography" />

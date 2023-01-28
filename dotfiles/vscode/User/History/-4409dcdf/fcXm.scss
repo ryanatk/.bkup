@@ -1,0 +1,12 @@
+.cartButton {
+  @apply block h-11 mr-3 relative w-11 lg:mr-7 lg:-ml-3;
+}
+
+.cartButtonIcon {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.cartButtonCount {
+  @apply absolute font-normal left-1/2 text-xs transform -translate-x-1/2 -translate-y-1/2;
+  top: 26px;
+}

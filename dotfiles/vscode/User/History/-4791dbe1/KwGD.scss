@@ -1,0 +1,46 @@
+.Banner {
+  @apply relative overflow-hidden;
+}
+
+.Banner--WithMaskOverlay {
+  &:after {
+    content: '';
+    @apply absolute left-0 right-0 bottom-0 top-0 z-20 opacity-40 bg-gradient-to-b from-black via-black to-transparent;
+  }
+}
+
+.Banner--MaxViewportHeight {
+  @apply h-screen;
+}
+
+.Banner__Media {
+  @apply block w-full h-full object-cover;
+}
+
+.Banner__Image {
+  @extend .Banner__Media;
+}
+
+.Banner__Video {
+  @extend .Banner__Media;
+}
+
+.Banner__ContentCompartment {
+  @apply absolute top-1/2 w-full transform -translate-y-full md:-translate-y-1/2 z-50;
+
+  .Banner--MaxViewportHeight & {
+    @apply top-2/3;
+
+    @media (min-height: 750px) {
+      @apply top-1/2;
+    }
+  }
+}
+
+.Banner__Content {
+  @apply col-start-2 col-end-6 md:col-start-9 md:col-end-13;
+}
+
+.Banner__Content--left {
+  @apply md:col-start-2 md:col-end-7;
+}

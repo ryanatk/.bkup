@@ -1,0 +1,33 @@
+.event {
+  display: none;
+}
+
+.error {
+  margin: 1rem 1rem 0;
+}
+
+.sidebar {
+  position: sticky;
+}
+
+@media (min-width: 44rem) {
+  .sidebar {
+    position: fixed;
+    width: 16rem;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+
+  .event {
+    display: block;
+
+    padding: 1rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  .content {
+    margin-left: 16rem; /* leave room for .sidebar */
+  }
+}

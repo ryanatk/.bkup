@@ -1,0 +1,15 @@
+.headline {
+  @apply col-main md:col-start-2 md:col-end-13 lg:col-start-9;
+}
+
+.slideshow {
+  @apply col-main md:col-start-2 md:col-end-13 lg:col-start-3 lg:col-end-8 lg:pt-2 lg:row-start-1 lg:row-end-3;
+}
+
+.selector {
+  @apply col-main md:col-start-2 md:col-end-13 lg:col-start-9 lg:pb-12;
+}
+
+.swatchWrapper {
+  @apply flex items-center justify-around lg:justify-between;
+}

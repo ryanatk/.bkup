@@ -1,0 +1,50 @@
+.title {
+  margin-bottom: 1rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.requirement:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.line:last-of-type {
+  margin-top: 1rem;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 1rem;
+}
+
+.label {
+  white-space: nowrap;
+}
+
+@media (min-width: 30rem) {
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+}
+
+@media print {
+  .section {
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+  }
+}

@@ -1,0 +1,30 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import { ScrollTeaser, ScrollTeaserProps } from './ScrollTeaserNew';
+import PageContainer from '../PageContainer';
+
+<Meta title="Sormus/Elements/ScrollTeaser" component={ScrollTeaser} />
+
+# ScrollTeaser
+
+The `ScrollTeaser` component entices a user to scroll below the fold to view more of the page.
+
+## Example
+
+<Canvas>
+  <Story
+    name="ScrollTeaser"
+    args={{
+      isVisible: true,
+      text: 'Scroll to learn more'
+      outline: false,
+    }}
+  >
+    {(args) => (
+      <PageContainer name="my-new-page" className="bg-helsinkiBlue h-screen">
+        <ScrollTeaser {...args} />
+      </PageContainer>
+    )}
+  </Story>
+</Canvas>
+
+<ArgsTable story="ScrollTeaser" />

@@ -1,0 +1,35 @@
+.mainImage {
+  @apply row-start-1;
+
+  &:not(.reverse) {
+    @apply col-start-3 col-end-6 md:col-start-3 md:col-end-8;
+  }
+
+  &.reverse {
+    @apply col-start-2 col-end-5 md:col-start-8 md:col-end-12;
+  }
+}
+
+.sideImage {
+  @apply relative lg:top-16 row-start-1 h-0 flex justify-end items-center;
+
+  &:not(.reverse) {
+    @apply col-start-2 col-end-4 md:col-start-1 md:col-end-5 lg:col-start-3;
+  }
+
+  &.reverse {
+    @apply col-start-4 col-end-6 md:col-start-11 md:col-end-13;
+  }
+}
+
+.content {
+  @apply col-main text-left md:self-center;
+
+  &:not(.reverse) {
+    @apply md:row-start-1 md:col-start-9 md:col-end-12;
+  }
+
+  &.reverse {
+    @apply md:col-start-4 md:col-end-7;
+  }
+}

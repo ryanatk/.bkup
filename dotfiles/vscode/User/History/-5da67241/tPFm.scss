@@ -1,0 +1,76 @@
+// shared class between text & image
+.content {
+  @apply col-main row-start-2;
+  @apply flex flex-col justify-center items-start;
+  @apply max-w-md mx-auto;
+
+  @screen lg {
+    @apply max-w-none;
+  }
+}
+
+.text {
+  @apply row-start-2;
+
+  @screen lg {
+    @apply row-start-1;
+
+    &:not(.reverse) {
+      @apply col-start-3;
+      @apply col-end-8;
+    }
+
+    &.reverse {
+      @apply col-start-8;
+      @apply col-end-13;
+    }
+  }
+}
+
+.image {
+  @apply row-start-1;
+
+  @screen lg {
+    &:not(.reverse) {
+      @apply col-start-9;
+
+      &:not(.full) {
+        @apply col-end-13;
+      }
+
+      &.full {
+        @apply -mr-8; // stretch to the edge
+      }
+    }
+
+    &.reverse {
+      @apply col-end-7;
+
+      &:not(.full) {
+        @apply col-start-3;
+      }
+
+      &.full {
+        @apply -ml-8; // stretch to the edge
+      }
+    }
+  }
+}
+
+// pull up the next element to overlap
+.overlap {
+  margin-bottom: -25%;
+}
+
+.quote {
+  @apply px-4 mx-auto;
+
+  @screen lg {
+    @apply relative -right-8;
+    @apply w-96 max-w-full p-0;
+  }
+}
+
+.contact {
+  @apply my-4;
+}

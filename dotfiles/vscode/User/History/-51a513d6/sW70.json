@@ -1,0 +1,23 @@
+{
+  "description": "Enabling shows the newest Privacy Policy (after legal review)",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": true
+    },
+    "eks-staging": {
+      "enabled": true
+    },
+    "eks-production": {
+      "enabled": true
+    },
+    "development": {
+      "enabled": true
+    },
+    "staging": {
+      "enabled": true
+    },
+    "production": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,64 @@
+/*  Title, Text, Navigation Column  */
+.title,
+.text,
+.navigation {
+  @apply col-main md:col-span-10 lg:col-span-4;
+
+  &.right {
+    @apply md:col-end-13;
+  }
+
+  &.left {
+    @apply md:col-start-3;
+  }
+}
+
+/*  Title  */
+
+.title {
+  @apply m-0 lg:self-end row-start-1;
+}
+
+/*  Text  */
+
+.text {
+  @apply lg:self-end lg:row-end-3;
+
+  &.primary {
+    @apply lg:row-start-1;
+  }
+
+  &.secondary {
+    @apply lg:row-start-2;
+  }
+}
+
+/*  Navigation  */
+
+.navigation {
+  @apply row-start-3 lg:row-start-3;
+}
+
+/*  Media  */
+
+.media {
+  @apply mx-auto;
+  @apply row-end-3 lg:row-end-5;
+  @apply col-main md:col-span-10 lg:col-span-5;
+
+  &.primary {
+    @apply row-start-1;
+  }
+
+  &.secondary {
+    @apply row-start-2 lg:row-start-1;
+  }
+
+  &.left {
+    @apply md:col-end-13 lg:col-end-8;
+  }
+
+  &.right {
+    @apply md:col-start-3 lg:col-start-8;
+  }
+}

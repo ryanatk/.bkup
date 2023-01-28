@@ -1,0 +1,18 @@
+.page {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.main {
+  flex: 1;
+
+  width: 100%;
+  height: 100%;
+}

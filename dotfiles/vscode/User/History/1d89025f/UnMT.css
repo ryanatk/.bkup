@@ -1,0 +1,23 @@
+.wrap {
+  display: flex;
+}
+
+.quantity {
+  flex: 0;
+}
+
+/* .button {
+  border-radius: 4px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 100%;
+  min-width: auto;
+} */
+
+.add {
+  flex: 1;
+  /* padding-left: 0.875rem;
+  padding-right: 0.875rem; */
+}

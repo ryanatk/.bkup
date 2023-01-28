@@ -1,0 +1,9 @@
+.error {
+  margin: 1rem 1rem 0;
+}
+
+@media (min-width: 44rem) {
+  .content {
+    flex: 1;
+  }
+}

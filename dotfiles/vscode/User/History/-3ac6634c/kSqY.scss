@@ -1,0 +1,29 @@
+.title {
+  @apply font-extralight leading-tight lg:flex-shrink-0 lg:w-full;
+
+  &.november {
+    @apply mb-4
+    md:tracking-[-2px]
+    text-6xl md:text-7xl xl:text-[5.25rem];
+  }
+
+  &.santa {
+    @apply order-2 text-5xl mb-2 lg:order-1 lg:mb-4;
+  }
+
+  &.december {
+    @apply text-4xl mb-4 md:text-7xl md:tracking-[-2px] xl:text-[5.25rem];
+  }
+}
+
+.body {
+  @apply leading-relaxed lg:flex-shrink-0 lg:w-full;
+
+  &.santa {
+    @apply order-1 mb-2 text-lg lg:order-2 lg:text-xl;
+  }
+
+  &.december {
+    @apply mb-4 text-xl md:text-[1.6rem];
+  }
+}

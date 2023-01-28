@@ -1,0 +1,28 @@
+.wrap {
+  overflow: visible;
+  z-index: 1;
+}
+
+.button {
+  display: flex;
+
+  height: 3.5rem;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.static {
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+}
+
+.static:not([disabled]) {
+  cursor: pointer;
+}
+
+.dynamic {
+  align-items: stretch;
+}

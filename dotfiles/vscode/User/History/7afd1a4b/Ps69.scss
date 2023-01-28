@@ -1,0 +1,59 @@
+.container {
+  @apply overflow-x-scroll;
+
+  cursor: grab;
+
+  scrollbar-width: none; // firefox
+  &::-webkit-scrollbar {
+    display: none; // and all the rest
+  }
+}
+
+.list {
+  @apply flex gap-8 w-max;
+}
+
+.image {
+  user-select: none;
+}
+
+.scrollbar {
+  @apply overflow-x-scroll pt-16;
+
+  // firefox
+  scrollbar-width: thin;
+  scrollbar-color: #101926; // helsinkiBlue-dark
+
+  // and all the rest
+  &::-webkit-scrollbar {
+    @apply rounded h-px;
+    display: block;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-grayscale;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-helsinkiBlue rounded;
+  }
+}
+
+.mirror {
+  @apply w-max h-px; // needed so the div shows
+}
+
+// Transition effects
+.imageWrap {
+  @apply flex-shrink-0;
+
+  transition: all 1s ease-in-out;
+
+  opacity: 1;
+  margin-left: 0;
+
+  &.offscreen {
+    opacity: 0;
+    margin-left: 8em;
+  }
+}

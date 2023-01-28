@@ -1,0 +1,10 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary {
+  position: sticky;
+  top: 20px;
+}

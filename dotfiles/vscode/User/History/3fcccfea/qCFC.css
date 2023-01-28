@@ -1,0 +1,58 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  max-width: 100vw;
+  width: 34rem;
+  overflow: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.event {
+  flex: 0 0;
+  padding: 0 1.5rem 1rem;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.list {
+  flex: 1 0;
+}
+
+.loading {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  height: 100%;
+}
+
+.group {
+  padding: 0.5rem 1rem;
+}
+
+.group:not(:last-of-type) {
+  border-bottom-width: 8px;
+}
+
+.proceed {
+  flex-grow: 0;
+
+  padding: 0.5rem 1.5rem 1.5rem;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.totals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms {
+  margin-bottom: 0.5rem;
+}

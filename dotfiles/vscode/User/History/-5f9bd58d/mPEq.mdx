@@ -1,0 +1,11 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import { Typography, DeprecatedButton } from '../index';
+import Accolades from './index';
+
+<Meta title="Sormus/Elements/Accolades" component={Accolades} />
+
+<Canvas>
+  <Story name="Accolades">{(args = {}) => <Accolades {...args} />}</Story>
+</Canvas>
+
+<ArgsTable story="Accolades" />

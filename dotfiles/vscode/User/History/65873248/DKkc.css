@@ -1,0 +1,25 @@
+.list {
+  padding: 0 1rem;
+}
+
+@media (min-width: 44rem) {
+  .list {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+.item:first-of-type {
+  margin-top: 1rem;
+}
+
+.item {
+}
+
+.link {
+  display: inline-flex;
+  width: 100%;
+  padding: 0.5rem;
+  /* margin-bottom: 0.5rem; */
+  border-radius: 4px;
+  text-align: left;
+}

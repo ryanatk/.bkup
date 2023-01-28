@@ -11,7 +11,7 @@ alias fuckjava='killall -9 java'
 # grep stuff
 export GREP_OPTIONS='--color=auto'
 export GREP_COLORS='fn=16'
-alias gr='fgrep -R -I -n --exclude-dir=public --exclude-dir=dist --exclude-dir=build --exclude-dir=logs --exclude-dir=reports --exclude-dir=node_modules --exclude=*.log --exclude-dir=docs --exclude=package-lock.json'
+alias gr='fgrep -R -I -n --exclude-dir=public --exclude-dir=dist --exclude-dir=build --exclude-dir=logs --exclude-dir=reports --exclude-dir=coverage --exclude-dir=node_modules --exclude-dir=docs --exclude=package-lock.json'
 
 # vim stuff
 export EDITOR=vim
@@ -37,7 +37,7 @@ alias vgr='vim -p `fgrep -R -l --exclude-dir=node_modules --exclude=*.log --excl
 # git command aliases
 alias gdb='git branch -D'
 alias gbd='git branch -D'
-alias gchange='git whatchanged -p --'
+alias gchange='git whatchanged -p -w --'
 alias gcb='git checkout -b'
 alias gco='git checkout'
 alias gcom='git commit'
@@ -48,10 +48,9 @@ alias gfetch='git fetch'
 alias glog='git log'
 alias glp='git log -p'
 alias go='git open'
-alias gpo='git push origin HEAD && go'
-alias gpr='git push origin HEAD && go'
+alias gpr='gpush && go'
 alias gpull='git pull'
-alias gpush='git push origin HEAD'
+alias gpush='git push -u origin HEAD'
 alias gst='git status'
 alias guncom='git reset --soft HEAD~1'
 

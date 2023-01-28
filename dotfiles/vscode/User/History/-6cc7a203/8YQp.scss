@@ -1,0 +1,122 @@
+.Slideshow {
+  @apply text-helsinkiBlue;
+
+  .SlideshowThumbnail {
+    cursor: pointer;
+  }
+
+  .SlideshowNavButton {
+    @apply relative h-11 w-11 flex items-center justify-center border-none text-current;
+
+    &:before {
+      content: '';
+      @apply absolute block top-0 left-0 border border-solid border-current h-full w-full opacity-30 pointer-events-none rounded-full transition-opacity duration-200;
+    }
+
+    &:hover {
+      &:before {
+        @apply opacity-100;
+      }
+    }
+
+    svg {
+      @apply fill-current;
+    }
+  }
+
+  .SlideshowNavNumbers {
+    @apply text-left text-xs whitespace-nowrap lg:text-center;
+    letter-spacing: 0.33em; // 4px
+
+    @media screen and (min-width: 1024px) {
+      padding-left: 0.33em; // offset the letter-spacing, which extends to the right
+    }
+  }
+
+  .SlideshowImage {
+    position: relative;
+
+    .SlideshowReveal {
+      position: absolute;
+      top: 0;
+      left: 0;
+      clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    }
+
+    .SlideshowRevealActive {
+      will-change: clip-path;
+      animation: wipe 1s;
+      animation-fill-mode: forwards;
+    }
+
+    .SlideshowFadeOut {
+      will-change: opacity, transform;
+      animation: fadeOut 1s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .SlideshowSlideOut {
+    animation: slideOut 0.5s;
+    animation-fill-mode: both;
+  }
+
+  .SlideshowSlideIn {
+    animation: slideIn 0.5s;
+    animation-fill-mode: forwards;
+  }
+}
+
+.Slideshow--Horizon {
+  @apply text-helsinkiBlue-dark;
+
+  .SlideshowNavButton {
+    @apply border-helsinkiBlue-dark text-helsinkiBlue-dark;
+  }
+}
+
+.Slideshow--DarkMode {
+  @apply text-white;
+
+  .SlideshowNavButton {
+    @apply border-white text-white;
+  }
+}
+
+@keyframes wipe {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

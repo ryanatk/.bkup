@@ -1,0 +1,89 @@
+.offcanvas {
+  @apply absolute
+  bg-sand
+  left-0
+  opacity-0
+  px-10
+  pt-16
+  pb-14
+  top-0
+  w-full
+  z-10
+  lg:bg-transparent
+  lg:p-0
+  lg:static
+  lg:transition-none
+  lg:opacity-100
+  lg:w-auto;
+  max-height: 100vh;
+  max-height: 100dvh;
+  overflow-y: auto;
+  touch-action: none;
+  transform: translate3d(0, -150%, 0);
+  @screen lg {
+    overflow: visible;
+    transform: none;
+    touch-action: initial;
+  }
+  &--open {
+    @apply opacity-100;
+    transform: translate3d(0, 0, 0);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    @apply transition-all duration-700;
+  }
+}
+
+.navLinks {
+  @apply lg:flex gap-10 justify-end;
+}
+
+.navLink {
+  @apply mb-9 text-xl lg:mb-0 lg:text-sm;
+  &:last-child {
+    @apply mb-0;
+  }
+  a {
+    @apply flex items-center relative;
+    &:before,
+    &:after {
+      @apply absolute border-burntOrange border-b h-px hidden left-0 top-full w-full lg:block;
+      content: '';
+      transition: transform 0.8s cubic-bezier(0.43, 0.195, 0.02, 1);
+    }
+    &:before {
+      transform: translate3d(-40px, 5px, 0) scale3d(0, 1, 1);
+      transform-origin: left;
+    }
+    &:after {
+      transform: translate3d(40px, 5px, 0) scale3d(0, 1, 1);
+      transform-origin: right;
+    }
+    span {
+      @apply mr-auto lg:mr-0;
+    }
+    &:hover {
+      &:before,
+      &:after {
+        transform: translate3d(0, 5px, 0) scale3d(1, 1, 1);
+      }
+    }
+  }
+}
+
+.navLinkArrow {
+  transform: scale(0.667);
+  @screen lg {
+    display: none !important;
+  }
+}
+
+.utilityNav {
+  @apply px-3 py-10 lg:hidden;
+  li {
+    @apply mb-4 text-sm;
+    &:last-child {
+      @apply mb-0;
+    }
+  }
+}

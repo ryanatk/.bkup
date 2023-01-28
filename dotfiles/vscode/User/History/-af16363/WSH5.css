@@ -1,0 +1,38 @@
+.event {
+  display: none;
+}
+
+.error {
+  margin: 1rem 1rem 0;
+}
+
+@media (min-width: 44rem) {
+  .wrap {
+    /* display: flex; */
+  }
+
+  .sidebar {
+    /* position: sticky;
+    top: 4rem;
+    height: 100%; */
+
+    float: left;
+    width: 16rem;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    /* flex: 0 0 16rem; */
+  }
+
+  .event {
+    display: block;
+
+    padding: 1rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  .content {
+    flex: 1;
+  }
+}

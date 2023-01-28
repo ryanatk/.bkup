@@ -1,0 +1,53 @@
+.wrap {
+  @apply hidden;
+
+  transition: opacity 0.25s;
+
+  @screen md {
+    @apply block w-20 fixed bottom-1/2 left-4 opacity-100 text-center w-28;
+  }
+
+  &:not(.horizon) {
+    @apply text-helsinkiBlue;
+  }
+
+  &.horizon {
+    @apply text-helsinkiBlue-dark;
+  }
+}
+
+.icon {
+  @apply relative inline-block  rounded-full h-20 w-20 lg:h-24 lg:w-24;
+
+  & > svg {
+    @apply transform rotate-90 absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-2/4;
+  }
+
+  &.default {
+    @apply text-white;
+
+    &:not(.horizon) {
+      @apply bg-helsinkiBlue;
+    }
+
+    &.horizon {
+      @apply bg-helsinkiBlue-dark;
+    }
+  }
+
+  &.outline {
+    @apply text-grayMedium border border-grayscale-medium;
+  }
+}
+
+.small {
+  @apply h-16 w-16;
+}
+
+.text {
+  @apply mb-6;
+}
+
+.invisible {
+  @apply opacity-0;
+}

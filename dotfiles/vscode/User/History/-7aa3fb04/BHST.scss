@@ -1,0 +1,12 @@
+.overlay {
+  @apply fixed top-0 right-0 bottom-0 left-0;
+  @apply bg-helsinkiBlue-dark opacity-0 transition-opacity duration-700;
+
+  @screen lg {
+    // @apply hidden;
+  }
+}
+
+.open {
+  @apply opacity-70;
+}

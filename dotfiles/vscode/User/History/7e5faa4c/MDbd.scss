@@ -1,0 +1,49 @@
+.modal {
+  // styles for the modal contents, which come from HubSpot
+
+  form {
+    @apply mx-auto max-w-full w-max;
+  }
+
+  fieldset {
+    @apply w-full;
+    margin-bottom: 1.25rem !important; // override hubspot style
+  }
+
+  legend {
+    @apply text-body2;
+  }
+
+  select,
+  input[type='email'],
+  input[type='number'],
+  input[type='tel'],
+  input[type='text'],
+  textarea {
+    @apply p-2 w-full;
+    @apply border border-current;
+  }
+
+  input[type='checkbox'] {
+    @apply mr-2 ml-1 my-2;
+  }
+
+  input[type='submit'] {
+    @apply text-center inline-block transition;
+    @apply border border-solid border-transparent rounded-full;
+    @apply py-3 px-6 lg:py-2 lg:px-4 mt-4;
+    @apply bg-helsinkiBlue text-white font-normal;
+  }
+
+  ul[role='alert'] {
+    @apply text-red-600;
+  }
+
+  a {
+    @apply underline font-bold;
+  }
+
+  p {
+    @apply text-caption;
+  }
+}

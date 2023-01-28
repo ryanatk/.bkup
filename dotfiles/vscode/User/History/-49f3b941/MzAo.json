@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/.unused": true
+  }
+}

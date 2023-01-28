@@ -1,0 +1,65 @@
+.offcanvas {
+  @apply absolute
+  bg-sand
+  left-0
+  opacity-0
+  px-10
+  pt-16
+  pb-14
+  top-0
+  w-full
+  z-10
+  lg:bg-transparent
+  lg:p-0
+  lg:static
+  lg:transition-none
+  lg:opacity-100
+  lg:w-auto;
+  max-height: 100vh;
+  max-height: 100dvh;
+  overflow-y: auto;
+  touch-action: none;
+  transform: translate3d(0, -150%, 0);
+
+  @screen lg {
+    overflow: visible;
+    transform: none;
+    touch-action: initial;
+  }
+
+  &.open {
+    @apply opacity-100;
+    transform: translate3d(0, 0, 0);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @apply transition-all duration-700;
+  }
+}
+
+.navLinks {
+  @apply lg:flex gap-10 justify-end;
+}
+
+.mainNav,
+.utilityNav {
+  a {
+    @apply text-helsinkiBlue lg:text-current;
+  }
+}
+
+.mainNav {
+  @apply border-grayscale-medium border-b px-3 pb-10 lg:border-b-0 lg:p-0;
+}
+
+.utilityNav {
+  @apply px-3 py-10 lg:hidden;
+
+  li {
+    @apply mb-4 text-sm;
+
+    &:last-child {
+      @apply mb-0;
+    }
+  }
+}

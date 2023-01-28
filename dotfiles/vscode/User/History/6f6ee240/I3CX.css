@@ -1,0 +1,17 @@
+.scrollbar {
+  padding: 0 1rem 1rem;
+
+  /* leave space for header, nav heading, and backdrop to show */
+  max-height: calc(100vh - 4rem - 4rem - 2rem);
+
+  background-color: #afa;
+}
+
+@media (min-width: 44rem) {
+  .scrollbar {
+    padding-top: 2rem;
+    padding-right: 0;
+
+    max-height: none; /* override mobile style */
+  }
+}

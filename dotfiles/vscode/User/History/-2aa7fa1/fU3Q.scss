@@ -1,0 +1,46 @@
+.title {
+  @apply mt-0 mb-12;
+}
+
+.mediaWrap {
+  @apply text-center;
+  @apply row-start-1 md:row-span-2;
+  @apply col-main md:col-span-5;
+
+  &.left {
+    @apply md:col-end-8;
+  }
+
+  &.right {
+    @apply md:col-start-8;
+  }
+}
+
+.mediaContent {
+  @apply inline-block mx-auto;
+}
+
+.textWrap,
+.navigation {
+  @apply col-main md:col-span-4;
+
+  &.right {
+    @apply md:col-end-13;
+  }
+
+  &.left {
+    @apply md:col-start-3;
+  }
+}
+
+.textWrap {
+  @apply md:self-end;
+}
+
+.textContent {
+  @apply md:flex md:gap-6;
+}
+
+.navigation {
+  @apply row-start-2;
+}

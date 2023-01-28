@@ -1,0 +1,24 @@
+.item {
+  @apply flex-shrink-0;
+  @apply flex items-center gap-8;
+  @apply pl-8;
+  @apply text-xl lg:text-3xl;
+
+  &:not(:first-child):before {
+    @apply font-black;
+
+    content: '\2022';
+  }
+}
+
+.text {
+  @apply whitespace-nowrap;
+
+  &:before {
+    content: '“';
+  }
+
+  &:after {
+    content: '”';
+  }
+}

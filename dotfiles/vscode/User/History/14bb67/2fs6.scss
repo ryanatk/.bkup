@@ -1,0 +1,7 @@
+.grid {
+  &:not(:last-of-type) {
+    @apply border-grayscale-dark my-8;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+}

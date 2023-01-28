@@ -1,0 +1,25 @@
+.BackgroundImage {
+  @apply w-full h-full object-cover object-center;
+  @screen md {
+    object-position: 60%;
+  }
+}
+
+.ContentGrid {
+  @apply h-full py-8 md:pt-12 md:items-center lg:py-16;
+  height: 140vw;
+  min-height: 500px;
+
+  @screen md {
+    height: 37.5vw;
+    min-height: 600px;
+  }
+}
+
+.Title {
+  @apply leading-tight mb-6;
+}
+
+.Cta {
+  @apply capitalize;
+}

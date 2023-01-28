@@ -1,0 +1,56 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import StoryWindows from './index';
+
+<Meta title="Sormus/Interaction/StoryWindows" component={StoryWindows} />
+
+# StoryWindows
+
+The `StoryWindows` component is available for creating a collage of story based content, with each story comprising of an image, title, summary and link to more content.
+
+<Canvas>
+  <Story
+    name="StoryWindows"
+    args={{
+      imageSrcDesktopDefault:
+        'https://via.placeholder.com/1600x900/DBD7E9/DBD7E9',
+      stories: [
+        {
+          title: 'Chris Paul',
+          summary:
+            'With very little effort I get insights into my recovery and training that I didn’t know existed. Rather than questioning if I should train super hard or take a rest day, I have the data to back up how I am feeling.',
+          link: 'https://google.com',
+          imageSrc: 'https://via.placeholder.com/600x400/C1DDEC/C1DDEC',
+          imageSrcDesktop: 'https://via.placeholder.com/1600x900/C1DDEC/C1DDEC',
+        },
+        {
+          title: 'Lindsey Vonn',
+          summary:
+            'With very little effort I get insights into my recovery and training that I didn’t know existed. Rather than questioning if I should train super hard or take a rest day, I have the data to back up how I am feeling.',
+          link: 'https://google.com',
+          imageSrc: 'https://via.placeholder.com/600x400/FBF1D8/FBF1D8',
+          imageSrcDesktop: 'https://via.placeholder.com/1600x900/FBF1D8/FBF1D8',
+        },
+        {
+          title: 'Kai Lenny',
+          summary:
+            'With very little effort I get insights into my recovery and training that I didn’t know existed. Rather than questioning if I should train super hard or take a rest day, I have the data to back up how I am feeling.',
+          link: 'https://google.com',
+          imageSrc: 'https://via.placeholder.com/600x400/FBE6D8/FBE6D8',
+          imageSrcDesktop: 'https://via.placeholder.com/1600x900/FBE6D8/FBE6D8',
+        },
+        {
+          title: 'Laura',
+          summary:
+            'With very little effort I get insights into my recovery and training that I didn’t know existed. Rather than questioning if I should train super hard or take a rest day, I have the data to back up how I am feeling.',
+          link: 'https://google.com',
+          imageSrc: 'https://via.placeholder.com/600x400/FFE1E1/FFE1E1',
+          imageSrcDesktop: 'https://via.placeholder.com/1600x900/FFE1E1/FFE1E1',
+        },
+      ],
+    }}
+  >
+    {(args) => <StoryWindows {...args} />}
+  </Story>
+</Canvas>
+
+<ArgsTable story="StoryWindows" />

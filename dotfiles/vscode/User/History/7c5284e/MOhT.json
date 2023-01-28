@@ -1,0 +1,109 @@
+{
+  "body_html": "",
+  "traits": {
+    "Color": "Silver"
+  },
+  "description": "",
+  "title": "Oura Ring Generation 3",
+  "lineItemImage": {
+    "width": 503,
+    "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01-heritage@2x.png",
+    "alt": "heritage silver ring",
+    "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01-heritage@2x.png",
+    "height": 503
+  },
+  "price": {
+    "@currency": {
+      "JPY": {
+        "currencyCode": "JPY",
+        "amount": 32000
+      },
+      "USD": {
+        "currencyCode": "USD",
+        "amount": 299
+      },
+      "EUR": {
+        "currencyCode": "EUR",
+        "amount": 314
+      },
+      "CAD": {
+        "currencyCode": "CAD",
+        "amount": 379
+      }
+    },
+    "@region": {
+      "US": {
+        "currencyCode": "USD",
+        "amount": 299
+      },
+      "JP": {
+        "currencyCode": "JPY",
+        "amount": 99999
+      },
+      "CA": {
+        "currencyCode": "CAD",
+        "amount": 379
+      }
+    }
+  },
+  "document/sku/JZ90-1003-12": {},
+  "document/sku/JZ90-1003-13": {},
+  "id": 40000003454,
+  "document/sku/JZ90-1003-10": {},
+  "document/sku/JZ90-1003-11": {},
+  "document/sku/JZ90-1003-09": {},
+  "document/sku/JZ90-1003": {},
+  "productOptions": [
+    {
+      "name": "Size",
+      "value": "[\r\n  \"6\",\r\n  \"7\",\r\n  \"8\",\r\n  \"9\",\r\n  \"10\",\r\n  \"11\",\r\n  \"12\",\r\n  \"13\",\r\n  \"Size later\"\r\n]"
+    }
+  ],
+  "document/sku/JZ90-1003-06": {},
+  "document/sku/JZ90-1003-07": {},
+  "document/sku/JZ90-1003-08": {},
+  "handle": "heritage-silver",
+  "published": true,
+  "tags": "[\r\n  \"Heritage Silver\"\r\n]",
+  "productImages": [
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01-heritage@2x.png",
+      "alt": "heritage silver ring slide 1",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-01-heritage@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-02-heritage@2x.png",
+      "alt": "heritage silver ring slide 2",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-02-heritage@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-03-heritage@2x.png",
+      "alt": "heritage silver ring slide 3",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-silver-03-heritage@2x.png",
+      "height": 503
+    },
+    {
+      "width": 503,
+      "id": "17379192995894",
+      "transformedSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-lifestyle-silver-04-heritage@2x.jpg",
+      "alt": "heritage silver ring lifestyle slide 4",
+      "originalSrc": "https://s3.amazonaws.com/ouraring.com/images/product/simple/pdp-img-carousel-lifestyle-silver-04-heritage@2x.jpg",
+      "height": 503,
+      "fullBleedThumbnail": true
+    }
+  ],
+  "product_type": "Ring",
+  "seoParams": {
+    "title": "pdp_seo_title_heritage_silver",
+    "description": "pdp_seo_description_heritage"
+  },
+  "requiresSubscription": true
+}

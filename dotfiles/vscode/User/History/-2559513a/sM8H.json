@@ -1,0 +1,23 @@
+{
+  "description": "Enable New Gifting Flow on Checkout",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": false
+    },
+    "eks-staging": {
+      "enabled": false
+    },
+    "eks-production": {
+      "enabled": false
+    },
+    "development": {
+      "enabled": true
+    },
+    "staging": {
+      "enabled": true
+    },
+    "production": {
+      "enabled": false
+    }
+  }
+}

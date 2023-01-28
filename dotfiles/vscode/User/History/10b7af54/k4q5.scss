@@ -1,0 +1,44 @@
+.hamburger {
+  @apply h-11 mr-2 relative w-11 lg:hidden z-20;
+  .wrapper--sticky & {
+    @apply hidden;
+  }
+}
+
+.hamburgerIcon {
+  @apply absolute block h-4 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5;
+  span,
+  &:before,
+  &:after {
+    @apply absolute bg-current block transition-all duration-300 w-full;
+    content: '';
+    height: 2px;
+  }
+  span {
+    @apply top-1/2 transform -translate-y-1/2;
+  }
+  &:before {
+    @apply top-0;
+  }
+  &:after {
+    @apply bottom-0;
+  }
+  .hamburger--open & {
+    span,
+    &:before,
+    &:after {
+      @apply bg-helsinkiBlue;
+    }
+    span {
+      opacity: 0;
+    }
+    &:before {
+      transform: translate3d(-2px, 0, 0) rotate3d(0, 0, 1, -45deg);
+      transform-origin: top right;
+    }
+    &:after {
+      transform: translate3d(-2px, 0, 0) rotate3d(0, 0, 1, 45deg);
+      transform-origin: bottom right;
+    }
+  }
+}

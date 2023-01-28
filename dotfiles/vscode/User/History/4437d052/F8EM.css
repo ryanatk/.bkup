@@ -1,0 +1,71 @@
+.wrap {
+  position: sticky;
+
+  width: 100%;
+}
+
+.heading {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  padding: 1rem;
+}
+
+.content {
+  position: absolute;
+  top: 100%;
+  z-index: -1;
+
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* .content.open */
+.open {
+  height: auto;
+}
+
+@media (min-width: 44rem) {
+  .wrap {
+    position: fixed;
+    bottom: 0;
+
+    overflow: hidden;
+
+    /* override inline style (for mobile) */
+    z-index: auto !important;
+  }
+
+  .heading,
+  .backdrop {
+    display: none;
+  }
+
+  .content {
+    position: static;
+    height: 100%;
+  }
+
+  /* .content.open */
+  .open {
+    /* in case open is still set, and screen is resized */
+    height: 100%;
+  }
+
+  .spacer {
+    display: none;
+  }
+}
+
+.backdrop {
+  z-index: 1;
+}

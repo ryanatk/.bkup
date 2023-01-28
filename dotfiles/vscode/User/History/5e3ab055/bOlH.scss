@@ -1,0 +1,6 @@
+.select {
+  &:before {
+    content: '|';
+    display: inline-block;
+  }
+}

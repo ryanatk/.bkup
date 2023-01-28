@@ -1,0 +1,19 @@
+.section {
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  margin-bottom: 0.5rem;
+}
+
+.exhibitor {
+  margin: 1rem 0 0.5rem;
+}
+
+.buttons {
+  margin-bottom: 0.5rem;
+}
+
+.option:not(:last-of-type) {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,61 @@
+@keyframes slider {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc((-25% - 1.5rem) * 9), 0, 0);
+  }
+}
+
+@keyframes mobileSlider {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc((-75% - 1.5rem) * 9), 0, 0);
+  }
+}
+
+@keyframes tabletSlider {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc((-50% - 1.5rem) * 9), 0, 0);
+  }
+}
+
+@keyframes xlSlider {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc((-20% - 1.5rem) * 9), 0, 0);
+  }
+}
+
+.QuoteSlider {
+  @apply flex gap-6;
+  position: relative;
+  transition: 0.3s all;
+  animation: slider 35s linear infinite;
+
+  &--mobile {
+    @extend .QuoteSlider;
+    animation-name: mobileSlider;
+  }
+
+  &--tablet {
+    @extend .QuoteSlider;
+    animation-name: tabletSlider;
+  }
+
+  &--xl {
+    @extend .QuoteSlider;
+    animation-name: xlSlider;
+  }
+}

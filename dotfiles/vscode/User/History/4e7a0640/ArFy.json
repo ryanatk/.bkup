@@ -1,0 +1,23 @@
+{
+  "description": "Ensure the Country select dropdown is not disabled when updating membership billing",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": true
+    },
+    "eks-staging": {
+      "enabled": true
+    },
+    "eks-production": {
+      "enabled": true
+    },
+    "development": {
+      "enabled": true
+    },
+    "staging": {
+      "enabled": true
+    },
+    "production": {
+      "enabled": false
+    }
+  }
+}

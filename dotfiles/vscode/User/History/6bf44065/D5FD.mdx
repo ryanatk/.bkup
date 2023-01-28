@@ -1,0 +1,83 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import Accordion, { AccordionHeader, AccordionContent } from './index';
+
+<Meta title="Sormus/Interaction/Accordion" component={Accordion} />
+
+# Accordion
+
+The `Accordion` component allows you to wrap anything you wish in an accordion-style interaction. Simply use the `<AccordionHeader>` and `<AccordionContent>` components to tell your accordion what elements are what, and it will handle the on-click animations.
+
+**IMPORTANT: The accordion components are style agnostic. They simply add behavior.**
+
+## Usage
+
+When using the Accordion, simply wrap the entire element in an `Accordion` tag, and then use the `AccordionHeader` and `AccordionContent` tags as appropriate. Like so:
+
+```
+<Accordion>
+
+    <AccordionHeader>Header 1</AccordionHeader>
+    <AccordionContent>Content 1</AccordionContent>
+
+    <AccordionHeader>Header 2</AccordionHeader>
+    <AccordionContent>Content 2</AccordionContent>
+
+    <AccordionHeader>Header 3</AccordionHeader>
+    <AccordionContent>Content 3</AccordionContent>
+
+</Accordion>
+```
+
+## Example
+
+I've added arbitrary styling here to showcase that the components are style-agnostic.
+
+<Canvas>
+  <Story name="Accordion">
+    {(args) => (
+      <Accordion {...args}>
+        <AccordionHeader>
+          <div className="bg-helsinkiBlue text-white p-4">
+            <p className="text-subhead1 lg:text-subhead1Desktop">Header 1</p>
+          </div>
+        </AccordionHeader>
+        <AccordionContent>
+          <div className="flex items-center p-8 border">
+            <img src="//via.placeholder.com/100x100" />
+            <div className="p-4">
+              <p>This is my content in the accordion.</p>
+            </div>
+          </div>
+        </AccordionContent>
+        <AccordionHeader>
+          <div className="bg-sand p-4">
+            <p className="text-subhead1 lg:text-subhead1Desktop">Header 2</p>
+          </div>
+        </AccordionHeader>
+        <AccordionContent>
+          <div className="flex items-center p-8 border">
+            <img src="//via.placeholder.com/100x100" />
+            <div className="p-4">
+              <p>This is my content in the accordion.</p>
+            </div>
+          </div>
+        </AccordionContent>
+        <AccordionHeader>
+          <div className="bg-ensoBlue p-4">
+            <p className="text-subhead1 lg:text-subhead1Desktop">Header 3</p>
+          </div>
+        </AccordionHeader>
+        <AccordionContent>
+          <div className="flex items-center p-8 border">
+            <img src="//via.placeholder.com/100x100" />
+            <div className="p-4">
+              <p>This is my content in the accordion.</p>
+            </div>
+          </div>
+        </AccordionContent>
+      </Accordion>
+    )}
+  </Story>
+</Canvas>
+
+<ArgsTable story="Accordion" />

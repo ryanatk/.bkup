@@ -1,0 +1,26 @@
+import { ArgsTable, Story, Meta, Canvas } from '@storybook/addon-docs/blocks';
+import AudioPlayer from './index';
+
+<Meta title="Sormus/Elements/AudioPlayer" component={AudioPlayer} />
+
+# AudioPlayer
+
+The `AudioPlayer` component is available for displaying audio clips with basic user controls (play/pause) and an optional thumbnail.
+
+<Canvas>
+  <Story
+    name="AudioPlayer"
+    args={{
+      label: 'Sleepy sounds',
+      thumbnail: 'https://via.placeholder.com/48/222/222',
+      src: 'http://www.hochmuth.com/mp3/Tchaikovsky_Nocturne__orch.mp3',
+      isPlaying: true,
+      onPlay: () => null,
+      onPause: () => null,
+    }}
+  >
+    {(args) => <AudioPlayer {...args} />}
+  </Story>
+</Canvas>
+
+<ArgsTable story="AudioPlayer" />

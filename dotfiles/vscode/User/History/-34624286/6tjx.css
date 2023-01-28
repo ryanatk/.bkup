@@ -1,0 +1,9 @@
+.form {
+  height: 100%;
+}
+
+.input {
+  width: 3rem;
+  height: 100%;
+  text-align: center;
+}

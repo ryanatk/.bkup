@@ -1,0 +1,21 @@
+.round {
+  border-radius: 50%;
+  width: 100%;
+  min-width: 3rem;
+  min-height: 3rem;
+}
+
+.add {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+.border {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: inherit;
+}
+
+.quantity {
+  padding: 0 0.125rem;
+}

@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.main {
+  flex: 1;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 44rem) {
+  .main {
+    margin-left: 16rem;
+  }
+}

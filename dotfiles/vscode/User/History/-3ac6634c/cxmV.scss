@@ -1,0 +1,78 @@
+/**
+ * This file contains styles for common elements,
+ * along with variants of each element.
+ *
+ * Feel free to move styles between the common shared
+ * class names, and the specific variant classes,
+ * but please test them all when doing so.
+ *
+ * Also feel free to remove variants when done with them,
+ * at your own risk (and please remove from config list).
+ */
+
+.content {
+  @apply relative z-10;
+  @apply flex flex-col items-center lg:flex-row lg:flex-wrap;
+  @apply w-full h-full lg:h-auto pb-14 pt-36 md:pb-24 md:pt-48;
+  @apply col-main lg:col-start-3 lg:col-end-8;
+
+  &.accurate {
+    @apply lg:pr-12;
+  }
+
+  &.sleep {
+    @apply lg:col-end-9 xl:col-end-8;
+  }
+
+  &.wishlist {
+    @apply lg:col-end-9 xl:col-end-8;
+  }
+}
+
+.title {
+  @apply font-extralight leading-tight lg:flex-shrink-0 lg:w-full;
+
+  &.accurate {
+    @apply mb-4 text-4xl md:text-7xl;
+
+    @screen md {
+      letter-spacing: -2px;
+    }
+
+    @screen lg {
+      font-size: 3rem;
+    }
+
+    @screen xl {
+      font-size: 4rem;
+    }
+  }
+
+  &.sleep {
+    @apply order-2 text-5xl mb-2 lg:order-1 lg:mb-4;
+  }
+
+  &.wishlist {
+    @apply text-4xl mb-4 md:text-7xl;
+
+    @screen md {
+      letter-spacing: -2px;
+    }
+
+    @screen xl {
+      font-size: 5.25rem;
+    }
+  }
+}
+
+.body {
+  @apply leading-relaxed lg:flex-shrink-0 lg:w-full;
+
+  &.sleep {
+    @apply order-1 mb-2 text-lg lg:order-2 lg:text-xl;
+  }
+
+  &.wishlist {
+    @apply mb-4 text-xl md:text-[1.6rem];
+  }
+}

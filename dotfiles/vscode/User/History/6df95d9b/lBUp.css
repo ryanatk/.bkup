@@ -1,0 +1,17 @@
+html,
+body {
+  overflow-y: hidden;
+}
+
+/* only apply to "screen" (leave "print" alone) */
+@media screen {
+  #root {
+    height: 100vh;
+    /* let the content handle its own scrollbar */
+    overflow-y: hidden;
+  }
+}
+
+*[hidden] {
+  display: none;
+}

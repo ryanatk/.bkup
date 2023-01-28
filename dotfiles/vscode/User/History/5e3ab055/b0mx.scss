@@ -1,0 +1,6 @@
+.wrap {
+  &:before {
+    content: '|';
+    @apply inline-block text-helsinkiBlue text-subhead2 mx-4;
+  }
+}

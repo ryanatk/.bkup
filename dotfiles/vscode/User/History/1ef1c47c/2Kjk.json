@@ -1,0 +1,23 @@
+{
+  "description": "Enables Therabody text on the Sizing page",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": true
+    },
+    "eks-staging": {
+      "enabled": true
+    },
+    "eks-production": {
+      "enabled": true
+    },
+    "development": {
+      "enabled": true
+    },
+    "staging": {
+      "enabled": true
+    },
+    "production": {
+      "enabled": false
+    }
+  }
+}

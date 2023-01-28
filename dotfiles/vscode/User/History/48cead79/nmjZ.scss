@@ -1,0 +1,17 @@
+.QuoteCard {
+  @apply bg-sand p-8 rounded-xl flex-none;
+  @apply flex flex-col justify-between items-start;
+  @apply w-3/4;
+}
+
+@screen md {
+  @apply w-1/2;
+}
+
+@screen lg {
+  @apply w-1/4;
+}
+
+@screen xl {
+  @apply w-1/5;
+}

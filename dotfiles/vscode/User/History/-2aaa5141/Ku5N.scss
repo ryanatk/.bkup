@@ -1,0 +1,79 @@
+.Typography-body {
+  @apply text-helsinkiBlue font-normal;
+}
+
+.Typography-h1 {
+  font-size: 2.5rem;
+  @apply tracking-tight font-light leading-tight;
+
+  @screen md {
+    font-size: 3.75rem;
+  }
+
+  @screen lg {
+    font-size: 5.25rem;
+  }
+}
+
+.Typography-h2 {
+  font-size: 2.5rem;
+  @apply tracking-normal font-light leading-tight;
+
+  @screen lg {
+    font-size: 3.75rem;
+  }
+}
+
+.Typography-h3 {
+  font-size: 2rem;
+  @apply tracking-normal font-light leading-tight;
+
+  @screen lg {
+    font-size: 2.5rem;
+  }
+}
+
+.Typography-h4 {
+  font-size: 1.375rem;
+  @apply tracking-normal font-light leading-tight;
+
+  @screen lg {
+    font-size: 2rem;
+  }
+}
+
+.Typography-h5 {
+  font-size: 1.25rem;
+  @apply tracking-normal font-light leading-relaxed;
+
+  @screen lg {
+    @apply leading-10;
+    font-size: 1.75rem;
+  }
+}
+
+.Typography-h6 {
+  font-size: 1.25rem;
+  @apply tracking-normal font-light leading-relaxed;
+}
+
+.Typography-body {
+  font-size: 1rem;
+}
+
+.Typography-grow {
+  @apply font-normal;
+  font-size: 1rem;
+
+  @screen lg {
+    font-size: 1.25rem;
+  }
+}
+
+.Typography-eyebrow {
+  font-size: 0.875rem;
+}
+
+.Typography-caption {
+  font-size: 0.75rem;
+}

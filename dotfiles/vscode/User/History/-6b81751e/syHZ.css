@@ -1,0 +1,13 @@
+.box {
+  padding: 1rem;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 44rem) {
+  .box {
+    padding: 2rem;
+  }
+}

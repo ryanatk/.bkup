@@ -1,0 +1,14 @@
+.remove,
+.trash {
+  display: flex;
+  align-items: center;
+}
+
+.trash {
+  position: relative;
+  left: -0.125rem;
+}
+
+.quantity {
+  z-index: 1;
+}

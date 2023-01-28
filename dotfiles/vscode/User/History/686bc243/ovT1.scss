@@ -1,0 +1,24 @@
+.blur {
+  pointer-events: none;
+
+  &:before {
+    @apply absolute block h-full left-0 top-0 w-full;
+
+    content: '';
+    background-color: rgba(255, 255, 255, 0.35);
+    background-blend-mode: multiply;
+    backdrop-filter: blur(60px);
+    opacity: 0;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: 0.3s background-color ease-in-out, 0.3s opacity ease-in-out,
+        0.3s transform ease-in-out;
+    }
+  }
+
+  .inverse & {
+    &:before {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}

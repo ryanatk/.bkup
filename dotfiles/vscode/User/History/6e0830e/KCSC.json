@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "exclude": ["src/**/.unused/*"],
+  "include": ["src"]
+}

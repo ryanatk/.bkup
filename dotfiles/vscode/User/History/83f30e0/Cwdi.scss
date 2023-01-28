@@ -1,0 +1,11 @@
+.border:last-of-type{
+                @apply pb-8 mb-8 lg:pb-0 lg:mb-0
+
+&:after {
+    content: '';
+    display: block;
+                'border-b lg:border-b-0 lg:border-r lg:rounded-xl':
+                  i < ringGens.length - 1,
+                'border-grayscale-text': i < ringGens.length - 1,
+              }
+}

@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  flex: 1;
+  padding: 1rem 1rem 0;
+}
+
+/* add hidden element to allow `flex` to center our content */
+.page:before {
+  content: ' ';
+  display: block;
+}
+
+.logo {
+  height: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.paper {
+  width: 100%;
+  max-width: 28rem;
+  padding: 1.5rem;
+}
+
+.footer {
+  flex-grow: 0;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+}

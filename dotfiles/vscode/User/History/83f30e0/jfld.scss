@@ -1,0 +1,17 @@
+.border:not(:last-of-type) {
+  @apply pb-8 mb-8 lg:pb-0 lg:mb-0;
+  background-color: #faa;
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    @apply border-grayscale-text;
+    @apply border-b;
+    // @apply lg:border-b-0 lg:border-r lg:h-8;
+
+    @screen lg {
+      @apply lg:border-b-0 lg:border-r lg:h-8;
+    }
+  }
+}

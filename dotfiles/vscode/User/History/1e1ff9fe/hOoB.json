@@ -1,0 +1,23 @@
+{
+  "description": "Enables iframe version of forms on b2b page",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": true
+    },
+    "eks-staging": {
+      "enabled": true
+    },
+    "eks-production": {
+      "enabled": true
+    },
+    "development": {
+      "enabled": true
+    },
+    "staging": {
+      "enabled": true
+    },
+    "production": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,97 @@
+/**
+ * This hook returns a preset list of utm query params, from the url.
+ *
+ * It also accepts a list of `matchParams`, and returns a boolean
+ * to show if at least 1 of the values passed in for each key is found.
+ *
+ * The goal is to make it easy to:
+ * 1. get utm params from the url
+ * 2. determine if a match is made
+ *
+ * When found, writes the params to session storage, to maintain state.
+ * This can optionally be turned off, by setting `readOnly`.
+ */
+
+import { intersection } from 'lodash';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+import { clearState, loadState, saveState } from '../../utils/stateStorage';
+import { PartnerUtm } from './partner/types';
+
+interface Options extends PartnerUtm {
+  readOnly?: boolean; // optionally do not write to storage
+}
+
+interface ReturnType {
+  utm: PartnerUtm; // return the object, for debugging
+  isMatch: boolean; // at least 1 match for each param is found
+  isMatchParams: boolean; // match is from query (not storage)
+  isMatchStorage: boolean; // match is from storage (not query)
+  clear: () => void; // clear storage
+}
+
+export const STORAGE_KEY = 'parner-utm-data';
+const INIT_STATE = {
+  utm: null,
+  hasQueryUtm: false,
+};
+
+const usePartnerUtm = ({
+  readOnly,
+  ...matchParams
+}: Options = {}): ReturnType => {
+  const [state, setState] = useState({
+    ...INIT_STATE,
+    utm: loadState(STORAGE_KEY),
+  });
+  const { query } = useRouter();
+
+  useEffect(() => {
+    const queryUtm: PartnerUtm = {
+      utm_medium: query.utm_medium,
+      utm_source: query.utm_source,
+      utm_campaign: query.utm_campaign,
+      utm_content: query.utm_content,
+    };
+
+    const hasQueryUtm = Object.values(queryUtm).some((utm) => utm);
+
+    if (hasQueryUtm && !readOnly) {
+      saveState(queryUtm, STORAGE_KEY);
+    }
+
+    const utm = hasQueryUtm ? queryUtm : state.utm;
+
+    if (state.utm !== utm || state.hasQueryUtm !== hasQueryUtm) {
+      setState({ utm, hasQueryUtm });
+    }
+  }, [query, readOnly]);
+
+  // check if all matchParams are present
+  const isMatch = Object.keys(matchParams).length
+    ? Object.entries(matchParams).every(([key, val]) => {
+        // for comparison, cast to array (query can have the same param multiple times, which returns an array)
+        const utmValue = state.utm?.[key];
+        const utmList = Array.isArray(utmValue) ? utmValue : [utmValue];
+        const valuesList = Array.isArray(val) ? val : [val];
+
+        return intersection(utmList, valuesList).length;
+      })
+    : false;
+
+  // manually clear local storage & state
+  const clear = () => {
+    clearState(STORAGE_KEY);
+    setState(INIT_STATE);
+  };
+
+  return {
+    utm: state.utm,
+    isMatch,
+    isMatchParams: isMatch && state.hasQueryUtm,
+    isMatchStorage: isMatch && !state.hasQueryUtm,
+    clear,
+  };
+};
+
+export default usePartnerUtm;

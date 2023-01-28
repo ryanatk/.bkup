@@ -1,0 +1,19 @@
+import BENEFITS from './benefits';
+import CONNECT_OPTIONS from './connect-options';
+import CONTACT_FORM from './contact-form';
+import LEARN_MORE from './learn-more';
+import LOGO from './logo';
+import QUOTES from './quotes';
+import SECTION from './section';
+import SOLUTIONS_IMAGES from './solutions-images';
+
+export {
+  BENEFITS,
+  CONNECT_OPTIONS,
+  CONTACT_FORM,
+  LEARN_MORE,
+  LOGO,
+  QUOTES,
+  SECTION,
+  SOLUTIONS_IMAGES,
+};

@@ -1,0 +1,1 @@
+import  Typography , {TypographyProps} from "../../../sormus/Typography";

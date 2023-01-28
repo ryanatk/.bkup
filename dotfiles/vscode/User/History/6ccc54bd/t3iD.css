@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+
+  border-radius: 50%;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 2rem;
+  padding: 0 0.25rem;
+}
+
+.plus,
+.minus {
+  padding: 0.25rem 0.625rem;
+  height: 100%;
+}
+
+.plus {
+  border-radius: 0 50% 50% 0;
+}
+
+.minus {
+  border-radius: 50% 0 0 50%;
+}

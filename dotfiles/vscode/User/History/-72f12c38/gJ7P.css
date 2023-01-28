@@ -1,0 +1,15 @@
+.round {
+  border-radius: 50%;
+  width: 100%;
+  min-width: auto;
+}
+
+.add {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+.border {
+  border-style: solid;
+  border-width: 2px;
+}

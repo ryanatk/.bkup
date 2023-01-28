@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'AkkuratLL';
+  src: url('../fonts/AkkuratLL-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'AkkuratLL';
+  src: url('../fonts/AkkuratLL-Light.woff2') format('woff2');
+  font-weight: 300;
+}

@@ -1,0 +1,13 @@
+.button {
+  @apply block h-11 ml-3 relative w-11 lg:ml-7 lg:-ml-3;
+}
+
+.icon {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.count {
+  @apply absolute font-normal left-1/2 text-xs transform -translate-x-1/2 -translate-y-1/2;
+
+  top: 26px;
+}

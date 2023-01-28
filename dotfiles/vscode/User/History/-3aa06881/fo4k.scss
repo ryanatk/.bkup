@@ -1,0 +1,45 @@
+.ScrollTeaser {
+  @apply hidden;
+  transition: opacity 0.25s;
+  will-change: opacity;
+
+  @screen md {
+    @apply block w-20 fixed bottom-4 left-4 opacity-100 text-center lg:bottom-14 lg:left-14 lg:w-28;
+  }
+}
+
+.icon {
+  @apply relative inline-block  rounded-full h-20 w-20 lg:h-24 lg:w-24;
+
+  & > svg {
+    @apply transform rotate-90 absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-2/4;
+  }
+
+  &.default {
+    @apply bg-helsinkiBlue text-white;
+  }
+
+  &.gray {
+    @apply text-grayMedium border border-grayscale;
+  }
+}
+
+.small {
+  @apply h-16 w-16;
+}
+
+.text {
+  @apply mb-6;
+
+  &.default {
+    @apply text-helsinkiBlue;
+  }
+
+  &.gray {
+    @apply text-grayMedium;
+  }
+}
+
+.invisible {
+  @apply opacity-0;
+}

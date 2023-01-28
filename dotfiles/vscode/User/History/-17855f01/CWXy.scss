@@ -1,0 +1,12 @@
+.SlideshowKaksi {
+  @apply flex flex-col gap-2.5 md:gap-6;
+  background-color: #faa;
+}
+
+.SlideshowKaksi__CurrentMedia {
+  @apply self-center;
+}
+
+.SlideshowKaksi__Navigation {
+  @apply lg:self-center;
+}

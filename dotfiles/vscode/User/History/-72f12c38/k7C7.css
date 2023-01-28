@@ -1,0 +1,14 @@
+.round {
+  border-radius: 50%;
+  width: 100%;
+  min-width: auto;
+}
+
+.add {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+.border {
+  border: 2px solid transparent;
+}

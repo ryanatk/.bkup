@@ -1,0 +1,133 @@
+.wrap {
+  @apply z-20;
+  @apply w-full;
+  position: sticky; // cannot apply `sticky` tailwind class because the namespace creates a circular dependency
+  @apply top-0; // for sticky
+  @apply bg-white;
+
+  @screen lg {
+    @apply static; // let the header scroll before reappearing
+    @apply bg-transparent; // let the blur shine thru
+
+    &.sticky {
+      position: sticky; // cannot apply `sticky` tailwind class because the namespace creates a circular dependency
+      transform: translate3d(0, -200%, 0);
+    }
+
+    &.pinned {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @media (prefers-reduced-motion) {
+    transition: none !important;
+  }
+}
+
+.header {
+  @screen lg {
+    .wrap:not(.sticky) & {
+      // adds background to the entire header
+      background: linear-gradient(
+        rgb(255, 255, 255) 50%,
+        rgb(246, 243, 239) 50%
+      );
+    }
+  }
+}
+
+.content,
+.sections {
+  @screen lg {
+    @apply z-10;
+  }
+}
+
+.content {
+  @apply col-main row-start-1;
+  @apply flex items-center justify-start w-full;
+  min-height: 68px;
+
+  @screen lg {
+    @apply col-start-3 col-end-13;
+    @apply justify-between gap-x-8;
+    min-height: 98px;
+    transition: 0.3s padding ease-in-out;
+  }
+
+  .wrap.sticky & {
+    @apply py-3;
+    min-height: 62px;
+
+    @screen lg {
+      @apply col-end-6 overflow-hidden;
+      @apply py-6;
+      min-height: 74px;
+    }
+  }
+}
+
+.sections {
+  @apply col-full row-start-2;
+  @apply border-t border-gray-200;
+  @apply bg-white;
+
+  @screen lg {
+    @apply col-start-3 col-end-13;
+    @apply w-auto;
+    @apply border-none bg-transparent;
+
+    .wrap.sticky & {
+      @apply row-start-1;
+      @apply col-start-5; // technically overlaps the logo, but gives space before list wraps
+      @apply w-full overflow-hidden;
+    }
+  }
+}
+
+.sectionsList {
+  @apply col-main;
+
+  @screen lg {
+    @apply col-start-3 col-end-13;
+    @apply flex justify-end items-center gap-x-8;
+    @apply py-5;
+    @apply flex-wrap;
+
+    .wrap.sticky & {
+      @apply w-full;
+    }
+  }
+}
+
+.sectionItem {
+  @apply w-full;
+  @apply border-t border-gray-200;
+
+  @screen lg {
+    @apply w-auto;
+    @apply border-none;
+  }
+}
+
+.logo {
+  @apply flex-shrink-0;
+}
+
+// Mobile & tablet only
+
+.accordion {
+  @apply relative;
+  @apply col-main;
+}
+
+.accordionHeader {
+  @apply col-main;
+  @apply mr-6;
+  padding-right: 0 !important; // override style from accordion
+}
+
+.accordionContent {
+  @apply absolute top-full left-0 right-0;
+  @apply bg-white;
+}

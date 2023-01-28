@@ -1,0 +1,23 @@
+.page {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header,
+.footer {
+  flex: 0;
+}
+
+.main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  margin: 0 auto;
+}

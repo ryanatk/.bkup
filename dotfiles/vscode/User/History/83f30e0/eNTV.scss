@@ -1,0 +1,18 @@
+.border:not(:last-of-type) {
+  @apply pb-8 mb-8;
+  @apply border-grayscale-text border-b;
+
+  @screen lg {
+    @apply border-b-0 pb-0 mb-0; // reset
+    @apply relative; // for :after
+  }
+
+  &:after {
+    content: '';
+
+    @screen lg {
+      @apply absolute right-0 top-20;
+      @apply border-r h-16;
+    }
+  }
+}

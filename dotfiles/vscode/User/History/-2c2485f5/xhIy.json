@@ -1,0 +1,23 @@
+{
+  "description": "Enables new `/business` page design",
+  "@env": {
+    "eks-sandbox": {
+      "enabled": false
+    },
+    "eks-staging": {
+      "enabled": false
+    },
+    "eks-production": {
+      "enabled": false
+    },
+    "development": {
+      "enabled": false
+    },
+    "staging": {
+      "enabled": false
+    },
+    "production": {
+      "enabled": false
+    }
+  }
+}

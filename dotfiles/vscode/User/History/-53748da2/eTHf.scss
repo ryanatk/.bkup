@@ -1,0 +1,109 @@
+.wrapper {
+  @apply relative w-full z-20;
+  &--sticky {
+    @apply sticky top-0;
+    transform: translate3d(0, -200%, 0);
+  }
+  &--pinned {
+    transform: translate3d(0, 0, 0);
+  }
+  @media (prefers-reduced-motion) {
+    transition: none !important;
+  }
+}
+
+.header {
+  @apply text-helsinkiBlue relative z-10;
+  .wrapper--inverse & {
+    @apply text-white transition-colors duration-300;
+  }
+}
+
+.headerInner {
+  @apply col-main flex items-center py-3 lg:col-start-3 lg:col-end-13 lg:py-6;
+  min-height: 68px;
+  transition: 0.3s padding ease-in-out;
+  @screen lg {
+    min-height: 98px;
+  }
+  .wrapper--sticky & {
+    @apply py-3;
+    min-height: 62px;
+    @screen lg {
+      min-height: 74px;
+    }
+  }
+}
+
+.headerMain {
+  @apply lg:flex lg:items-center;
+}
+
+.hamburger {
+  @apply h-11 mr-2 relative w-11 lg:hidden z-20;
+  .wrapper--sticky & {
+    @apply hidden;
+  }
+}
+
+.hamburgerIcon {
+  @apply absolute block h-4 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5;
+  span,
+  &:before,
+  &:after {
+    @apply absolute bg-current block transition-all duration-300 w-full;
+    content: '';
+    height: 2px;
+  }
+  span {
+    @apply top-1/2 transform -translate-y-1/2;
+  }
+  &:before {
+    @apply top-0;
+  }
+  &:after {
+    @apply bottom-0;
+  }
+  .hamburger--open & {
+    span,
+    &:before,
+    &:after {
+      @apply bg-helsinkiBlue;
+    }
+    span {
+      opacity: 0;
+    }
+    &:before {
+      transform: translate3d(-2px, 0, 0) rotate3d(0, 0, 1, -45deg);
+      transform-origin: top right;
+    }
+    &:after {
+      transform: translate3d(-2px, 0, 0) rotate3d(0, 0, 1, 45deg);
+      transform-origin: bottom right;
+    }
+  }
+}
+
+.logo {
+  @apply block flex-shrink-0 mr-auto w-14 md:w-24;
+  .wrapper--sticky & {
+    @screen lg {
+      width: 70px;
+    }
+  }
+}
+
+.mainNav,
+.utilityNav {
+  a {
+    @apply text-helsinkiBlue lg:text-current;
+  }
+}
+
+.mainNav {
+  @apply border-grayscale-medium border-b px-3 pb-10 lg:border-b-0 lg:p-0;
+}
+
+.shopCta {
+  @apply text-sm px-3 py-2 lg:text-base lg:px-6 lg:py-3 lg:ml-10;
+}

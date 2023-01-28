@@ -1,0 +1,27 @@
+.main {
+  flex: 1;
+
+  margin: 0 auto;
+  width: 63rem;
+  max-width: 100%;
+}
+
+.content {
+  padding: 1rem;
+}
+
+@media (min-width: 44rem) {
+  .main {
+    padding: 2rem 1rem;
+  }
+
+  .sidebar {
+    width: 15rem !important; /* override default in Sidebar */
+  }
+
+  .content {
+    margin-left: 15rem; /* allow space for sidebar */
+
+    padding: 0;
+  }
+}

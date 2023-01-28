@@ -1,0 +1,12 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 44rem) {
+  .summary {
+    position: sticky;
+    top: 2.5rem;
+  }
+}

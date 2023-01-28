@@ -1,0 +1,27 @@
+.container {
+  @apply py-8;
+}
+
+.device {
+  @apply col-main text-center md:row-start-1 md:col-span-5 lg:col-span-4;
+
+  &:not(.reverse) {
+    @apply md:col-start-3;
+  }
+
+  &.reverse {
+    @apply md:col-end-13;
+  }
+}
+
+.content {
+  @apply col-main text-left md:row-start-1 md:col-span-4 lg:col-span-3;
+
+  &:not(.reverse) {
+    @apply md:col-end-13 lg:col-end-12;
+  }
+
+  &.reverse {
+    @apply md:col-start-3 md:col-start-4;
+  }
+}

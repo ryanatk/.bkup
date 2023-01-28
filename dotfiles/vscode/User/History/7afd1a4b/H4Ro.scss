@@ -1,0 +1,51 @@
+.container {
+  @apply overflow-x-scroll;
+  cursor: grab;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.list {
+  @apply flex gap-8 w-max;
+}
+
+.image {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.scrollbar {
+  @apply overflow-x-auto;
+
+  &::-webkit-scrollbar {
+    @apply rounded h-px;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-grayscale;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-helsinkiBlue rounded;
+  }
+}
+
+.imageWrap {
+  @apply flex-shrink-0;
+
+  transition: all 1s ease-in-out;
+
+  opacity: 1;
+  margin-left: 0;
+
+  &.offscreen {
+    opacity: 0;
+    margin-left: 8em;
+  }
+}

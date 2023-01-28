@@ -1,0 +1,28 @@
+.item {
+  @apply flex-shrink-0 relative text-helsinkiBlue-dark;
+  @apply px-5 lg:px-5;
+
+  &:not(:last-child):after {
+    @apply absolute;
+    @apply h-2 w-2 lg:h-2.5 lg:w-2.5;
+
+    content: '';
+    background-color: currentColor;
+    border-radius: 50%;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+  }
+}
+
+.text {
+  @apply text-xl whitespace-nowrap lg:text-3xl;
+
+  &:before {
+    content: '“';
+  }
+
+  &:after {
+    content: '”';
+  }
+}

@@ -1,0 +1,22 @@
+/* only apply to "screen" (leave "print" alone) */
+@media screen {
+  html {
+    /* body { */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+  }
+
+  #root {
+    height: 100%;
+    /* let the content handle its own scrollbar */
+    overflow-y: hidden;
+  }
+}
+
+*[hidden] {
+  display: none;
+}

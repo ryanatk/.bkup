@@ -1,0 +1,18 @@
+.Icon {
+  path {
+    fill: currentColor !important;
+  }
+}
+
+.Icon--Outlined {
+  @apply border p-1 rounded-full border-opacity-20 border-white;
+}
+
+.Icon--Square {
+  @apply border p-2 rounded-xl border-opacity-20 border-current;
+}
+
+.Icon--Large {
+  @apply p-2;
+  font-size: 2.25rem !important;
+}

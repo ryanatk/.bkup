@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    // Hides `.unused` dirs from
+    // fulltext searches (Cmd + Shift + F), and quick open (Cmd + P)
+    "**/.unused": true
+    // (to hide in the Explorer (left sidebar), change `search.exclude` to `file.exclude`)
+  }
+}

@@ -1,0 +1,55 @@
+import { useCallback, useEffect, useState } from 'react';
+import cx from 'classnames';
+
+import { TEXT } from 'common/const';
+
+import styles from './Input.module.css';
+
+const Input = ({ submit, textClass, value: initialValue, state }) => {
+  // console.log('<QuantityButton.Input>', { initialValue, state });
+
+  // can be number or string
+  const [value, setValue] = useState(initialValue);
+
+  // update value whenever "initialValue" changes
+  useEffect(() => setValue(Number(initialValue)), [initialValue, state]);
+
+  // submit value
+  const handleSubmit = useCallback(
+    // submit a number
+    () => submit(Number(value)),
+    [value, submit],
+  );
+
+  return (
+    <form
+      onSubmit={(e) => {
+        e.preventDefault();
+        handleSubmit();
+      }}
+      className={styles.form}
+    >
+      <input
+        className={cx(TEXT.SUBTITLE, textClass, styles.input)}
+        pattern="[0-9.0-9]{1,8}"
+        inputMode="decimal"
+        value={value}
+        onChange={({ target = {} }) => {
+          if (!isNaN(target.value)) {
+            // set as string, to keep the trailing decimal
+            setValue(target.value);
+          } else if (target.value === '.') {
+            // keep the leading decimal, while still providing a number
+            setValue('0.');
+          }
+        }}
+        onBlur={handleSubmit}
+      />
+
+      {/* Needed so ENTER key will submit form */}
+      <input type="submit" hidden />
+    </form>
+  );
+};
+
+export default Input;

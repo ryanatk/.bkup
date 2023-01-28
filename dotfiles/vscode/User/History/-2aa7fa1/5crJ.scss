@@ -1,0 +1,58 @@
+.title,
+.text,
+.navigation {
+  // common styles for content sharing a column
+  @apply col-main md:col-span-10 lg:col-span-4;
+
+  &.right {
+    @apply md:col-end-13;
+  }
+
+  &.left {
+    @apply md:col-start-3;
+  }
+}
+
+.title {
+  @apply m-0 lg:self-end;
+  @apply row-start-1;
+}
+
+.text {
+  @apply lg:self-end;
+  @apply lg:row-end-3;
+
+  &.primary {
+    @apply lg:row-start-1;
+  }
+
+  &.secondary {
+    @apply lg:row-start-2;
+  }
+}
+
+.navigation {
+  @apply row-start-3 lg:row-start-3;
+}
+
+.media {
+  @apply mx-auto;
+  @apply col-full md:col-span-10 lg:col-span-5;
+  @apply row-end-3 lg:row-end-5;
+
+  &.left {
+    @apply md:col-end-13 lg:col-end-8;
+  }
+
+  &.right {
+    @apply md:col-start-3 lg:col-start-8;
+  }
+
+  &.primary {
+    @apply row-start-1;
+  }
+
+  &.secondary {
+    @apply row-start-2 lg:row-start-1;
+  }
+}

@@ -1,0 +1,10 @@
+.sidebar {
+  padding: 0 1rem 1rem;
+}
+
+@media (min-width: 44rem) {
+  .sidebar {
+    padding-top: 2rem;
+    padding-right: 0;
+  }
+}

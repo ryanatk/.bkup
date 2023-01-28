@@ -1,0 +1,36 @@
+.mainImage {
+  @apply row-start-1 col-span-3 md:col-span-5;
+
+  &:not(.reverse) {
+    @apply col-start-3;
+  }
+
+  &.reverse {
+    @apply col-end-5 md:col-end-13;
+  }
+}
+
+.sideImage {
+  @apply relative lg:top-16 h-0 flex justify-end items-center;
+  @apply row-start-1 col-span-2;
+
+  &:not(.reverse) {
+    @apply col-end-4;
+  }
+
+  &.reverse {
+    @apply col-start-4 md:col-start-10 lg:col-start-11;
+  }
+}
+
+.content {
+  @apply col-main text-left md:self-center;
+
+  &:not(.reverse) {
+    @apply md:row-start-1 md:col-start-9 md:col-end-12;
+  }
+
+  &.reverse {
+    @apply md:col-start-4 md:col-end-7;
+  }
+}

@@ -1,0 +1,2808 @@
+{
+  "AX": {
+    "countryCode": "AX",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Åland Islands",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+358"
+  },
+  "AL": {
+    "countryCode": "AL",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Albania",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+355",
+    "disableForBilboLaunch": true
+  },
+  "AD": {
+    "countryCode": "AD",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Andorra",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+376",
+    "disableForBilboLaunch": true
+  },
+  "AR": {
+    "countryCode": "AR",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Argentina",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+54"
+  },
+  "AM": {
+    "countryCode": "AM",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Armenia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+374"
+  },
+  "AU": {
+    "countryCode": "AU",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Australia",
+    "regions": [
+      {
+        "label": "Australian Capital Territory",
+        "value": "ACT"
+      },
+      {
+        "label": "New South Wales",
+        "value": "NSW"
+      },
+      {
+        "label": "Northern Territory",
+        "value": "NT"
+      },
+      {
+        "label": "Queensland",
+        "value": "QLD"
+      },
+      {
+        "label": "South Australia",
+        "value": "SA"
+      },
+      {
+        "label": "Tasmania",
+        "value": "TAS"
+      },
+      {
+        "label": "Victoria",
+        "value": "VIC"
+      },
+      {
+        "label": "Western Australia",
+        "value": "WA"
+      }
+    ],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+61"
+  },
+  "AT": {
+    "countryCode": "AT",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Austria",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+43"
+  },
+  "BY": {
+    "countryCode": "BY",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Belarus",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+375",
+    "disableForBilboLaunch": true
+  },
+  "BE": {
+    "countryCode": "BE",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Belgium",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+32"
+  },
+  "BM": {
+    "countryCode": "BM",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Bermuda",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+441"
+  },
+  "BO": {
+    "countryCode": "BO",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Bolivia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+591",
+    "disableForBilboLaunch": true
+  },
+  "BA": {
+    "countryCode": "BA",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Bosnia and Herzegovina",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+387",
+    "disableForBilboLaunch": true
+  },
+  "BG": {
+    "countryCode": "BG",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Bulgaria",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+359"
+  },
+  "CA": {
+    "countryCode": "CA",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Canada",
+    "regions": [
+      {
+        "label": "Alberta",
+        "value": "AB"
+      },
+      {
+        "label": "British Columbia",
+        "value": "BC"
+      },
+      {
+        "label": "Manitoba",
+        "value": "MB"
+      },
+      {
+        "label": "New Brunswick",
+        "value": "NB"
+      },
+      {
+        "label": "Newfoundland and Labrador",
+        "value": "NL"
+      },
+      {
+        "label": "Northwest Territories",
+        "value": "NT"
+      },
+      {
+        "label": "Nova Scotia",
+        "value": "NS"
+      },
+      {
+        "label": "Nunavut",
+        "value": "NU"
+      },
+      {
+        "label": "Ontario",
+        "value": "ON"
+      },
+      {
+        "label": "Prince Edward Island",
+        "value": "PE"
+      },
+      {
+        "label": "Quebec",
+        "value": "QC"
+      },
+      {
+        "label": "Saskatchewan",
+        "value": "SK"
+      },
+      {
+        "label": "Yukon",
+        "value": "YT"
+      }
+    ],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+1"
+  },
+  "CL": {
+    "countryCode": "CL",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Chile",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+56",
+    "disableForBilboLaunch": true
+  },
+  "CO": {
+    "countryCode": "CO",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Colombia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+57",
+    "disableForBilboLaunch": true
+  },
+  "HR": {
+    "countryCode": "HR",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Croatia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+385"
+  },
+  "CY": {
+    "countryCode": "CY",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Cyprus",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+357"
+  },
+  "CZ": {
+    "countryCode": "CZ",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Czech Republic",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+420"
+  },
+  "DK": {
+    "countryCode": "DK",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Denmark",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+45"
+  },
+  "EC": {
+    "countryCode": "EC",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Ecuador",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+593"
+  },
+  "SM": {
+    "countryCode": "SM",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "San Marino",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+378"
+  },
+  "SV": {
+    "countryCode": "SV",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "El Salvador",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+503"
+  },
+  "EE": {
+    "countryCode": "EE",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Estonia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+372"
+  },
+  "FO": {
+    "countryCode": "FO",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Faroe Islands",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+298"
+  },
+  "FI": {
+    "countryCode": "FI",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Finland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+358"
+  },
+  "FR": {
+    "countryCode": "FR",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "France",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+33"
+  },
+  "GF": {
+    "countryCode": "GF",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "French Guiana",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+594"
+  },
+  "PF": {
+    "countryCode": "PF",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "French Polynesia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+689"
+  },
+  "GE": {
+    "countryCode": "GE",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Georgia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+995",
+    "disableForBilboLaunch": true
+  },
+  "DE": {
+    "countryCode": "DE",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Germany",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+49"
+  },
+  "GI": {
+    "countryCode": "GI",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Gibraltar",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+350"
+  },
+  "GR": {
+    "countryCode": "GR",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Greece",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+30"
+  },
+  "GL": {
+    "countryCode": "GL",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Greenland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+299"
+  },
+  "GP": {
+    "countryCode": "GP",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Guadeloupe",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+590"
+  },
+  "GG": {
+    "countryCode": "GG",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Guernsey",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+44"
+  },
+  "GY": {
+    "countryCode": "GY",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Guyana",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+592"
+  },
+  "HK": {
+    "countryCode": "HK",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Hong Kong",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+852"
+  },
+  "HU": {
+    "countryCode": "HU",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Hungary",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+36"
+  },
+  "IS": {
+    "countryCode": "IS",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Iceland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+354",
+    "disableForBilboLaunch": true
+  },
+  "IN": {
+    "countryCode": "IN",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "India",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+91",
+    "disableForBilboLaunch": true
+  },
+  "IE": {
+    "countryCode": "IE",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Ireland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+353"
+  },
+  "IM": {
+    "countryCode": "IM",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Isle of Man",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+44",
+    "disableForBilboLaunch": true
+  },
+  "IT": {
+    "countryCode": "IT",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Italy",
+    "regions": [
+      {
+        "label": "Agrigento",
+        "value": "AG"
+      },
+      {
+        "label": "Alessandria",
+        "value": "AL"
+      },
+      {
+        "label": "Ancona",
+        "value": "AN"
+      },
+      {
+        "label": "Aosta",
+        "value": "AO"
+      },
+      {
+        "label": "Arezzo",
+        "value": "AR"
+      },
+      {
+        "label": "Ascoli Piceno",
+        "value": "AP"
+      },
+      {
+        "label": "Asti",
+        "value": "AT"
+      },
+      {
+        "label": "Avellino",
+        "value": "AV"
+      },
+      {
+        "label": "Bari",
+        "value": "BA"
+      },
+      {
+        "label": "Barletta-Andria-Trani",
+        "value": "BT"
+      },
+      {
+        "label": "Belluno",
+        "value": "BL"
+      },
+      {
+        "label": "Benevento",
+        "value": "BN"
+      },
+      {
+        "label": "Bergamo",
+        "value": "BG"
+      },
+      {
+        "label": "Biella",
+        "value": "BI"
+      },
+      {
+        "label": "Bologna",
+        "value": "BO"
+      },
+      {
+        "label": "Bolzano",
+        "value": "BZ"
+      },
+      {
+        "label": "Brescia",
+        "value": "BS"
+      },
+      {
+        "label": "Brindisi",
+        "value": "BR"
+      },
+      {
+        "label": "Cagliari",
+        "value": "CA"
+      },
+      {
+        "label": "Caltanissetta",
+        "value": "CL"
+      },
+      {
+        "label": "Campobasso",
+        "value": "CB"
+      },
+      {
+        "label": "Carbonia-Iglesias",
+        "value": "CI"
+      },
+      {
+        "label": "Caserta",
+        "value": "CE"
+      },
+      {
+        "label": "Catania",
+        "value": "CT"
+      },
+      {
+        "label": "Catanzaro",
+        "value": "CZ"
+      },
+      {
+        "label": "Chieti",
+        "value": "CH"
+      },
+      {
+        "label": "Como",
+        "value": "CO"
+      },
+      {
+        "label": "Cosenza",
+        "value": "CS"
+      },
+      {
+        "label": "Cremona",
+        "value": "CR"
+      },
+      {
+        "label": "Crotone",
+        "value": "KR"
+      },
+      {
+        "label": "Cuneo",
+        "value": "CN"
+      },
+      {
+        "label": "Enna",
+        "value": "EN"
+      },
+      {
+        "label": "Fermo",
+        "value": "FM"
+      },
+      {
+        "label": "Ferrara",
+        "value": "FE"
+      },
+      {
+        "label": "Florence",
+        "value": "FI"
+      },
+      {
+        "label": "Foggia",
+        "value": "FG"
+      },
+      {
+        "label": "Forlì-Cesena",
+        "value": "FC"
+      },
+      {
+        "label": "Frosinone",
+        "value": "FR"
+      },
+      {
+        "label": "Genoa",
+        "value": "GE"
+      },
+      {
+        "label": "Gorizia",
+        "value": "GO"
+      },
+      {
+        "label": "Grosseto",
+        "value": "GR"
+      },
+      {
+        "label": "Imperia",
+        "value": "IM"
+      },
+      {
+        "label": "Isernia",
+        "value": "IS"
+      },
+      {
+        "label": "La Spezia",
+        "value": "SP"
+      },
+      {
+        "label": "L'Aquila",
+        "value": "AQ"
+      },
+      {
+        "label": "Latina",
+        "value": "LT"
+      },
+      {
+        "label": "Lecce",
+        "value": "LE"
+      },
+      {
+        "label": "Lecco",
+        "value": "LC"
+      },
+      {
+        "label": "Livorno",
+        "value": "LI"
+      },
+      {
+        "label": "Lodi",
+        "value": "LO"
+      },
+      {
+        "label": "Lucca",
+        "value": "LU"
+      },
+      {
+        "label": "Macerata",
+        "value": "MC"
+      },
+      {
+        "label": "Mantova",
+        "value": "MN"
+      },
+      {
+        "label": "Massa-Carrara",
+        "value": "MS"
+      },
+      {
+        "label": "Matera",
+        "value": "MT"
+      },
+      {
+        "label": "Medio Campidano",
+        "value": "VS"
+      },
+      {
+        "label": "Messina",
+        "value": "ME"
+      },
+      {
+        "label": "Milan",
+        "value": "MI"
+      },
+      {
+        "label": "Modena",
+        "value": "MO"
+      },
+      {
+        "label": "Monza e della Brianza",
+        "value": "MB"
+      },
+      {
+        "label": "Naples",
+        "value": "NA"
+      },
+      {
+        "label": "Novara",
+        "value": "NO"
+      },
+      {
+        "label": "Nuoro",
+        "value": "NU"
+      },
+      {
+        "label": "Ogliastra",
+        "value": "OG"
+      },
+      {
+        "label": "Olbia-Tempio",
+        "value": "OT"
+      },
+      {
+        "label": "Oristano",
+        "value": "OR"
+      },
+      {
+        "label": "Padova",
+        "value": "PD"
+      },
+      {
+        "label": "Palermo",
+        "value": "PA"
+      },
+      {
+        "label": "Parma",
+        "value": "PR"
+      },
+      {
+        "label": "Pavia",
+        "value": "PV"
+      },
+      {
+        "label": "Perugia",
+        "value": "PG"
+      },
+      {
+        "label": "Pesaro e Urbino",
+        "value": "PU"
+      },
+      {
+        "label": "Pescara",
+        "value": "PE"
+      },
+      {
+        "label": "Piacenza",
+        "value": "PC"
+      },
+      {
+        "label": "Pisa",
+        "value": "PI"
+      },
+      {
+        "label": "Pistoia",
+        "value": "PT"
+      },
+      {
+        "label": "Pordenone",
+        "value": "PN"
+      },
+      {
+        "label": "Potenza",
+        "value": "PZ"
+      },
+      {
+        "label": "Prato",
+        "value": "PO"
+      },
+      {
+        "label": "Ragusa",
+        "value": "RG"
+      },
+      {
+        "label": "Ravenna",
+        "value": "RA"
+      },
+      {
+        "label": "Reggio Calabria",
+        "value": "RC"
+      },
+      {
+        "label": "Reggio Emilia",
+        "value": "RE"
+      },
+      {
+        "label": "Rieti",
+        "value": "RI"
+      },
+      {
+        "label": "Rimini",
+        "value": "RN"
+      },
+      {
+        "label": "Rome",
+        "value": "RM"
+      },
+      {
+        "label": "Rovigo",
+        "value": "RO"
+      },
+      {
+        "label": "Salerno",
+        "value": "SA"
+      },
+      {
+        "label": "Sassari",
+        "value": "SS"
+      },
+      {
+        "label": "Savona",
+        "value": "SV"
+      },
+      {
+        "label": "Siena",
+        "value": "SI"
+      },
+      {
+        "label": "Siracusa",
+        "value": "SR"
+      },
+      {
+        "label": "Sondrio",
+        "value": "SO"
+      },
+      {
+        "label": "Taranto",
+        "value": "TA"
+      },
+      {
+        "label": "Teramo",
+        "value": "TE"
+      },
+      {
+        "label": "Terni",
+        "value": "TR"
+      },
+      {
+        "label": "Trapani",
+        "value": "TP"
+      },
+      {
+        "label": "Trento",
+        "value": "TN"
+      },
+      {
+        "label": "Treviso",
+        "value": "TV"
+      },
+      {
+        "label": "Trieste",
+        "value": "TS"
+      },
+      {
+        "label": "Turin",
+        "value": "TO"
+      },
+      {
+        "label": "Udine",
+        "value": "UD"
+      },
+      {
+        "label": "Varese",
+        "value": "VA"
+      },
+      {
+        "label": "Venice",
+        "value": "VE"
+      },
+      {
+        "label": "Verbano-Cusio-Ossola",
+        "value": "VB"
+      },
+      {
+        "label": "Vercelli",
+        "value": "VC"
+      },
+      {
+        "label": "Verona",
+        "value": "VR"
+      },
+      {
+        "label": "Vibo Valentia",
+        "value": "VV"
+      },
+      {
+        "label": "Vicenza",
+        "value": "VI"
+      },
+      {
+        "label": "Viterbo",
+        "value": "VT"
+      }
+    ],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+39"
+  },
+  "JP": {
+    "countryCode": "JP",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Japan",
+    "regions": [
+      {
+        "label": "HokkaidO",
+        "value": "JP-01"
+      },
+      {
+        "label": "Aomori",
+        "value": "JP-02"
+      },
+      {
+        "label": "Iwate",
+        "value": "JP-03"
+      },
+      {
+        "label": "Miyagi",
+        "value": "JP-04"
+      },
+      {
+        "label": "Akita",
+        "value": "JP-05"
+      },
+      {
+        "label": "Yamagata",
+        "value": "JP-06"
+      },
+      {
+        "label": "Fukushima",
+        "value": "JP-07"
+      },
+      {
+        "label": "Ibaraki",
+        "value": "JP-08"
+      },
+      {
+        "label": "Tochigi",
+        "value": "JP-09"
+      },
+      {
+        "label": "Gunma",
+        "value": "JP-10"
+      },
+      {
+        "label": "Saitama",
+        "value": "JP-11"
+      },
+      {
+        "label": "Chiba",
+        "value": "JP-12"
+      },
+      {
+        "label": "Tokyo",
+        "value": "JP-13"
+      },
+      {
+        "label": "Kanagawa",
+        "value": "JP-14"
+      },
+      {
+        "label": "Niigata",
+        "value": "JP-15"
+      },
+      {
+        "label": "Toyama",
+        "value": "JP-16"
+      },
+      {
+        "label": "Ishikawa",
+        "value": "JP-17"
+      },
+      {
+        "label": "Fukui",
+        "value": "JP-18"
+      },
+      {
+        "label": "Yamanashi",
+        "value": "JP-19"
+      },
+      {
+        "label": "Nagano",
+        "value": "JP-20"
+      },
+      {
+        "label": "Gifu",
+        "value": "JP-21"
+      },
+      {
+        "label": "Shizuoka",
+        "value": "JP-22"
+      },
+      {
+        "label": "Aichi",
+        "value": "JP-23"
+      },
+      {
+        "label": "Mie",
+        "value": "JP-24"
+      },
+      {
+        "label": "Shiga",
+        "value": "JP-25"
+      },
+      {
+        "label": "Kyoto",
+        "value": "JP-26"
+      },
+      {
+        "label": "Ōsaka",
+        "value": "JP-27"
+      },
+      {
+        "label": "Hyōgo",
+        "value": "JP-28"
+      },
+      {
+        "label": "Nara",
+        "value": "JP-29"
+      },
+      {
+        "label": "Wakayama",
+        "value": "JP-30"
+      },
+      {
+        "label": "Tottori",
+        "value": "JP-31"
+      },
+      {
+        "label": "Shimane",
+        "value": "JP-32"
+      },
+      {
+        "label": "Okayama",
+        "value": "JP-33"
+      },
+      {
+        "label": "Hiroshima",
+        "value": "JP-34"
+      },
+      {
+        "label": "Yamaguchi",
+        "value": "JP-35"
+      },
+      {
+        "label": "Tokushima",
+        "value": "JP-36"
+      },
+      {
+        "label": "Kagawa",
+        "value": "JP-37"
+      },
+      {
+        "label": "Ehime",
+        "value": "JP-38"
+      },
+      {
+        "label": "Kōchi",
+        "value": "JP-39"
+      },
+      {
+        "label": "Fukuoka",
+        "value": "JP-40"
+      },
+      {
+        "label": "Saga",
+        "value": "JP-41"
+      },
+      {
+        "label": "Nagasaki",
+        "value": "JP-42"
+      },
+      {
+        "label": "Kumamoto",
+        "value": "JP-43"
+      },
+      {
+        "label": "Ōita",
+        "value": "JP-44"
+      },
+      {
+        "label": "Miyazaki",
+        "value": "JP-45"
+      },
+      {
+        "label": "Kagoshima",
+        "value": "JP-46"
+      },
+      {
+        "label": "Okinawa",
+        "value": "JP-47"
+      }
+    ],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+81"
+  },
+  "JE": {
+    "countryCode": "JE",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Jersey",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+44"
+  },
+  "KZ": {
+    "countryCode": "KZ",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Kazakhstan",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+7",
+    "disableForBilboLaunch": true
+  },
+  "XK": {
+    "countryCode": "XK",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Kosovo",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+383"
+  },
+  "KG": {
+    "countryCode": "KG",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Kyrgyzstan",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+996"
+  },
+  "LV": {
+    "countryCode": "LV",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Latvia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+371"
+  },
+  "LI": {
+    "countryCode": "LI",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Liechtenstein",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+423",
+    "disableForBilboLaunch": true
+  },
+  "LT": {
+    "countryCode": "LT",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Lithuania",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+370"
+  },
+  "LU": {
+    "countryCode": "LU",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Luxembourg",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+352"
+  },
+  "MY": {
+    "countryCode": "MY",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Malaysia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+60",
+    "disableForBilboLaunch": true
+  },
+  "MT": {
+    "countryCode": "MT",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Malta",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+356"
+  },
+  "MQ": {
+    "countryCode": "MQ",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Martinique",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+596"
+  },
+  "EA": {
+    "countryCode": "EA",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Melilla/Ceuta",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+34"
+  },
+  "MX": {
+    "countryCode": "MX",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Mexico",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+52",
+    "disableForBilboLaunch": true
+  },
+  "MC": {
+    "countryCode": "MC",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Monaco",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+377"
+  },
+  "ME": {
+    "countryCode": "ME",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Montenegro",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+382"
+  },
+  "NL": {
+    "countryCode": "NL",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Netherlands",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+31"
+  },
+  "NZ": {
+    "countryCode": "NZ",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "New Zealand",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+64"
+  },
+  "NO": {
+    "countryCode": "NO",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Norway",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+47"
+  },
+  "MK": {
+    "countryCode": "MK",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "North Macedonia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+389"
+  },
+  "PY": {
+    "countryCode": "PY",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Paraguay",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+595",
+    "disableForBilboLaunch": true
+  },
+  "PE": {
+    "countryCode": "PE",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Peru",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+51",
+    "disableForBilboLaunch": true
+  },
+  "PL": {
+    "countryCode": "PL",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Poland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+48"
+  },
+  "PT": {
+    "countryCode": "PT",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Portugal",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+351"
+  },
+  "PR": {
+    "countryCode": "PR",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Puerto Rico",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+1"
+  },
+  "RE": {
+    "countryCode": "RE",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Reunion",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+262"
+  },
+  "RO": {
+    "countryCode": "RO",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Romania",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+40"
+  },
+  "RU": {
+    "countryCode": "RU",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Russian Federation",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+7"
+  },
+  "PM": {
+    "countryCode": "PM",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Saint Pierre and Miquelon",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+508"
+  },
+  "SA": {
+    "countryCode": "SA",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Saudi Arabia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+966",
+    "disableForBilboLaunch": true
+  },
+  "SG": {
+    "countryCode": "SG",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Singapore",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+65"
+  },
+  "SK": {
+    "countryCode": "SK",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Slovakia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+421"
+  },
+  "SI": {
+    "countryCode": "SI",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Slovenia",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+386"
+  },
+  "ZA": {
+    "countryCode": "ZA",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "South Africa",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+27"
+  },
+  "KR": {
+    "countryCode": "KR",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "South Korea",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+82",
+    "disableForBilboLaunch": true
+  },
+  "ES": {
+    "countryCode": "ES",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Spain",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+34"
+  },
+  "IC": {
+    "countryCode": "IC",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Spain - Canary Islands",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+34"
+  },
+  "SR": {
+    "countryCode": "SR",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Suriname",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+597"
+  },
+  "SE": {
+    "countryCode": "SE",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "Sweden",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+46"
+  },
+  "CH": {
+    "countryCode": "CH",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Switzerland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+41"
+  },
+  "TW": {
+    "countryCode": "TW",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Taiwan",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+886",
+    "disableForBilboLaunch": true
+  },
+  "TH": {
+    "countryCode": "TH",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Thailand",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+66",
+    "disableForBilboLaunch": true
+  },
+  "TR": {
+    "countryCode": "TR",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Turkey",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+90",
+    "disableForBilboLaunch": true
+  },
+  "AE": {
+    "countryCode": "AE",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "United Arab Emirates",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+971"
+  },
+  "GB": {
+    "countryCode": "GB",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "United Kingdom - Great Britain",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+44"
+  },
+  "XI": {
+    "countryCode": "XI",
+    "currency": "EUR",
+    "merchant": {
+      "prod": "ouraringEUR",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": true,
+    "name": "United Kingdom - Northern Ireland",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+44"
+  },
+  "US": {
+    "countryCode": "US",
+    "currency": "USD",
+    "merchant": {
+      "prod": "OURARINGINC_instant",
+      "staging": "ouraring-inc"
+    },
+    "eu": false,
+    "name": "United States",
+    "regions": [
+      {
+        "label": "Alabama",
+        "value": "AL"
+      },
+      {
+        "label": "Alaska",
+        "value": "AK"
+      },
+      {
+        "label": "Arizona",
+        "value": "AZ"
+      },
+      {
+        "label": "Arkansas",
+        "value": "AR"
+      },
+      {
+        "label": "California",
+        "value": "CA"
+      },
+      {
+        "label": "Colorado",
+        "value": "CO"
+      },
+      {
+        "label": "Connecticut",
+        "value": "CT"
+      },
+      {
+        "label": "Delaware",
+        "value": "DE"
+      },
+      {
+        "label": "District of Columbia",
+        "value": "DC"
+      },
+      {
+        "label": "Florida",
+        "value": "FL"
+      },
+      {
+        "label": "Georgia",
+        "value": "GA"
+      },
+      {
+        "label": "Hawaii",
+        "value": "HI"
+      },
+      {
+        "label": "Idaho",
+        "value": "ID"
+      },
+      {
+        "label": "Illinois",
+        "value": "IL"
+      },
+      {
+        "label": "Indiana",
+        "value": "IN"
+      },
+      {
+        "label": "Iowa",
+        "value": "IA"
+      },
+      {
+        "label": "Kansas",
+        "value": "KS"
+      },
+      {
+        "label": "Kentucky",
+        "value": "KY"
+      },
+      {
+        "label": "Louisiana",
+        "value": "LA"
+      },
+      {
+        "label": "Maine",
+        "value": "ME"
+      },
+      {
+        "label": "Maryland",
+        "value": "MD"
+      },
+      {
+        "label": "Massachusetts",
+        "value": "MA"
+      },
+      {
+        "label": "Michigan",
+        "value": "MI"
+      },
+      {
+        "label": "Minnesota",
+        "value": "MN"
+      },
+      {
+        "label": "Mississippi",
+        "value": "MS"
+      },
+      {
+        "label": "Missouri",
+        "value": "MO"
+      },
+      {
+        "label": "Montana",
+        "value": "MT"
+      },
+      {
+        "label": "Nebraska",
+        "value": "NE"
+      },
+      {
+        "label": "Nevada",
+        "value": "NV"
+      },
+      {
+        "label": "New Hampshire",
+        "value": "NH"
+      },
+      {
+        "label": "New Jersey",
+        "value": "NJ"
+      },
+      {
+        "label": "New Mexico",
+        "value": "NM"
+      },
+      {
+        "label": "New York",
+        "value": "NY"
+      },
+      {
+        "label": "North Carolina",
+        "value": "NC"
+      },
+      {
+        "label": "North Dakota",
+        "value": "ND"
+      },
+      {
+        "label": "Ohio",
+        "value": "OH"
+      },
+      {
+        "label": "Oklahoma",
+        "value": "OK"
+      },
+      {
+        "label": "Oregon",
+        "value": "OR"
+      },
+      {
+        "label": "Pennsylvania",
+        "value": "PA"
+      },
+      {
+        "label": "Rhode Island",
+        "value": "RI"
+      },
+      {
+        "label": "South Carolina",
+        "value": "SC"
+      },
+      {
+        "label": "South Dakota",
+        "value": "SD"
+      },
+      {
+        "label": "Tennessee",
+        "value": "TN"
+      },
+      {
+        "label": "Texas",
+        "value": "TX"
+      },
+      {
+        "label": "Utah",
+        "value": "UT"
+      },
+      {
+        "label": "Vermont",
+        "value": "VT"
+      },
+      {
+        "label": "Virginia",
+        "value": "VA"
+      },
+      {
+        "label": "Washington",
+        "value": "WA"
+      },
+      {
+        "label": "West Virginia",
+        "value": "WV"
+      },
+      {
+        "label": "Wisconsin",
+        "value": "WI"
+      },
+      {
+        "label": "Wyoming",
+        "value": "WY"
+      }
+    ],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": true,
+    "calling_code": "+1"
+  },
+  "UY": {
+    "countryCode": "UY",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Uruguay",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+598",
+    "disableForBilboLaunch": true
+  },
+  "VI": {
+    "countryCode": "VI",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Virgin Islands",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+1"
+  },
+  "VE": {
+    "countryCode": "VE",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Venezuela",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+58"
+  },
+  "MO": {
+    "countryCode": "MO",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Macao",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+58"
+  },
+  "GU": {
+    "countryCode": "GU",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Guam",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+1"
+  },
+  "MF": {
+    "countryCode": "MF",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "f52wn4f8czds8n29"
+    },
+    "eu": false,
+    "name": "Saint-Martin (French part)",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+590"
+  },
+  "BL": {
+    "countryCode": "BL",
+    "currency": "USD",
+    "merchant": {
+      "prod": "ouraringUSD",
+      "staging": "ouraring"
+    },
+    "eu": false,
+    "name": "Saint-Barthélemy",
+    "regions": [],
+    "shipFrom": "NL",
+    "shippingRate": {
+      "description": "Flat shipping rate",
+      "price": 15
+    },
+    "freight_taxable": true,
+    "sellTo": false,
+    "calling_code": "+590"
+  }
+}

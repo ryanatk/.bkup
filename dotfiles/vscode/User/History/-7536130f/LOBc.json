@@ -1,0 +1,2424 @@
+{
+  "BA": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+387",
+    "disableForVerification": true,
+    "regions": [],
+    "countryCode": "BA",
+    "name": "Bosnia and Herzegovina",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "BE": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+32",
+    "regions": [],
+    "countryCode": "BE",
+    "name": "Belgium",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "RU": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+7",
+    "regions": [],
+    "countryCode": "RU",
+    "name": "Russian Federation",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "BG": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+359",
+    "regions": [],
+    "countryCode": "BG",
+    "name": "Bulgaria",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "JP": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+81",
+    "regions": [
+      {
+        "value": "JP-01",
+        "label": "Hokkaidō"
+      },
+      {
+        "value": "JP-02",
+        "label": "Aomori"
+      },
+      {
+        "value": "JP-03",
+        "label": "Iwate"
+      },
+      {
+        "value": "JP-04",
+        "label": "Miyagi"
+      },
+      {
+        "value": "JP-05",
+        "label": "Akita"
+      },
+      {
+        "value": "JP-06",
+        "label": "Yamagata"
+      },
+      {
+        "value": "JP-07",
+        "label": "Fukushima"
+      },
+      {
+        "value": "JP-08",
+        "label": "Ibaraki"
+      },
+      {
+        "value": "JP-09",
+        "label": "Tochigi"
+      },
+      {
+        "value": "JP-10",
+        "label": "Gunma"
+      },
+      {
+        "value": "JP-11",
+        "label": "Saitama"
+      },
+      {
+        "value": "JP-12",
+        "label": "Chiba"
+      },
+      {
+        "value": "JP-13",
+        "label": "Tōkyō"
+      },
+      {
+        "value": "JP-14",
+        "label": "Kanagawa"
+      },
+      {
+        "value": "JP-15",
+        "label": "Niigata"
+      },
+      {
+        "value": "JP-16",
+        "label": "Toyama"
+      },
+      {
+        "value": "JP-17",
+        "label": "Ishikawa"
+      },
+      {
+        "value": "JP-18",
+        "label": "Fukui"
+      },
+      {
+        "value": "JP-19",
+        "label": "Yamanashi"
+      },
+      {
+        "value": "JP-20",
+        "label": "Nagano"
+      },
+      {
+        "value": "JP-21",
+        "label": "Gifu"
+      },
+      {
+        "value": "JP-22",
+        "label": "Shizuoka"
+      },
+      {
+        "value": "JP-23",
+        "label": "Aichi"
+      },
+      {
+        "value": "JP-24",
+        "label": "Mie"
+      },
+      {
+        "value": "JP-25",
+        "label": "Shiga"
+      },
+      {
+        "value": "JP-26",
+        "label": "Kyōto"
+      },
+      {
+        "value": "JP-27",
+        "label": "Ōsaka"
+      },
+      {
+        "value": "JP-28",
+        "label": "Hyōgo"
+      },
+      {
+        "value": "JP-29",
+        "label": "Nara"
+      },
+      {
+        "value": "JP-30",
+        "label": "Wakayama"
+      },
+      {
+        "value": "JP-31",
+        "label": "Tottori"
+      },
+      {
+        "value": "JP-32",
+        "label": "Shimane"
+      },
+      {
+        "value": "JP-33",
+        "label": "Okayama"
+      },
+      {
+        "value": "JP-34",
+        "label": "Hiroshima"
+      },
+      {
+        "value": "JP-35",
+        "label": "Yamaguchi"
+      },
+      {
+        "value": "JP-36",
+        "label": "Tokushima"
+      },
+      {
+        "value": "JP-37",
+        "label": "Kagawa"
+      },
+      {
+        "value": "JP-38",
+        "label": "Ehime"
+      },
+      {
+        "value": "JP-39",
+        "label": "Kōchi"
+      },
+      {
+        "value": "JP-40",
+        "label": "Fukuoka"
+      },
+      {
+        "value": "JP-41",
+        "label": "Saga"
+      },
+      {
+        "value": "JP-42",
+        "label": "Nagasaki"
+      },
+      {
+        "value": "JP-43",
+        "label": "Kumamoto"
+      },
+      {
+        "value": "JP-44",
+        "label": "Ōita"
+      },
+      {
+        "value": "JP-45",
+        "label": "Miyazaki"
+      },
+      {
+        "value": "JP-46",
+        "label": "Kagoshima"
+      },
+      {
+        "value": "JP-47",
+        "label": "Okinawa"
+      }
+    ],
+    "countryCode": "JP",
+    "name": "Japan",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true,
+    "allowRMA": true
+  },
+  "BL": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+590",
+    "regions": [],
+    "countryCode": "BL",
+    "name": "Saint-Barthélemy",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "BM": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+441",
+    "regions": [],
+    "countryCode": "BM",
+    "name": "Bermuda",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "BO": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+591",
+    "regions": [],
+    "countryCode": "BO",
+    "name": "Bolivia",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "SA": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+966",
+    "regions": [],
+    "countryCode": "SA",
+    "name": "Saudi Arabia",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "SE": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+46",
+    "regions": [],
+    "countryCode": "SE",
+    "name": "Sweden",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "SG": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+65",
+    "regions": [],
+    "countryCode": "SG",
+    "name": "Singapore",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "SI": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+386",
+    "regions": [],
+    "countryCode": "SI",
+    "name": "Slovenia",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "BY": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+375",
+    "regions": [],
+    "countryCode": "BY",
+    "name": "Belarus",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "SK": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+421",
+    "regions": [],
+    "countryCode": "SK",
+    "name": "Slovakia",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "SM": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+378",
+    "regions": [],
+    "countryCode": "SM",
+    "name": "San Marino",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "KG": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+996",
+    "regions": [],
+    "countryCode": "KG",
+    "name": "Kyrgyzstan",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "CA": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+1",
+    "regions": [
+      {
+        "value": "AB",
+        "label": "Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "Newfoundland and Labrador"
+      },
+      {
+        "value": "NT",
+        "label": "Northwest Territories"
+      },
+      {
+        "value": "NS",
+        "label": "Nova Scotia"
+      },
+      {
+        "value": "NU",
+        "label": "Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "Quebec"
+      },
+      {
+        "value": "SK",
+        "label": "Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "Yukon"
+      }
+    ],
+    "countryCode": "CA",
+    "name": "Canada",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true,
+    "allowRMA": true
+  },
+  "SR": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+597",
+    "regions": [],
+    "countryCode": "SR",
+    "name": "Suriname",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "SV": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+503",
+    "regions": [],
+    "countryCode": "SV",
+    "name": "El Salvador",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "CH": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+41",
+    "regions": [],
+    "countryCode": "CH",
+    "name": "Switzerland",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "KR": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+82",
+    "regions": [],
+    "countryCode": "KR",
+    "name": "South Korea",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "CL": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+56",
+    "regions": [],
+    "countryCode": "CL",
+    "name": "Chile",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "CO": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+57",
+    "regions": [],
+    "countryCode": "CO",
+    "name": "Colombia",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "KZ": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+7",
+    "regions": [],
+    "countryCode": "KZ",
+    "name": "Kazakhstan",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "TH": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+66",
+    "regions": [],
+    "countryCode": "TH",
+    "name": "Thailand",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "CY": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+357",
+    "regions": [],
+    "countryCode": "CY",
+    "name": "Cyprus",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "CZ": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+420",
+    "regions": [],
+    "countryCode": "CZ",
+    "name": "Czech Republic",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "LI": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+423",
+    "regions": [],
+    "countryCode": "LI",
+    "name": "Liechtenstein",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "TR": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+90",
+    "regions": [],
+    "countryCode": "TR",
+    "name": "Turkey",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "DE": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+49",
+    "regions": [],
+    "countryCode": "DE",
+    "name": "Germany",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true,
+    "allowRMA": true
+  },
+  "TW": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+886",
+    "regions": [],
+    "countryCode": "TW",
+    "name": "Taiwan",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "DK": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+45",
+    "regions": [],
+    "countryCode": "DK",
+    "name": "Denmark",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "LT": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+370",
+    "regions": [],
+    "countryCode": "LT",
+    "name": "Lithuania",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "LU": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+352",
+    "regions": [],
+    "countryCode": "LU",
+    "name": "Luxembourg",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "LV": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+371",
+    "regions": [],
+    "countryCode": "LV",
+    "name": "Latvia",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "MC": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+377",
+    "regions": [],
+    "countryCode": "MC",
+    "name": "Monaco",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "ME": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+382",
+    "regions": [],
+    "countryCode": "ME",
+    "name": "Montenegro",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "MF": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+590",
+    "regions": [],
+    "countryCode": "MF",
+    "name": "Saint-Martin (French part)",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "EA": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+34",
+    "regions": [],
+    "countryCode": "EA",
+    "name": "Melilla/Ceuta",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "EC": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+593",
+    "regions": [],
+    "countryCode": "EC",
+    "name": "Ecuador",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "MK": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+389",
+    "regions": [],
+    "countryCode": "MK",
+    "name": "North Macedonia",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "US": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+1",
+    "regions": [
+      {
+        "value": "AL",
+        "label": "Alabama"
+      },
+      {
+        "value": "AK",
+        "label": "Alaska"
+      },
+      {
+        "value": "AZ",
+        "label": "Arizona"
+      },
+      {
+        "value": "AR",
+        "label": "Arkansas"
+      },
+      {
+        "value": "CA",
+        "label": "California"
+      },
+      {
+        "value": "CO",
+        "label": "Colorado"
+      },
+      {
+        "value": "CT",
+        "label": "Connecticut"
+      },
+      {
+        "value": "DE",
+        "label": "Delaware"
+      },
+      {
+        "value": "DC",
+        "label": "District of Columbia"
+      },
+      {
+        "value": "FL",
+        "label": "Florida"
+      },
+      {
+        "value": "GA",
+        "label": "Georgia"
+      },
+      {
+        "value": "HI",
+        "label": "Hawaii"
+      },
+      {
+        "value": "ID",
+        "label": "Idaho"
+      },
+      {
+        "value": "IL",
+        "label": "Illinois"
+      },
+      {
+        "value": "IN",
+        "label": "Indiana"
+      },
+      {
+        "value": "IA",
+        "label": "Iowa"
+      },
+      {
+        "value": "KS",
+        "label": "Kansas"
+      },
+      {
+        "value": "KY",
+        "label": "Kentucky"
+      },
+      {
+        "value": "LA",
+        "label": "Louisiana"
+      },
+      {
+        "value": "ME",
+        "label": "Maine"
+      },
+      {
+        "value": "MD",
+        "label": "Maryland"
+      },
+      {
+        "value": "MA",
+        "label": "Massachusetts"
+      },
+      {
+        "value": "MI",
+        "label": "Michigan"
+      },
+      {
+        "value": "MN",
+        "label": "Minnesota"
+      },
+      {
+        "value": "MS",
+        "label": "Mississippi"
+      },
+      {
+        "value": "MO",
+        "label": "Missouri"
+      },
+      {
+        "value": "MT",
+        "label": "Montana"
+      },
+      {
+        "value": "NE",
+        "label": "Nebraska"
+      },
+      {
+        "value": "NV",
+        "label": "Nevada"
+      },
+      {
+        "value": "NH",
+        "label": "New Hampshire"
+      },
+      {
+        "value": "NJ",
+        "label": "New Jersey"
+      },
+      {
+        "value": "NM",
+        "label": "New Mexico"
+      },
+      {
+        "value": "NY",
+        "label": "New York"
+      },
+      {
+        "value": "NC",
+        "label": "North Carolina"
+      },
+      {
+        "value": "ND",
+        "label": "North Dakota"
+      },
+      {
+        "value": "OH",
+        "label": "Ohio"
+      },
+      {
+        "value": "OK",
+        "label": "Oklahoma"
+      },
+      {
+        "value": "OR",
+        "label": "Oregon"
+      },
+      {
+        "value": "PA",
+        "label": "Pennsylvania"
+      },
+      {
+        "value": "RI",
+        "label": "Rhode Island"
+      },
+      {
+        "value": "SC",
+        "label": "South Carolina"
+      },
+      {
+        "value": "SD",
+        "label": "South Dakota"
+      },
+      {
+        "value": "TN",
+        "label": "Tennessee"
+      },
+      {
+        "value": "TX",
+        "label": "Texas"
+      },
+      {
+        "value": "UT",
+        "label": "Utah"
+      },
+      {
+        "value": "VT",
+        "label": "Vermont"
+      },
+      {
+        "value": "VA",
+        "label": "Virginia"
+      },
+      {
+        "value": "WA",
+        "label": "Washington"
+      },
+      {
+        "value": "WV",
+        "label": "West Virginia"
+      },
+      {
+        "value": "WI",
+        "label": "Wisconsin"
+      },
+      {
+        "value": "WY",
+        "label": "Wyoming"
+      }
+    ],
+    "countryCode": "US",
+    "name": "United States",
+    "merchant": {
+      "staging": "ouraring-inc",
+      "prod": "OURARINGINC_instant"
+    },
+    "currency": "USD",
+    "status": true,
+    "allowRMA": true
+  },
+  "EE": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+372",
+    "regions": [],
+    "countryCode": "EE",
+    "name": "Estonia",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "MO": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+58",
+    "regions": [],
+    "countryCode": "MO",
+    "name": "Macao",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "MQ": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+596",
+    "regions": [],
+    "countryCode": "MQ",
+    "name": "Martinique",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "UY": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+598",
+    "regions": [],
+    "countryCode": "UY",
+    "name": "Uruguay",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "MT": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+356",
+    "regions": [],
+    "countryCode": "MT",
+    "name": "Malta",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "MX": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+52",
+    "regions": [],
+    "countryCode": "MX",
+    "name": "Mexico",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "MY": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+60",
+    "regions": [],
+    "countryCode": "MY",
+    "name": "Malaysia",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "ES": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+34",
+    "regions": [],
+    "countryCode": "ES",
+    "name": "Spain",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "VE": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+58",
+    "regions": [],
+    "countryCode": "VE",
+    "name": "Venezuela",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "VI": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+1",
+    "regions": [],
+    "countryCode": "VI",
+    "name": "Virgin Islands",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "NL": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+31",
+    "regions": [],
+    "countryCode": "NL",
+    "name": "Netherlands",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "NO": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+47",
+    "regions": [],
+    "countryCode": "NO",
+    "name": "Norway",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "FI": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+358",
+    "regions": [],
+    "countryCode": "FI",
+    "name": "Finland",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true,
+    "allowRMA": true
+  },
+  "FO": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+298",
+    "regions": [],
+    "countryCode": "FO",
+    "name": "Faroe Islands",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "FR": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+33",
+    "regions": [],
+    "countryCode": "FR",
+    "name": "France",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "NZ": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+64",
+    "regions": [],
+    "countryCode": "NZ",
+    "name": "New Zealand",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GB": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+44",
+    "regions": [],
+    "countryCode": "GB",
+    "name": "United Kingdom - Great Britain",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true,
+    "allowRMA": true
+  },
+  "GE": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+995",
+    "regions": [],
+    "countryCode": "GE",
+    "name": "Georgia",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GF": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+594",
+    "regions": [],
+    "countryCode": "GF",
+    "name": "French Guiana",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GG": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+44",
+    "regions": [],
+    "countryCode": "GG",
+    "name": "Guernsey",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GI": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+350",
+    "regions": [],
+    "countryCode": "GI",
+    "name": "Gibraltar",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GL": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+299",
+    "regions": [],
+    "countryCode": "GL",
+    "name": "Greenland",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GP": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+590",
+    "regions": [],
+    "countryCode": "GP",
+    "name": "Guadeloupe",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "GR": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+30",
+    "regions": [],
+    "countryCode": "GR",
+    "name": "Greece",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "GU": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+1",
+    "regions": [],
+    "countryCode": "GU",
+    "name": "Guam",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "XI": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+44",
+    "regions": [],
+    "countryCode": "XI",
+    "name": "United Kingdom - Northern Ireland",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "GY": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+592",
+    "regions": [],
+    "countryCode": "GY",
+    "name": "Guyana",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "XK": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+383",
+    "regions": [],
+    "countryCode": "XK",
+    "name": "Kosovo",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "PE": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+51",
+    "regions": [],
+    "countryCode": "PE",
+    "name": "Peru",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "PF": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+689",
+    "regions": [],
+    "countryCode": "PF",
+    "name": "French Polynesia",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "PL": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+48",
+    "regions": [],
+    "countryCode": "PL",
+    "name": "Poland",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "PM": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+508",
+    "regions": [],
+    "countryCode": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "PR": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+1",
+    "regions": [],
+    "countryCode": "PR",
+    "name": "Puerto Rico",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "HK": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+852",
+    "regions": [],
+    "countryCode": "HK",
+    "name": "Hong Kong",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "PT": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+351",
+    "regions": [],
+    "countryCode": "PT",
+    "name": "Portugal",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "PY": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+595",
+    "regions": [],
+    "countryCode": "PY",
+    "name": "Paraguay",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "HR": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+385",
+    "regions": [],
+    "countryCode": "HR",
+    "name": "Croatia",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "HU": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+36",
+    "regions": [],
+    "countryCode": "HU",
+    "name": "Hungary",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "IC": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+34",
+    "regions": [],
+    "countryCode": "IC",
+    "name": "Spain - Canary Islands",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "IE": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+353",
+    "regions": [],
+    "countryCode": "IE",
+    "name": "Ireland",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "AD": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+376",
+    "regions": [],
+    "countryCode": "AD",
+    "name": "Andorra",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "IM": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+44",
+    "regions": [],
+    "countryCode": "IM",
+    "name": "Isle of Man",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "AE": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+971",
+    "regions": [],
+    "countryCode": "AE",
+    "name": "United Arab Emirates",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "IN": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+91",
+    "regions": [],
+    "countryCode": "IN",
+    "name": "India",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "ZA": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+27",
+    "regions": [],
+    "countryCode": "ZA",
+    "name": "South Africa",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "IS": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+354",
+    "regions": [],
+    "countryCode": "IS",
+    "name": "Iceland",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "AL": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+355",
+    "regions": [],
+    "countryCode": "AL",
+    "name": "Albania",
+    "disableForBilboLaunch": true,
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "IT": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+39",
+    "regions": [
+      {
+        "value": "AG",
+        "label": "Agrigento"
+      },
+      {
+        "value": "AL",
+        "label": "Alessandria"
+      },
+      {
+        "value": "AN",
+        "label": "Ancona"
+      },
+      {
+        "value": "AO",
+        "label": "Aosta"
+      },
+      {
+        "value": "AR",
+        "label": "Arezzo"
+      },
+      {
+        "value": "AP",
+        "label": "Ascoli Piceno"
+      },
+      {
+        "value": "AT",
+        "label": "Asti"
+      },
+      {
+        "value": "AV",
+        "label": "Avellino"
+      },
+      {
+        "value": "BA",
+        "label": "Bari"
+      },
+      {
+        "value": "BT",
+        "label": "Barletta-Andria-Trani"
+      },
+      {
+        "value": "BL",
+        "label": "Belluno"
+      },
+      {
+        "value": "BN",
+        "label": "Benevento"
+      },
+      {
+        "value": "BG",
+        "label": "Bergamo"
+      },
+      {
+        "value": "BI",
+        "label": "Biella"
+      },
+      {
+        "value": "BO",
+        "label": "Bologna"
+      },
+      {
+        "value": "BZ",
+        "label": "Bolzano"
+      },
+      {
+        "value": "BS",
+        "label": "Brescia"
+      },
+      {
+        "value": "BR",
+        "label": "Brindisi"
+      },
+      {
+        "value": "CA",
+        "label": "Cagliari"
+      },
+      {
+        "value": "CL",
+        "label": "Caltanissetta"
+      },
+      {
+        "value": "CB",
+        "label": "Campobasso"
+      },
+      {
+        "value": "CI",
+        "label": "Carbonia-Iglesias"
+      },
+      {
+        "value": "CE",
+        "label": "Caserta"
+      },
+      {
+        "value": "CT",
+        "label": "Catania"
+      },
+      {
+        "value": "CZ",
+        "label": "Catanzaro"
+      },
+      {
+        "value": "CH",
+        "label": "Chieti"
+      },
+      {
+        "value": "CO",
+        "label": "Como"
+      },
+      {
+        "value": "CS",
+        "label": "Cosenza"
+      },
+      {
+        "value": "CR",
+        "label": "Cremona"
+      },
+      {
+        "value": "KR",
+        "label": "Crotone"
+      },
+      {
+        "value": "CN",
+        "label": "Cuneo"
+      },
+      {
+        "value": "EN",
+        "label": "Enna"
+      },
+      {
+        "value": "FM",
+        "label": "Fermo"
+      },
+      {
+        "value": "FE",
+        "label": "Ferrara"
+      },
+      {
+        "value": "FI",
+        "label": "Florence"
+      },
+      {
+        "value": "FG",
+        "label": "Foggia"
+      },
+      {
+        "value": "FC",
+        "label": "Forlì-Cesena"
+      },
+      {
+        "value": "FR",
+        "label": "Frosinone"
+      },
+      {
+        "value": "GE",
+        "label": "Genoa"
+      },
+      {
+        "value": "GO",
+        "label": "Gorizia"
+      },
+      {
+        "value": "GR",
+        "label": "Grosseto"
+      },
+      {
+        "value": "IM",
+        "label": "Imperia"
+      },
+      {
+        "value": "IS",
+        "label": "Isernia"
+      },
+      {
+        "value": "SP",
+        "label": "La Spezia"
+      },
+      {
+        "value": "AQ",
+        "label": "L'Aquila"
+      },
+      {
+        "value": "LT",
+        "label": "Latina"
+      },
+      {
+        "value": "LE",
+        "label": "Lecce"
+      },
+      {
+        "value": "LC",
+        "label": "Lecco"
+      },
+      {
+        "value": "LI",
+        "label": "Livorno"
+      },
+      {
+        "value": "LO",
+        "label": "Lodi"
+      },
+      {
+        "value": "LU",
+        "label": "Lucca"
+      },
+      {
+        "value": "MC",
+        "label": "Macerata"
+      },
+      {
+        "value": "MN",
+        "label": "Mantova"
+      },
+      {
+        "value": "MS",
+        "label": "Massa-Carrara"
+      },
+      {
+        "value": "MT",
+        "label": "Matera"
+      },
+      {
+        "value": "VS",
+        "label": "Medio Campidano"
+      },
+      {
+        "value": "ME",
+        "label": "Messina"
+      },
+      {
+        "value": "MI",
+        "label": "Milan"
+      },
+      {
+        "value": "MO",
+        "label": "Modena"
+      },
+      {
+        "value": "MB",
+        "label": "Monza e della Brianza"
+      },
+      {
+        "value": "NA",
+        "label": "Naples"
+      },
+      {
+        "value": "NO",
+        "label": "Novara"
+      },
+      {
+        "value": "NU",
+        "label": "Nuoro"
+      },
+      {
+        "value": "OG",
+        "label": "Ogliastra"
+      },
+      {
+        "value": "OT",
+        "label": "Olbia-Tempio"
+      },
+      {
+        "value": "OR",
+        "label": "Oristano"
+      },
+      {
+        "value": "PD",
+        "label": "Padova"
+      },
+      {
+        "value": "PA",
+        "label": "Palermo"
+      },
+      {
+        "value": "PR",
+        "label": "Parma"
+      },
+      {
+        "value": "PV",
+        "label": "Pavia"
+      },
+      {
+        "value": "PG",
+        "label": "Perugia"
+      },
+      {
+        "value": "PU",
+        "label": "Pesaro e Urbino"
+      },
+      {
+        "value": "PE",
+        "label": "Pescara"
+      },
+      {
+        "value": "PC",
+        "label": "Piacenza"
+      },
+      {
+        "value": "PI",
+        "label": "Pisa"
+      },
+      {
+        "value": "PT",
+        "label": "Pistoia"
+      },
+      {
+        "value": "PN",
+        "label": "Pordenone"
+      },
+      {
+        "value": "PZ",
+        "label": "Potenza"
+      },
+      {
+        "value": "PO",
+        "label": "Prato"
+      },
+      {
+        "value": "RG",
+        "label": "Ragusa"
+      },
+      {
+        "value": "RA",
+        "label": "Ravenna"
+      },
+      {
+        "value": "RC",
+        "label": "Reggio Calabria"
+      },
+      {
+        "value": "RE",
+        "label": "Reggio Emilia"
+      },
+      {
+        "value": "RI",
+        "label": "Rieti"
+      },
+      {
+        "value": "RN",
+        "label": "Rimini"
+      },
+      {
+        "value": "RM",
+        "label": "Rome"
+      },
+      {
+        "value": "RO",
+        "label": "Rovigo"
+      },
+      {
+        "value": "SA",
+        "label": "Salerno"
+      },
+      {
+        "value": "SS",
+        "label": "Sassari"
+      },
+      {
+        "value": "SV",
+        "label": "Savona"
+      },
+      {
+        "value": "SI",
+        "label": "Siena"
+      },
+      {
+        "value": "SR",
+        "label": "Siracusa"
+      },
+      {
+        "value": "SO",
+        "label": "Sondrio"
+      },
+      {
+        "value": "TA",
+        "label": "Taranto"
+      },
+      {
+        "value": "TE",
+        "label": "Teramo"
+      },
+      {
+        "value": "TR",
+        "label": "Terni"
+      },
+      {
+        "value": "TP",
+        "label": "Trapani"
+      },
+      {
+        "value": "TN",
+        "label": "Trento"
+      },
+      {
+        "value": "TV",
+        "label": "Treviso"
+      },
+      {
+        "value": "TS",
+        "label": "Trieste"
+      },
+      {
+        "value": "TO",
+        "label": "Turin"
+      },
+      {
+        "value": "UD",
+        "label": "Udine"
+      },
+      {
+        "value": "VA",
+        "label": "Varese"
+      },
+      {
+        "value": "VE",
+        "label": "Venice"
+      },
+      {
+        "value": "VB",
+        "label": "Verbano-Cusio-Ossola"
+      },
+      {
+        "value": "VC",
+        "label": "Vercelli"
+      },
+      {
+        "value": "VR",
+        "label": "Verona"
+      },
+      {
+        "value": "VV",
+        "label": "Vibo Valentia"
+      },
+      {
+        "value": "VI",
+        "label": "Vicenza"
+      },
+      {
+        "value": "VT",
+        "label": "Viterbo"
+      }
+    ],
+    "countryCode": "IT",
+    "name": "Italy",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "AM": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+374",
+    "regions": [],
+    "countryCode": "AM",
+    "name": "Armenia",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "AR": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+54",
+    "regions": [],
+    "countryCode": "AR",
+    "name": "Argentina",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "AT": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+43",
+    "regions": [],
+    "countryCode": "AT",
+    "name": "Austria",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "RE": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+262",
+    "regions": [],
+    "countryCode": "RE",
+    "name": "Reunion",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "AU": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+61",
+    "regions": [
+      {
+        "value": "AU-ACT",
+        "label": "Australian Capital Territory"
+      },
+      {
+        "value": "AU-NSW",
+        "label": "New South Wales"
+      },
+      {
+        "value": "AU-NT",
+        "label": "Northern Territory"
+      },
+      {
+        "value": "AU-QLD",
+        "label": "Queensland"
+      },
+      {
+        "value": "AU-SA",
+        "label": "South Australia"
+      },
+      {
+        "value": "AU-TAS",
+        "label": "Tasmania"
+      },
+      {
+        "value": "AU-VIC",
+        "label": "Victoria"
+      },
+      {
+        "value": "AU-WA",
+        "label": "Western Australia"
+      }
+    ],
+    "countryCode": "AU",
+    "name": "Australia",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true,
+    "allowRMA": true
+  },
+  "AX": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+358",
+    "regions": [],
+    "countryCode": "AX",
+    "name": "Åland Islands",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  },
+  "JE": {
+    "eu": false,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+44",
+    "regions": [],
+    "countryCode": "JE",
+    "name": "Jersey",
+    "merchant": {
+      "staging": "ouraring",
+      "prod": "ouraringUSD"
+    },
+    "currency": "USD",
+    "status": true
+  },
+  "RO": {
+    "eu": true,
+    "shipFrom": "NL",
+    "freight_taxable": true,
+    "calling_code": "+40",
+    "regions": [],
+    "countryCode": "RO",
+    "name": "Romania",
+    "merchant": {
+      "staging": "f52wn4f8czds8n29",
+      "prod": "ouraringEUR"
+    },
+    "currency": "EUR",
+    "status": true
+  }
+}

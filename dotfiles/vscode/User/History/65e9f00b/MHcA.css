@@ -1,0 +1,40 @@
+.product {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3.5rem auto 4.5rem 4.5rem;
+  column-gap: 1rem;
+  width: 100%;
+  min-height: 5rem;
+  padding: 0.75rem 0;
+}
+
+.active > *:not(.quantity) {
+  opacity: 0.5;
+}
+
+.image {
+  height: 3.5rem;
+  width: 3.5rem;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.flag {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  border-radius: 4px;
+}
+
+.name {
+  margin-bottom: 4px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.blurb {
+  display: none;
+}

@@ -1,0 +1,23 @@
+.AudioPlayer {
+  @apply bg-white p-1 rounded-lg bg-opacity-20 shadow-md;
+}
+
+.AudioPlayer__Compartment {
+  @apply flex gap-2 items-center justify-start;
+}
+
+.AudioPlayer__Label {
+  @apply pl-2;
+}
+
+.AudioPlayer__Controls {
+  @apply ml-auto flex-shrink-0;
+}
+
+.AudioPlayer__Button {
+  @apply p-1 text-helsinkiBlue;
+
+  &:disabled {
+    @apply opacity-50;
+  }
+}

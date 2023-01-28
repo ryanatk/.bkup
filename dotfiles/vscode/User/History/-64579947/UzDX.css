@@ -1,0 +1,12 @@
+.back,
+.content {
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+
+  padding-right: 1.5rem;
+}

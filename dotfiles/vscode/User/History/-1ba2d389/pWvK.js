@@ -1,0 +1,69 @@
+import { useEffect, useMemo } from 'react';
+import { useHistory } from 'react-router';
+
+import { useShop, useWizard } from 'app/context';
+import { ROUTE } from 'common/const';
+
+import { STEPS } from '../const';
+import { useBoothAssessment } from 'common/hooks';
+
+const useAssessmentResponse = (templateId) => {
+  const { steps, loadSteps, findStep } = useWizard();
+  const step = useMemo(() => findStep(templateId), [findStep, templateId]);
+
+  // console.log('!useAssessmentResponse', { templateId, step, steps });
+
+  const history = useHistory();
+  const { ooSummaryId } = useShop();
+
+  // changing steps
+  const currentIndex = steps?.findIndex(
+    ({ sortOrder }) => sortOrder === step?.sortOrder,
+  );
+  const getTo = (increment, endRoute) => {
+    const templateId = steps?.[currentIndex + increment]?.templateId;
+    const to = templateId
+      ? STEPS.find((step) => step.templateId === templateId).path
+      : endRoute;
+
+    return to;
+  };
+  const backTo = getTo(-1, ROUTE.DASHBOARD);
+  const next = () => {
+    const to = getTo(1, ROUTE.CATALOG);
+
+    history.push(to);
+  };
+  const buttonText =
+    currentIndex === steps?.length - 1 ? 'Complete' : undefined;
+
+  const { list, submit, isLoading, isSubmitting, error } = useBoothAssessment(
+    ooSummaryId,
+    {
+      onSuccess: next,
+      questionType: 1,
+    },
+  );
+
+  const isWorking = useMemo(
+    () => isSubmitting || isLoading,
+    [isSubmitting, isLoading],
+  );
+
+  useEffect(() => {
+    if (list) {
+      loadSteps(list);
+    }
+  }, [loadSteps, list]);
+
+  return {
+    ...step,
+    submit,
+    isSubmitting: isWorking,
+    error,
+    backTo,
+    buttonText,
+  };
+};
+
+export default useAssessmentResponse;

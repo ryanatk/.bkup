@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.footer.inline {
+  flex-wrap: wrap;
+  text-align: center;
+
+  padding: 0 1rem;
+}
+
+.item.inline {
+  display: inline-block;
+}
+
+.item.inline:not(:last-of-type):after {
+  content: '|';
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 52rem) {
+  .footer.inline {
+    flex-direction: row;
+  }
+
+  .list.inline:not(:last-of-type):after {
+    content: '|';
+    margin: 0 0.5rem;
+  }
+}
