@@ -6,7 +6,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias lc='ls -CF'
 alias fin='find -L . -name'
-alias fuckjava='killall -9 java'
 
 # grep stuff
 export GREP_OPTIONS='--color=auto'
@@ -17,22 +16,6 @@ alias gr='fgrep -R -I -n --exclude-dir=public --exclude-dir=dist --exclude-dir=b
 export EDITOR=vim
 set -o vi
 alias vim='vim -p'
-alias vgr='vim -p `fgrep -R -l --exclude-dir=node_modules --exclude=*.log --exclude=*.p.* $1 *`'
-#this doesnt work. make it work.
-
-# Git tab completion
-#source ~/.bkup/dotfiles/git-completion.zsh
-#source ~/.bkup/dotfiles/git-completion.sh
-#source ~/.bkup/dotfiles/git-prompt.sh
-#export GIT_PS1_SHOWDIRTYSTATE=true
-#export GIT_PS1_SHOWSTASHSTATE=true
-#export GIT_PS1_SHOWUNTRACKEDFILES=true
-#PS1='\[\033[1;33m\]\u\[\033[0m\]@\[\033[1;33m\]$profile_name \[\033[0m\]\w\[\033[1;33m\]$(__git_ps1 " %s")\[\033[0m\] \$ '
-#PROMPT='%F{yellow}%n%f %~ $ '
-
-#source ~/.bkup/dotfiles/git-prompt.sh
-#setopt prompt_subst
-#export RPROMPT=$'$(__git_ps1 "%s")'
 
 # git command aliases
 alias gdb='git branch -D'
@@ -64,15 +47,6 @@ alias cweb='cd ~/web'
 alias cdot='cd ~/.bkup/dotfiles'
 alias ..='cd ..'
 alias ...='cd ../..'
-
-# ssh
-alias sshryanatk='ssh root@198.199.114.117'
-
-# aws
-# curl -O https://s3.amazonaws.com/zappos-aws-workshop/aws.zip; unzip aws.zip; rm aws.zip; mv aws ~/.aws
-export AWS_CONFIG_FILE=~/.aws/aws_config_file
-export EC2_HOME=~/.aws/ec2-api-tools-1.6.7.1
-export PATH=$PATH:$EC2_HOME/bin:~/.aws/AWS-ElasticBeanstalk-CLI-2.3.1/eb/macosx/python2.7
 
 # function to set terminal tab title
 term() {
