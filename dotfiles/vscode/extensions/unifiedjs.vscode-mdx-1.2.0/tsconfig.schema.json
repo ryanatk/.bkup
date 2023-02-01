@@ -1,8 +1,0 @@
-{
-  "properties": {
-    "mdx": {
-      "title": "MDX language server options",
-      "$ref": "https://json.schemastore.org/remarkrc.json"
-    }
-  }
-}
